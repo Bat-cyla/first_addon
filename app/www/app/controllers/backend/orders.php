@@ -221,7 +221,6 @@ if ($mode === 'print_invoice') {
 
     return [CONTROLLER_STATUS_NO_CONTENT];
 } elseif ($mode == 'details') {
-
     $_REQUEST['order_id'] = empty($_REQUEST['order_id']) ? 0 : $_REQUEST['order_id'];
     $selected_section = (empty($_REQUEST['selected_section']) ? 'general' : $_REQUEST['selected_section']);
 

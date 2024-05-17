@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>tags_ext</id>
+    <status>active</status>
+    <version>1.0</version>
+    <priority>200</priority>
+    <position>200</position>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <has_icon>Y</has_icon>
+    <authors>
+    <author>
+        <name>Cart-Power</name>
+        <email>sales@cart-power.com</email>
+        <url>https://cart-power.com</url>
+    </author>
+    </authors>
+    <supplier>Cart-Power</supplier>
+    <supplier_link>https://cart-power.com</supplier_link>
+    <compatibility>
+        <dependencies>tags</dependencies>
+    </compatibility>
+    <queries>
+    <item>DROP TABLE IF EXISTS ?:orders_tags;</item>
+    <item>
+        CREATE TABLE `?:orders_tags` (
+        `order_id` mediumint(8) unsigned NOT NULL auto_increment,
+        `tag_id` int(11) unsigned NOT NULL default '0',
+        `tag` varchar(255) NOT NULL default '',
+        `timestamp` int(11) unsigned NOT NULL default '0',
+        `status` char(1) NOT NULL default 'P',
+        PRIMARY KEY  (`order_id`)
+        ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+    </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:orders_tags;</item>
+    </queries>
+</addon>

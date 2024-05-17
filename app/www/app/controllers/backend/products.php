@@ -74,10 +74,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
      * Create/update product
      */
     if ($mode === 'update') {
+
         $product_id = null;
         if (!empty($_REQUEST['product_data']['product'])) {
             $product_data = $_REQUEST['product_data'];
-
             if (isset($product_data['category_ids']) && !is_array($product_data['category_ids'])) {
                 $product_data['category_ids'] = explode(',', $product_data['category_ids']);
             }
@@ -100,9 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ];
             }
         }
-
         Tygh::$app['view']->assign('product_id', $product_id);
-
         if (!empty($_REQUEST['product_id'])) {
             if (!empty($_REQUEST['add_users'])) {
                 // Updating product subscribers
@@ -134,8 +132,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         if (!empty($product_id)) {
+
             $suffix = ".update?product_id={$product_id}"
                 . (!empty($_REQUEST['product_data']['block_id']) ? "&selected_block_id={$_REQUEST['product_data']['block_id']}" : '');
+
         } else {
             $suffix = '.manage';
         }
@@ -744,7 +744,6 @@ if ($mode === 'add') {
 // 'product update' page
 } elseif ($mode === 'update') {
     $selected_section = (empty($_REQUEST['selected_section']) ? 'detailed' : $_REQUEST['selected_section']);
-
     // Get current product data
     $skip_company_condition = !fn_is_product_company_condition_required($_REQUEST['product_id']);
 
@@ -930,7 +929,6 @@ if ($mode === 'add') {
     // [/Product tabs]
     Registry::set('navigation.tabs', $tabs);
     // [/Page sections]
-
 // 'Mulitple products updating' page
 } elseif ($mode === 'm_update') {
     if (

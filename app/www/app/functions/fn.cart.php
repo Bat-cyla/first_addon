@@ -2552,7 +2552,6 @@ function fn_get_order_info(
         }
 
         fn_set_hook('get_order_info', $order, $additional_data);
-
         return $order;
     }
 
@@ -9146,6 +9145,7 @@ function fn_get_available_shippings($company_id = null, $get_service_params = fa
     if ($company_id !== null && !fn_allowed_for('ULTIMATE')) {
         /** @var string $company_shippings */
         $company_shippings = db_get_field('SELECT shippings FROM ?:companies WHERE company_id = ?i', $company_id);
+
         $condition .= db_quote(' AND (a.company_id = ?i ', $company_id);
 
         if (!empty($company_shippings)) {

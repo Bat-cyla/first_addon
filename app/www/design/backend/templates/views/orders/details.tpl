@@ -1,3 +1,4 @@
+
 {if $order_info.shipping}
     {foreach from=$order_info.shipping item="shipping" key="shipping_id" name="f_shipp"}
         {if "shipments.add"|fn_check_view_permissions}
@@ -19,7 +20,6 @@
         {/if}
     {/foreach}
 {/if}
-
 {capture name="mainbox"}
 {capture name="tabsbox"}
 
@@ -356,6 +356,7 @@
                                 {$shipment_id = 0}
                                 {$carrier = ""}
                                 {hook name="orders:new_shipment"}
+
                                 <div class="control-group">
                                     <label class="control-label" for="tracking_number">{__("tracking_number")}</label>
                                     <div class="controls">

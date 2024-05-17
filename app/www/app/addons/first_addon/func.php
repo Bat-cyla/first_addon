@@ -23,6 +23,4 @@ function fn_first_addon_get_users($params, &$fields, &$sortings, $condition, &$j
     $fields[]='COUNT(?:orders.order_id) as orders_count';
 
     $sortings['orders_count'] = 'orders_count';
-
-
 }

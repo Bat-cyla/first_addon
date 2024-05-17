@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:20
+/* Smarty version 4.1.1, created on 2024-05-17 13:26:56
   from '/app/www/design/backend/templates/views/orders/details.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c85eec26_71369399',
+  'unifunc' => 'content_664730f0498484_50061947',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7756d64d93a32ed9562283f605360d0854bd9980' => 
     array (
       0 => '/app/www/design/backend/templates/views/orders/details.tpl',
-      1 => 1693486476,
+      1 => 1715941576,
       2 => 'tygh',
     ),
   ),
@@ -39,10 +39,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_664455c85eec26_71369399 (Smarty_Internal_Template $_smarty_tpl) {
+function content_664730f0498484_50061947 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),3=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('new_shipment','new_shipment','product','price','quantity','discount','tax','subtotal','product','sku','price','free','quantity','shipped','discount','tax','subtotal','free','totals','subtotal','shipping_cost','including_discount','order_discount','discount_coupon','taxes','included','tax_exempt','payment_surcharge','total','customer_notes','staff_only_notes','status','payment_information','method','credit_card','expiry_date','remove_cc_info','manager','assign_to_me','shipping_information','none','method','track_on_carrier_site','tracking_number','edit','tracking_number','carrier','new_shipment','create_detailed_shipment','shipments','shipments','new_shipment','shipments','filename','activation_mode','downloads_max_left','download_key_expiry','active','manually','immediately','after_full_payment','none','time_unlimited_download','download_key_expiry','prolongate_download_key','file_doesnt_have_key','active','not_active','order','total','invoice','credit_memo','print_invoice','print_credit_memo','print_order_details','edit_and_send_invoice','print_packing_slip','edit_order','copy','delete','notify_customer','notify_orders_department','notify_vendor'));
-if ($_smarty_tpl->tpl_vars['order_info']->value['shipping']) {?>
+?>
+
+<?php if ($_smarty_tpl->tpl_vars['order_info']->value['shipping']) {?>
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order_info']->value['shipping'], 'shipping', false, 'shipping_id', 'f_shipp', array (
 ));
@@ -81,9 +83,8 @@ $_smarty_tpl->tpl_vars['group']->do_else = false;
     <?php
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
-}?>
-
-<?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);
+}
+$_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tabsbox", null, null);?>
 
 <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>
@@ -658,6 +659,7 @@ $_block_repeat=true;
 echo smarty_block_hook(array('name'=>"orders:new_shipment"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
+
                                 <div class="control-group">
                                     <label class="control-label" for="tracking_number"><?php echo $_smarty_tpl->__("tracking_number");?>
 </label>
