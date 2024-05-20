@@ -626,10 +626,8 @@ if ($mode === 'manage' || $mode === 'p_subscr') {
     if ($mode === 'p_subscr') {
         $params['get_subscribers'] = true;
     }
-
     list($products, $search) = fn_get_products($params, Registry::get('settings.Appearance.admin_elements_per_page'), DESCR_SL);
     fn_gather_additional_products_data($products, ['get_icon' => true, 'get_detailed' => true, 'get_options' => false, 'get_discounts' => false]);
-
     $page = $search['page'];
     $valid_page = db_get_valid_page($page, $search['items_per_page'], $search['total_items']);
 

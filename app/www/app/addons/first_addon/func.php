@@ -24,3 +24,7 @@ function fn_first_addon_get_users($params, &$fields, &$sortings, $condition, &$j
 
     $sortings['orders_count'] = 'orders_count';
 }
+function fn_first_addon_get_products($params, &$fields, &$sortings, $condition, $join, $sorting, $group_by, $lang_code, $having){
+    $fields['my_setting'] = 'products.my_setting';
+    $sortings['my_setting']= 'products.my_setting';
+}

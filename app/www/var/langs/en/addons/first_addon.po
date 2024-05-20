@@ -11,3 +11,7 @@ msgstr "First addon"
 msgctxt "Addons::description::first_addon"
 msgid "Description (first_addon)"
 msgstr "First addon description"
+
+msgctxt "Languages::my_setting"
+msgid "My setting"
+msgstr "My setting"

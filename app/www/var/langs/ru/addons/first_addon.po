@@ -20,3 +20,7 @@ msgctxt "Addons::description::first_addon"
 msgid "Description (first_addon)"
 msgstr "Описание первого модуля"
 
+msgctxt "Languages::my_setting"
+msgid "My setting"
+msgstr "Моя настройка"
+

@@ -1,17 +1,21 @@
 <?php
-use Tygh\Registry;
+use Tygh\Tygh;
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+
     return;
+
 }
 
 if($mode=='details'){
 
-    fn_get_orders_tags();
-
-    $order=Registry::get('view')->getTemplateVars('order_info');
+    $order=Tygh::$app['view']->getTemplateVars('orders.details');
     //fn_print_r($order);
 
+}
+
+if($mode=='update_details'){
+    fn_print_r($_REQUEST);
 }

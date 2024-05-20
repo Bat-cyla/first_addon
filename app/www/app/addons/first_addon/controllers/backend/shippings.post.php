@@ -11,6 +11,6 @@ if($mode==='manage'){
         $shippings[$key]['my_param']='my_param:' . $shipping['shipping'];
     }
     Tygh::$app['view']->assign('shippings', $shippings);
-    fn_print_r($shippings);
+   //fn_print_r($shippings);
 
 }

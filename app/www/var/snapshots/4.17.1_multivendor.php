@@ -10721,7 +10721,7 @@
     'b4aa0e8a4d02504479c87e1efd2f238e' => '/design/backend/media/images/addons/hybrid_auth/icons/flat_32x32/facebook.png',
     '446772e9749e29201b653f64393ce0cd' => '/design/backend/media/images/addons/hybrid_auth/icons/flat_32x32/aol.png',
     'ecac847e454f7423d525a111530e69d3' => '/design/backend/media/images/addons/hybrid_auth/icons/flat_32x32/linkedin.png',
-    '781ff1c01f75261c0965514b1685b049' => '/design/backend/media/images/addons/tags_ext/img.png',
+    '781ff1c01f75261c0965514b1685b049' => '/design/backend/media/images/addons/tags_ext/icon.png',
     '6bc122e892cbdd4d4f2da70fa3cf69a4' => '/design/backend/media/images/addons/paypal/logo.png',
     '6ed5f83df0ba230abce5d4ca73c34db9' => '/design/backend/media/images/addons/gift_certificates/gift_m.png',
     'f70564ed2ec7217bbf04503dd7acaa84' => '/design/backend/media/images/addons/gift_certificates/certificat_bg.png',

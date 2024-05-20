@@ -22,13 +22,13 @@
     <queries>
     <item>DROP TABLE IF EXISTS ?:orders_tags;</item>
     <item>
-        CREATE TABLE `?:orders_tags` (
-        `order_id` mediumint(8) unsigned NOT NULL auto_increment,
-        `tag_id` int(11) unsigned NOT NULL default '0',
+        CREATE TABLE `?:tags_ext` (
+        `tag_id` int(11) unsigned NOT NULL auto_increment,
+        `order_id` mediumint(8) unsigned NOT NULL default '0',
         `tag` varchar(255) NOT NULL default '',
         `timestamp` int(11) unsigned NOT NULL default '0',
         `status` char(1) NOT NULL default 'P',
-        PRIMARY KEY  (`order_id`)
+        PRIMARY KEY  (`tag_id`)
         ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
     </item>
         <item for="uninstall">DROP TABLE IF EXISTS ?:orders_tags;</item>

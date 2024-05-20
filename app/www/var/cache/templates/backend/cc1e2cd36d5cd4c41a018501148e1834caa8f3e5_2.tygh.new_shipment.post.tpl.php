@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-17 16:18:40
+/* Smarty version 4.1.1, created on 2024-05-20 16:18:50
   from '/app/www/design/backend/templates/addons/tags_ext/hooks/orders/new_shipment.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66475930ab9c67_77676221',
+  'unifunc' => 'content_664b4dba5409e3_51730256',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cc1e2cd36d5cd4c41a018501148e1834caa8f3e5' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags_ext/hooks/orders/new_shipment.post.tpl',
-      1 => 1715951916,
+      1 => 1716210880,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66475930ab9c67_77676221 (Smarty_Internal_Template $_smarty_tpl) {
+function content_664b4dba5409e3_51730256 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tags'));
 ?>
@@ -33,8 +33,8 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smart
 :</label>
         <div class="controls">
             <ul id="my_tags">
-                <textarea name="my_tags_values" data-ca-tags="myTagsValues" class="hidden-accessible"><?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['object']->value['tags'], 'tag', true);
+                <textarea name="tags" type="text" data-ca-tags="myTagsValues" class="hidden-accessible"><?php
+$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order_info']->value['tags'], 'tag', true);
 $_smarty_tpl->tpl_vars['tag']->iteration = 0;
 $_smarty_tpl->tpl_vars['tag']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
@@ -48,14 +48,12 @@ if (!$_smarty_tpl->tpl_vars['tag']->last) {?>
 $_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_0_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></textarea>
-                <input type="hidden" id="object_id" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['object_id']->value, ENT_QUOTES, 'UTF-8');?>
+                <input type="hidden" id="object_id" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['order_info']->value['order_id'], ENT_QUOTES, 'UTF-8');?>
  />
-                <input type="hidden" id="object_type" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['object_type']->value, ENT_QUOTES, 'UTF-8');?>
+                <input type="hidden" id="object_type" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['order_info']->value['user_type'], ENT_QUOTES, 'UTF-8');?>
  />
-                <input type="hidden" name="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['input_name']->value, ENT_QUOTES, 'UTF-8');?>
-[tags][]" value="" />
-                <input type="hidden" id="object_name" value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['input_name']->value, ENT_QUOTES, 'UTF-8');?>
-[tags][]" />
+                <input type="hidden" name="order_info[tags][]" value="" />
+                <input type="hidden" id="object_name" value="order_info[tags][]" />
                 <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order_info']->value['tags'], 'tag', true, NULL, 'tags', array (
 ));
@@ -66,12 +64,11 @@ $_smarty_tpl->tpl_vars['tag']->do_else = false;
 $_smarty_tpl->tpl_vars['tag']->iteration++;
 $_smarty_tpl->tpl_vars['tag']->last = $_smarty_tpl->tpl_vars['tag']->iteration === $_smarty_tpl->tpl_vars['tag']->total;
 $__foreach_tag_1_saved = $_smarty_tpl->tpl_vars['tag'];
-?><li><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag'], ENT_QUOTES, 'UTF-8');?>
+?><li><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tags']->value['tag'], ENT_QUOTES, 'UTF-8');?>
 </li><?php
 $_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_1_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-
             </ul>
         </div>
     </div>

@@ -22,7 +22,6 @@
 {/if}
 {capture name="mainbox"}
 {capture name="tabsbox"}
-
 <form action="{""|fn_url}" method="post" name="order_info_form" id="order_info_form" class="form-horizontal form-edit order-info-form">
 <input type="hidden" name="order_id" value="{$smarty.request.order_id}" />
 <input type="hidden" name="order_status" value="{$order_info.status}" />
