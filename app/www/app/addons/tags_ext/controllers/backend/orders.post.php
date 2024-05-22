@@ -10,12 +10,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 if($mode=='details'){
-
-    $order=Tygh::$app['view']->getTemplateVars('orders.details');
-    //fn_print_r($order);
-
+    $tags=fn_tags_ext_get_order_tags($_REQUEST['order_id']);
+    $order_info=Tygh::$app['view']->getTemplateVars('order_info');
+    $order_info['tags']=$tags;
+    Tygh::$app['view']->assign('order_info', $order_info);
 }
 
 if($mode=='update_details'){
-    fn_print_r($_REQUEST);
+
 }
