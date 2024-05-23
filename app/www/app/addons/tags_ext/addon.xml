@@ -22,7 +22,7 @@
     <queries>
     <item>DROP TABLE IF EXISTS ?:orders_tags;</item>
     <item>
-        CREATE TABLE `?:tags_ext` (
+        CREATE TABLE `?:cp_tags_ext` (
         `tag_id` int(11) unsigned NOT NULL auto_increment,
         `order_id` mediumint(8) unsigned NOT NULL default '0',
         `tag` varchar(255) NOT NULL default '',
@@ -31,6 +31,6 @@
         PRIMARY KEY  (`tag_id`)
         ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
     </item>
-        <item for="uninstall">DROP TABLE IF EXISTS ?:orders_tags;</item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:cp_tags_ext;</item>
     </queries>
 </addon>
