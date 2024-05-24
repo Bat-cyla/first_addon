@@ -1,1 +1,1 @@
-{style src="addons/tags/styles.css"}
+{style src="addons/tags_ext/styles.css"}
