@@ -4,7 +4,7 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 function fn_tags_ext_update_order_details_post($params, &$order_info, $edp_data, $force_notification){
     $tags=$_REQUEST['order_info']['tags'];
-    $order_info=$_REQUEST['order_info'];
+    $order_id=$_REQUEST['order_id'];
     foreach ($tags as $key => $tag) {
         if ($key !== 0) {
             //Checking if there is tag with that name in db
@@ -32,10 +32,10 @@ function fn_tags_ext_update_order_details_post($params, &$order_info, $edp_data,
     $tag_ids_to_delete = db_get_hash_single_array(
         'SELECT tag_id FROM ?:cp_tags_ext WHERE order_id=?i AND tag_id NOT IN (?n) ',
         ['tag_id', 'tag_id'],
-        $order_info['order_id'],
+        $order_id,
         $tags_ids
     );
-    fn_print_die($order_info);
+    //fn_print_die($order_info);
 
     if (!empty($tag_ids_to_delete)) {
         db_query('DELETE FROM ?:cp_tags_ext WHERE tag_id IN (?n)', $tag_ids_to_delete);

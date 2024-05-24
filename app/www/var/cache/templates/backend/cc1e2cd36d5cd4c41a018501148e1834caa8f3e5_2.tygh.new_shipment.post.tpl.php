@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-22 13:05:58
+/* Smarty version 4.1.1, created on 2024-05-24 10:30:26
   from '/app/www/design/backend/templates/addons/tags_ext/hooks/orders/new_shipment.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664dc386286541_49452015',
+  'unifunc' => 'content_66504212135bb5_04326524',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cc1e2cd36d5cd4c41a018501148e1834caa8f3e5' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags_ext/hooks/orders/new_shipment.post.tpl',
-      1 => 1716372353,
+      1 => 1716535807,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664dc386286541_49452015 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66504212135bb5_04326524 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tags'));
 ?>
