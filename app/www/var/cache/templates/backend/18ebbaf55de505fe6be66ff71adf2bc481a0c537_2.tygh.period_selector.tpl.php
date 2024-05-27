@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:47
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:31
   from '/app/www/design/backend/templates/common/period_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab636103d2_92220488',
+  'unifunc' => 'content_665471a750b461_83804096',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '18ebbaf55de505fe6be66ff71adf2bc481a0c537' => 
     array (
       0 => '/app/www/design/backend/templates/common/period_selector.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/calendar.tpl' => 2,
   ),
 ),false)) {
-function content_6641ab636103d2_92220488 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665471a750b461_83804096 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('period','all','this_day','this_week','this_month','this_year','yesterday','previous_week','previous_month','previous_year','last_24hours','last_n_days','last_n_days','custom','select_dates'));
 $_smarty_tpl->_assignInScope('id_prefix', uniqid(''));?>

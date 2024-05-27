@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:48:06
+/* Smarty version 4.1.1, created on 2024-05-27 14:38:16
   from '/app/www/design/themes/responsive/templates/addons/wishlist/hooks/products/product_name.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d3c6cabc65_62996936',
+  'unifunc' => 'content_665470a816ea24_83400548',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e3a1d79fc5f4e2b4d9eb30737c922c65921822b4' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/wishlist/hooks/products/product_name.override.tpl',
-      1 => 1715579491,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d3c6cabc65_62996936 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665470a816ea24_83400548 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.live_edit.php','function'=>'smarty_function_live_edit',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);
@@ -31,8 +31,8 @@ if ($_smarty_tpl->tpl_vars['product']->value['combination']) {
 echo "&combination=";
 echo (string)$_smarty_tpl->tpl_vars['product']->value['combination'];
 }
-$_prefixVariable32=ob_get_clean();
-echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable32), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable12=ob_get_clean();
+echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable12), ENT_QUOTES, 'UTF-8');?>
 " class="product-title" title="<?php echo htmlspecialchars((string) preg_replace('!<[^>]*?>!', ' ', $_smarty_tpl->tpl_vars['product']->value['product']), ENT_QUOTES, 'UTF-8');?>
 " <?php echo smarty_function_live_edit(array('name'=>"product:product:".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']),'phrase'=>$_smarty_tpl->tpl_vars['product']->value['product']),$_smarty_tpl);?>
 ><?php }
@@ -44,8 +44,8 @@ if ($_smarty_tpl->tpl_vars['product']->value['combination']) {
 echo "&combination=";
 echo (string)$_smarty_tpl->tpl_vars['product']->value['combination'];
 }
-$_prefixVariable33=ob_get_clean();
-echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable33), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable13=ob_get_clean();
+echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable13), ENT_QUOTES, 'UTF-8');?>
 " class="product-title" title="<?php echo htmlspecialchars((string) preg_replace('!<[^>]*?>!', ' ', $_smarty_tpl->tpl_vars['product']->value['product']), ENT_QUOTES, 'UTF-8');?>
 " <?php echo smarty_function_live_edit(array('name'=>"product:product:".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']),'phrase'=>$_smarty_tpl->tpl_vars['product']->value['product']),$_smarty_tpl);?>
 ><?php }
@@ -69,8 +69,8 @@ if ($_smarty_tpl->tpl_vars['product']->value['combination']) {
 echo "&combination=";
 echo (string)$_smarty_tpl->tpl_vars['product']->value['combination'];
 }
-$_prefixVariable34=ob_get_clean();
-echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable34), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable14=ob_get_clean();
+echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable14), ENT_QUOTES, 'UTF-8');?>
 " class="product-title" title="<?php echo htmlspecialchars((string) preg_replace('!<[^>]*?>!', ' ', $_smarty_tpl->tpl_vars['product']->value['product']), ENT_QUOTES, 'UTF-8');?>
 " <?php echo smarty_function_live_edit(array('name'=>"product:product:".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']),'phrase'=>$_smarty_tpl->tpl_vars['product']->value['product']),$_smarty_tpl);?>
 ><?php }
@@ -82,8 +82,8 @@ if ($_smarty_tpl->tpl_vars['product']->value['combination']) {
 echo "&combination=";
 echo (string)$_smarty_tpl->tpl_vars['product']->value['combination'];
 }
-$_prefixVariable35=ob_get_clean();
-echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable35), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable15=ob_get_clean();
+echo htmlspecialchars((string) fn_url("products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']).$_prefixVariable15), ENT_QUOTES, 'UTF-8');?>
 " class="product-title" title="<?php echo htmlspecialchars((string) preg_replace('!<[^>]*?>!', ' ', $_smarty_tpl->tpl_vars['product']->value['product']), ENT_QUOTES, 'UTF-8');?>
 " <?php echo smarty_function_live_edit(array('name'=>"product:product:".((string)$_smarty_tpl->tpl_vars['product']->value['product_id']),'phrase'=>$_smarty_tpl->tpl_vars['product']->value['product']),$_smarty_tpl);?>
 ><?php }

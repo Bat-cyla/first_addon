@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:48:11
+/* Smarty version 4.1.1, created on 2024-05-27 14:38:17
   from '/app/www/design/themes/responsive/templates/addons/rus_boxberry/hooks/index/scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d3cb74ebb1_30359736',
+  'unifunc' => 'content_665470a9d22cd1_08607880',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dda8669029bcfc05f5a42cd744ea8c0182a573b9' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/rus_boxberry/hooks/index/scripts.post.tpl',
-      1 => 1715579485,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d3cb74ebb1_30359736 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665470a9d22cd1_08607880 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('rus_boxberry.boxberry_cookie_title','rus_boxberry.boxberry_cookie_description','rus_boxberry.boxberry_cookie_title','rus_boxberry.boxberry_cookie_description'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

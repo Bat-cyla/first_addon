@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:55
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:22
   from '/app/www/design/backend/templates/views/index/components/analytics_section/analytics_data/data_2_3_recent_orders.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa7b2ea714_41051154',
+  'unifunc' => 'content_6654719e204ab3_31034814',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '00092ec1347b3842aeb9ad79b3d0bf961e292647' => 
     array (
       0 => '/app/www/design/backend/templates/views/index/components/analytics_section/analytics_data/data_2_3_recent_orders.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 2,
   ),
 ),false)) {
-function content_6641aa7b2ea714_41051154 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6654719e204ab3_31034814 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('dashboard.analytics_card.recent_orders','dashboard.analytics_card.view_orders','all','order','order'));
 if (!empty($_smarty_tpl->tpl_vars['order_statuses']->value)) {

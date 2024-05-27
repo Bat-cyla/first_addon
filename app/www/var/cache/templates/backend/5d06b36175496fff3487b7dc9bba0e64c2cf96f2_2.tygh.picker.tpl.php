@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-27 15:22:26
   from '/app/www/design/backend/templates/pickers/categories/picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62c88d41_36180028',
+  'unifunc' => 'content_66547b0248b923_17274240',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5d06b36175496fff3487b7dc9bba0e64c2cf96f2' => 
     array (
       0 => '/app/www/design/backend/templates/pickers/categories/picker.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/categories/js.tpl' => 5,
   ),
 ),false)) {
-function content_6641ab62c88d41_36180028 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547b0248b923_17274240 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('select_categories','add_categories','add_categories','position_short','name','no_items'));
 ?>

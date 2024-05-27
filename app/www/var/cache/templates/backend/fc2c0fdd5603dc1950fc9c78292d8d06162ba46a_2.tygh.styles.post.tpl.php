@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:48
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:15
   from '/app/www/design/backend/templates/addons/vendor_panel_configurator/hooks/index/styles.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa745c5775_36268439',
+  'unifunc' => 'content_66547197aadcf6_43867608',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc2c0fdd5603dc1950fc9c78292d8d06162ba46a' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_panel_configurator/hooks/index/styles.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/vendor_panel_configurator/config.tpl' => 1,
   ),
 ),false)) {
-function content_6641aa745c5775_36268439 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547197aadcf6_43867608 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.style.php','function'=>'smarty_function_style',),));
 echo smarty_function_style(array('src'=>"addons/vendor_panel_configurator/styles.less"),$_smarty_tpl);?>
 

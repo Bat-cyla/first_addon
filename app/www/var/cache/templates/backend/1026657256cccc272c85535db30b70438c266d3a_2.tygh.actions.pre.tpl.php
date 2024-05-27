@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:49
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:16
   from '/app/www/design/backend/templates/addons/product_reviews/hooks/index/actions.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa757e5096_41037875',
+  'unifunc' => 'content_665471984cd349_35502557',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1026657256cccc272c85535db30b70438c266d3a' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_reviews/hooks/index/actions.pre.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa757e5096_41037875 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665471984cd349_35502557 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 ?>
 

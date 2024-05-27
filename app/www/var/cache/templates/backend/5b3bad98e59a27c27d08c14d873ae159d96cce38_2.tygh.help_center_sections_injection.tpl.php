@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:49
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:16
   from '/app/www/design/backend/templates/addons/help_center/component/help_center_sections_injection.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa75e4ec51_35377283',
+  'unifunc' => 'content_66547198a171c6_42818102',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5b3bad98e59a27c27d08c14d873ae159d96cce38' => 
     array (
       0 => '/app/www/design/backend/templates/addons/help_center/component/help_center_sections_injection.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa75e4ec51_35377283 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547198a171c6_42818102 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('help_center.ask','help_center.customer_care.submit_ticket','help_center.customer_care.view_all_tickets','help_center.customer_care.status.resolved','help_center.customer_care.status.open','help_center.customer_care','help_center.customer_care.no_support_tickets','help_center.customer_care.submit_ticket','help_center.customer_care.view_all_tickets','help_center.customer_care.service_unavailable','help_center.customer_care.service_unavailable_description','help_center.customer_care.prolong_subscription','help_center.customer_care','help_center.customer_care.sign_in_text','helpdesk_account.sign_in'));
 $_smarty_tpl->_assignInScope('sections_injection', array());

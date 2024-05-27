@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-27 15:22:26
   from '/app/www/design/backend/templates/views/products/components/context_menu/price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62cbb4f0_25598498',
+  'unifunc' => 'content_66547b024c48b4_09946662',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1d212ebdfe02f99e1af920fcb8899280e95c75e1' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/context_menu/price.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/context_menu/items/dropdown.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab62cbb4f0_25598498 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547b024c48b4_09946662 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price','list_price','in_stock','bulk_edit.decrease_hint','bulk_edit.example_of_modified_value','price','list_price','in_stock','reset','apply'));
 ?>

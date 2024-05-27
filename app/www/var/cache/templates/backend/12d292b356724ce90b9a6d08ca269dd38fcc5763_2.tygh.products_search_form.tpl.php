@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:47
+/* Smarty version 4.1.1, created on 2024-05-27 15:22:26
   from '/app/www/design/backend/templates/views/products/components/products_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab632a0ee7_08570632',
+  'unifunc' => 'content_66547b0298cb03_91448267',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '12d292b356724ce90b9a6d08ca269dd38fcc5763' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/products_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab632a0ee7_08570632 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547b0298cb03_91448267 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.array_to_fields.php','function'=>'smarty_function_array_to_fields',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','find_results_with','price','search_in_category','all_categories','all_categories','search_in','product_name','short_description','full_description','keywords','search_by_product_filters','search_by_product_features','error_features_too_many_variants','search_by_sku','popularity','ttc_popularity','subcategories','shipping_freight','weight','quantity','free_shipping','yes','no','status','purchased_in_orders','no_items','sort_by','list_price','name','price','sku','quantity','status','desc','asc','creation_date','updated_last','hour_or_hours'));
 if ($_smarty_tpl->tpl_vars['in_popup']->value) {?>

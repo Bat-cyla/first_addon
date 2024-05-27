@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:47
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:31
   from '/app/www/design/backend/templates/buttons/search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab6379f262_28831007',
+  'unifunc' => 'content_665471a7c36066_47634480',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '278a57cb0eddffe78552e194292c8588e7ce4654' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/search.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab6379f262_28831007 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665471a7c36066_47634480 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_button'));
 ?>
 

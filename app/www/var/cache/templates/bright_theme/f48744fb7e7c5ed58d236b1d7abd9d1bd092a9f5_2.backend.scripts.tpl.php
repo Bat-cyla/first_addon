@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:48:11
+/* Smarty version 4.1.1, created on 2024-05-27 14:38:17
   from '/app/www/design/backend/templates/addons/geo_maps/components/scripts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d3cb7ea305_66826312',
+  'unifunc' => 'content_665470a9dbe150_98110434',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f48744fb7e7c5ed58d236b1d7abd9d1bd092a9f5' => 
     array (
       0 => '/app/www/design/backend/templates/addons/geo_maps/components/scripts.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'backend',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d3cb7ea305_66826312 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665470a9dbe150_98110434 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','geo_maps.cannot_select_location','admin_search_field','geo_maps.cannot_select_location'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

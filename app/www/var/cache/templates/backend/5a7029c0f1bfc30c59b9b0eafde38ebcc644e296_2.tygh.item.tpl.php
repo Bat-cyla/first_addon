@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:50
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:16
   from '/app/www/design/backend/templates/views/companies/components/picker/item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa760022a4_70642270',
+  'unifunc' => 'content_66547198b13e70_41201122',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5a7029c0f1bfc30c59b9b0eafde38ebcc644e296' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/picker/item.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa760022a4_70642270 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547198b13e70_41201122 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="object-picker__companies-main">
     <div class="object-picker__companies-name">
         <div class="object-picker__companies-name-content"><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['title_pre']->value, ENT_QUOTES, 'UTF-8');?>

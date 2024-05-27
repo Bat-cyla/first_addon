@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:49
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:16
   from '/app/www/design/backend/templates/common/notification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa756371f9_98403682',
+  'unifunc' => 'content_665471983401e6_32511456',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '541513cb94f8b74b21e50f85a2aca83e25d711dc' => 
     array (
       0 => '/app/www/design/backend/templates/common/notification.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa756371f9_98403682 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665471983401e6_32511456 (Smarty_Internal_Template $_smarty_tpl) {
 if (!defined("AJAX_REQUEST")) {?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "notification_content", null, null);

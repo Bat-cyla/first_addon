@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:36
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:31
   from '/app/www/design/backend/templates/common/check_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab584e80e6_21690691',
+  'unifunc' => 'content_665471a7e7e570_83608468',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b2b6ee7e80806f4d8d8990e793131fe161ecd094' => 
     array (
       0 => '/app/www/design/backend/templates/common/check_items.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab584e80e6_21690691 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665471a7e7e570_83608468 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('select_all','unselect_all','check_uncheck_all','check_all','check_none'));
 $_smarty_tpl->_assignInScope('check_data', '');
 $_smarty_tpl->_assignInScope('container', $_smarty_tpl->tpl_vars['elms_container']->value ? "data-ca-container=".((string)$_smarty_tpl->tpl_vars['elms_container']->value) : '');?>

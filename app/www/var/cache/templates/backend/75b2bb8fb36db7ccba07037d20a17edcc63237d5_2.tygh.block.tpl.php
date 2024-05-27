@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:50
+/* Smarty version 4.1.1, created on 2024-05-27 14:42:16
   from '/app/www/design/backend/templates/views/block_manager/frontend_render/block.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa761d2296_20591925',
+  'unifunc' => 'content_66547198cf5576_56071135',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '75b2bb8fb36db7ccba07037d20a17edcc63237d5' => 
     array (
       0 => '/app/www/design/backend/templates/views/block_manager/frontend_render/block.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'backend:views/block_manager/frontend_render/components/block_menu.tpl' => 1,
   ),
 ),false)) {
-function content_6641aa761d2296_20591925 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66547198cf5576_56071135 (Smarty_Internal_Template $_smarty_tpl) {
 if (trim($_smarty_tpl->tpl_vars['content']->value)) {?>
     <?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['block_manager'] && $_smarty_tpl->tpl_vars['location_data']->value['is_frontend_editing_allowed']) {?>
         <?php $_smarty_tpl->_assignInScope('tag', (($tmp = $_smarty_tpl->tpl_vars['tag']->value ?? null)===null||$tmp==='' ? "div" ?? null : $tmp));?>

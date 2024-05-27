@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-24 10:30:19
+/* Smarty version 4.1.1, created on 2024-05-27 17:38:05
   from '/app/www/design/backend/templates/views/orders/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6650420b491b29_68353033',
+  'unifunc' => 'content_66549acd380b26_13808812',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5865703bb1cd24e3e15b197b0170a53fa9415337' => 
     array (
       0 => '/app/www/design/backend/templates/views/orders/manage.tpl',
-      1 => 1716531779,
+      1 => 1716820578,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6650420b491b29_68353033 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66549acd380b26_13808812 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_admin_new_orders','orders','id','phone','id','order','invoice','credit_memo','status','date','customer','phone','tools','view','edit','copy','delete','total','no_data','for_this_page_orders','gross_total','totally_paid','for_all_found_orders','gross_total','totally_paid','add_order','view_purchased_products','export_selected'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>
@@ -76,6 +76,7 @@ $_smarty_tpl->_assignInScope('notify', true);
 $_smarty_tpl->_assignInScope('notify_department', true);?>
 
 <?php if ($_smarty_tpl->tpl_vars['orders']->value) {?>
+
     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "orders_table", null, null);?>
         <div class="table-responsive-wrapper longtap-selection">
             <table width="100%" class="table table-middle table--relative table-responsive table--overflow-hidden table-manage-orders">
