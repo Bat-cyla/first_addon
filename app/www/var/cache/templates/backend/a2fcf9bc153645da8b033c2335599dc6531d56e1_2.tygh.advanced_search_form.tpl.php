@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:47
+/* Smarty version 4.1.1, created on 2024-05-28 17:32:58
   from '/app/www/design/backend/templates/views/products/components/advanced_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab63399b28_05936840',
+  'unifunc' => 'content_6655eb1a16d315_01773754',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a2fcf9bc153645da8b033c2335599dc6531d56e1' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/advanced_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716906771,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/calendar.tpl' => 2,
   ),
 ),false)) {
-function content_6641ab63399b28_05936840 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655eb1a16d315_01773754 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.split.php','function'=>'smarty_function_split',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','none','your_range','none','yes','no'));
 echo smarty_function_split(array('data'=>$_smarty_tpl->tpl_vars['filter_features']->value,'size'=>"2",'assign'=>"splitted_filter",'preverse_keys'=>true),$_smarty_tpl);?>
@@ -77,6 +77,7 @@ $_smarty_tpl->tpl_vars['filter']->do_else = false;
                             <select id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['prefix']->value, ENT_QUOTES, 'UTF-8');?>
 variants_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8');?>
 "
+                            
                                     class="cm-object-selector"
                                     multiple
                                     name="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['data_name']->value, ENT_QUOTES, 'UTF-8');?>

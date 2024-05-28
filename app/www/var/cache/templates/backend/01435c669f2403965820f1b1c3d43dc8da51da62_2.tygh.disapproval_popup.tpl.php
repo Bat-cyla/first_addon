@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:43
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/addons/vendor_data_premoderation/components/disapproval_popup.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab5fbdc9f9_72508373',
+  'unifunc' => 'content_6655e720553df1_80119223',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '01435c669f2403965820f1b1c3d43dc8da51da62' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_data_premoderation/components/disapproval_popup.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab5fbdc9f9_72508373 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e720553df1_80119223 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('disapprove_products','vendor_data_premoderation.disapproval_reason','cancel','disapprove'));
 $_smarty_tpl->_assignInScope('product_id', (($tmp = $_smarty_tpl->tpl_vars['product_id']->value ?? null)===null||$tmp==='' ? 0 ?? null : $tmp));
 $_smarty_tpl->_assignInScope('title', (($tmp = $_smarty_tpl->tpl_vars['title']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->__("disapprove_products") ?? null : $tmp));?>

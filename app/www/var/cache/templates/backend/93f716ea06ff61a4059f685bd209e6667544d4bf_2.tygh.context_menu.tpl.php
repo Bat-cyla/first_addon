@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:36
+/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
   from '/app/www/design/backend/templates/components/context_menu/context_menu.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab584c1f32_87156727',
+  'unifunc' => 'content_6655e08fe75c46_86973579',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '93f716ea06ff61a4059f685bd209e6667544d4bf' => 
     array (
       0 => '/app/www/design/backend/templates/components/context_menu/context_menu.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab584c1f32_87156727 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e08fe75c46_86973579 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="bulk-edit clearfix hidden <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['params']->value['class'], ENT_QUOTES, 'UTF-8');?>
 "

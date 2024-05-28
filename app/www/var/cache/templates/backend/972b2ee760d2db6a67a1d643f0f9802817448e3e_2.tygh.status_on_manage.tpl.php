@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:43
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/views/products/components/status_on_manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab5fc70eb7_75797137',
+  'unifunc' => 'content_6655e7205964f9_19295320',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '972b2ee760d2db6a67a1d643f0f9802817448e3e' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/status_on_manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab5fc70eb7_75797137 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7205964f9_19295320 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 $_smarty_tpl->_assignInScope('items_status', (($tmp = $_smarty_tpl->tpl_vars['items_status']->value ?? null)===null||$tmp==='' ? (fn_get_product_statuses($_smarty_tpl->tpl_vars['status']->value,$_smarty_tpl->tpl_vars['hidden']->value)) ?? null : $tmp));
 $_smarty_tpl->_assignInScope('statuses', (($tmp = $_smarty_tpl->tpl_vars['statuses']->value ?? null)===null||$tmp==='' ? array() ?? null : $tmp));

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-20 11:19:45
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/views/products/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664b07a1561e88_17229260',
+  'unifunc' => 'content_6655e7203edfd2_32341642',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2dfe4f487a66fb96413f7c989cb31badc38aeb99' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/manage.tpl',
-      1 => 1716193178,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -36,7 +36,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_664b07a1561e88_17229260 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7203edfd2_32341642 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.to_json.php','function'=>'smarty_modifier_to_json',),));
 \Tygh\Languages\Helper::preloadLangVars(array('position_short','name','sku','price','list_price_short_2','list_price','purchased_qty','subtotal_sum','quantity','quantity_long','products_are_not_selectable_for_context_menu','name','price','list_price','purchased_qty','subtotal_sum','quantity','edit','delete','status','no_data','text_select_fields2edit_note','cancel','modify_selected','clone_selected','export_selected','global_update','bulk_product_addition','product_subscriptions','export_found_products','import_products','create_new_product','add_product','select_fields_to_edit','products'));
 echo smarty_function_script(array('src'=>"js/tygh/backend/products_manage.js"),$_smarty_tpl);?>

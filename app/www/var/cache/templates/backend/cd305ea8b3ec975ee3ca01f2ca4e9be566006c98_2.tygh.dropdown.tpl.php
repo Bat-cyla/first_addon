@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/components/context_menu/items/dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62e26e02_47348352',
+  'unifunc' => 'content_6655e7207fe505_81189211',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cd305ea8b3ec975ee3ca01f2ca4e9be566006c98' => 
     array (
       0 => '/app/www/design/backend/templates/components/context_menu/items/dropdown.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab62e26e02_47348352 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7207fe505_81189211 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),));
 ?>
 

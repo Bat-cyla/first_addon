@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 14:04:24
+/* Smarty version 4.1.1, created on 2024-05-28 17:53:02
   from '/app/www/design/backend/templates/addons/tags_ext/overrides/views/orders/components/orders_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665468b82e6ae0_84329375',
+  'unifunc' => 'content_6655efcecfcae3_20121373',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0fc567b7d719710ae3b7dcf63dd1e10e3b4a7c05' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags_ext/overrides/views/orders/components/orders_search_form.tpl',
-      1 => 1716807861,
+      1 => 1716907980,
       2 => 'tygh',
     ),
   ),
@@ -25,8 +25,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_665468b82e6ae0_84329375 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),2=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.html_checkboxes.php','function'=>'smarty_function_html_checkboxes',),));
+function content_6655efcecfcae3_20121373 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.html_checkboxes.php','function'=>'smarty_function_html_checkboxes',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','customer','email','phone','total','manager','no_manager_assigned','period','order_status','tax_exempt','yes','no','order_id','company','has_credit_memo','credit_memo_id','has_invoice','invoice_id','tag','shipping','payment_methods','ordered_products'));
 if ($_smarty_tpl->tpl_vars['in_popup']->value) {?>
     <div class="adv-search">
@@ -218,43 +218,24 @@ ob_start();?>
 ?>
     </div>
 </div>
-<?php echo smarty_function_script(array('src'=>"js/addons/tags_ext/cp_tags_ext_multiselect.js"),$_smarty_tpl);?>
-
-    <div class="group">
-        <div class="control-group">
-            <label class="control-label"><?php echo $_smarty_tpl->__("tag");?>
+    <div class="row-fluid">
+        <label class="control-label" for="tags"><?php echo $_smarty_tpl->__("tag");?>
 </label>
-
-                <div class="multiselect_block">
-                    <label for="select-1" class="field_multiselect"></label>
-                    <select id="select-1" class="field_select" name="tags" multiple>
-                        <?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['orders']->value, 'order');
-$_smarty_tpl->tpl_vars['order']->do_else = true;
-if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['order']->value) {
-$_smarty_tpl->tpl_vars['order']->do_else = false;
-?>
-                            <?php
-$_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order']->value['tags'], 'tag');
-$_smarty_tpl->tpl_vars['tag']->do_else = true;
-if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
-$_smarty_tpl->tpl_vars['tag']->do_else = false;
-?>
-                                <option value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value, ENT_QUOTES, 'UTF-8');?>
-"><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value, ENT_QUOTES, 'UTF-8');?>
-</option>
-                            <?php
-}
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
-                        <?php
-}
-$_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
+        <tr valign="top" class="delim">
+            <td width="350px" data-th="test">
+                <div class="object-selector object-selector--mobile-full-width object-selector--half-width">
+                    <select id="feature_variants_550" class="cm-object-selector select2-hidden-accessible" multiple="" name="feature_variants[550][]" data-ca-placeholder="Найти" data-ca-enable-images="true" data-ca-image-width="30" data-ca-image-height="30" data-ca-enable-search="true" data-ca-page-size="10" data-ca-data-url="http://localhost:8080/admin.php?dispatch=product_features.get_variants_list&amp;feature_id=550" data-ca-close-on-select="false" data-select2-id="feature_variants_550" tabindex="-1" aria-hidden="true">
+                        <option value="1203" data-select2-id="77">test</option>
+                        <option value="1202" data-select2-id="78">testest.</option>
                     </select>
+                        <span class="dropdown-wrapper" aria-hidden="true">
+                        </span>
                 </div>
+            </td>
 
-        </div>
+        </tr>
+
     </div>
-
 <div class="group">
 <div class="control-group">
     <label class="control-label"><?php echo $_smarty_tpl->__("shipping");?>
