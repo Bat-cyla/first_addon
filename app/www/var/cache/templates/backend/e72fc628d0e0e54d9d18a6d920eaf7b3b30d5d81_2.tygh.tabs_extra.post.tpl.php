@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:59
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:53
   from '/app/www/design/backend/templates/addons/product_bundles/hooks/products/tabs_extra.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4f18c7d6_17235638',
+  'unifunc' => 'content_6655729d1b4197_36597751',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e72fc628d0e0e54d9d18a6d920eaf7b3b30d5d81' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_bundles/hooks/products/tabs_extra.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4f18c7d6_17235638 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729d1b4197_36597751 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_bundles.add_new_bundle','product_bundles.add_new_bundle','product_bundles.add_new_bundle','edit','no_data'));
 $_smarty_tpl->_assignInScope('hide_controls', !$_smarty_tpl->tpl_vars['product_data']->value['company_id']);?>
@@ -54,8 +54,8 @@ $_smarty_tpl->_assignInScope('hide_controls', !$_smarty_tpl->tpl_vars['product_d
         <?php if ($_smarty_tpl->tpl_vars['bundles']->value) {?>
             <?php ob_start();
 echo htmlspecialchars((string) uniqid(), ENT_QUOTES, 'UTF-8');
-$_prefixVariable9=ob_get_clean();
-$_smarty_tpl->_assignInScope('context_menu_id', "context_menu_".$_prefixVariable9);?>
+$_prefixVariable22=ob_get_clean();
+$_smarty_tpl->_assignInScope('context_menu_id', "context_menu_".$_prefixVariable22);?>
             <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "product_bundles_table", null, null);?>
                 <div class="items-container">
                     <div class="table-responsive-wrapper longtap-selection">

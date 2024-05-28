@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:00:28
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:56
   from '/app/www/design/backend/templates/views/block_manager/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d6ac1c4ad4_13615395',
+  'unifunc' => 'content_665572a0413131_85426613',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '473fa843f4f7ff755ddcb4e9472850fc9ebf21cd' => 
     array (
       0 => '/app/www/design/backend/templates/views/block_manager/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -29,7 +29,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641d6ac1c4ad4_13615395 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665572a0413131_85426613 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.style.php','function'=>'smarty_function_style',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/function.render_location.php','function'=>'smarty_function_render_location',),));
 \Tygh\Languages\Helper::preloadLangVars(array('block_already_exists_in_grid','new_layout','add_layout','export_layout','import_layout','edit_layout_on_site','preview','make_default','properties','delete','export_layout','import_layout','block_manager.add_layout_page','block_manager.new_layout_page','switch_layout','preview','make_default','properties','delete','layout_page','dispatch','name','layout_meta_data','block_manager.manage_layout_in_tab_unavailable_by_object_id','block_manager.dynamic_entity_','block_manager.manage_layout_in_tab_not_exist_location','block_manager.dynamic_entity_','block_manager.manage_layout_in_tab_unavailable','block_manager.dynamic_entity_','editing_layout'));
 $_smarty_tpl->_assignInScope('show_layout_controls', !$_smarty_tpl->tpl_vars['dynamic_object']->value['object_id'] && (fn_allowed_for("ULTIMATE") || !$_smarty_tpl->tpl_vars['runtime']->value['company_id']));

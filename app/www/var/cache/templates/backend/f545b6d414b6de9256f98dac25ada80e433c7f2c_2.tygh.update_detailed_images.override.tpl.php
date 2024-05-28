@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:57
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
   from '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_detailed_images.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4da89ff0_22801825',
+  'unifunc' => 'content_6655729b90da41_16690980',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f545b6d414b6de9256f98dac25ada80e433c7f2c' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_detailed_images.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/form_file_uploader.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4da89ff0_22801825 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729b90da41_16690980 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('images'));
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("detailed_image")) {?>
     <div class="control-group">

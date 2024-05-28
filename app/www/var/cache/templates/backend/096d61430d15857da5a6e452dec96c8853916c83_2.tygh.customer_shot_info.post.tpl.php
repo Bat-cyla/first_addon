@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:21
+/* Smarty version 4.1.1, created on 2024-05-28 13:55:36
   from '/app/www/design/backend/templates/addons/rus_boxberry/hooks/orders/customer_shot_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c9186dc7_00683173',
+  'unifunc' => 'content_6655b828bfd498_85650984',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '096d61430d15857da5a6e452dec96c8853916c83' => 
     array (
       0 => '/app/www/design/backend/templates/addons/rus_boxberry/hooks/orders/customer_shot_info.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_664455c9186dc7_00683173 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655b828bfd498_85650984 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('rus_boxberry.pickuppoint'));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['order_info']->value['shipping'], 'shipping', false, NULL, 'f_shipp', array (
 ));

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:57
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
   from '/app/www/design/backend/templates/addons/vendor_data_premoderation/hooks/products/update_product_status.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4d92fda7_86053108',
+  'unifunc' => 'content_6655729b80c817_20971732',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b156bceb025aff2294085e3f710ac338fe08b1fe' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_data_premoderation/hooks/products/update_product_status.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4d92fda7_86053108 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729b80c817_20971732 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('status','vendor_data_premoderation.approve_product_btn','vendor_data_premoderation.disapprove_product_btn','vendor_data_premoderation.disapproval_reason','vendor_data_premoderation.enter_disapproval_reason'));
 $_smarty_tpl->_assignInScope('show_premoderation_reason', !$_smarty_tpl->tpl_vars['runtime']->value['company_id'] && $_smarty_tpl->tpl_vars['product_data']->value['status'] === smarty_modifier_enum("Addons\VendorDataPremoderation\ProductStatuses::REQUIRES_APPROVAL"));?>

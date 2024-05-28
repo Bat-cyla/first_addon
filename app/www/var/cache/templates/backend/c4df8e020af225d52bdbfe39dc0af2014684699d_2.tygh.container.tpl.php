@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:00:28
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:56
   from '/app/www/design/backend/templates/views/block_manager/render/container.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d6ac3beeb3_99637702',
+  'unifunc' => 'content_665572a07c8473_10721663',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c4df8e020af225d52bdbfe39dc0af2014684699d' => 
     array (
       0 => '/app/www/design/backend/templates/views/block_manager/render/container.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/components/device_icons.tpl' => 1,
   ),
 ),false)) {
-function content_6641d6ac3beeb3_99637702 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665572a07c8473_10721663 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('set_custom_configuration','use_default_block_configuration','insert_grid','insert_grid','container_options','enable_or_disable_container'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"block_manager:container"));

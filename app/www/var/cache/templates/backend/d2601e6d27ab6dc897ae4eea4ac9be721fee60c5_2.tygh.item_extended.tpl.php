@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 16:00:10
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:52
   from '/app/www/design/backend/templates/views/products/components/picker/item_extended.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643605a0e7a73_27890499',
+  'unifunc' => 'content_6655729cd33c27_58447688',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd2601e6d27ab6dc897ae4eea4ac9be721fee60c5' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/picker/item_extended.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6643605a0e7a73_27890499 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729cd33c27_58447688 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 $_smarty_tpl->_assignInScope('show_secondary', (($tmp = $_smarty_tpl->tpl_vars['show_secondary']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));
 $_smarty_tpl->_assignInScope('show_simple_product', (($tmp = $_smarty_tpl->tpl_vars['show_simple_product']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));

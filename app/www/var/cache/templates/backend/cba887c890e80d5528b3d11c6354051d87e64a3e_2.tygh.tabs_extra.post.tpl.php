@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:21
+/* Smarty version 4.1.1, created on 2024-05-28 13:55:36
   from '/app/www/design/backend/templates/addons/rus_payments/hooks/orders/tabs_extra.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c938e847_74774650',
+  'unifunc' => 'content_6655b828d86d07_64140792',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cba887c890e80d5528b3d11c6354051d87e64a3e' => 
     array (
       0 => '/app/www/design/backend/templates/addons/rus_payments/hooks/orders/tabs_extra.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_664455c938e847_74774650 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655b828d86d07_64140792 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.rus_payments.refund','product','price','qty','free','shipping','payment_surcharge','gift_certificate','addons.rus_payments.amount','addons.rus_payments.amount','addons.rus_payments.cause','cancel','refund'));
 if ($_smarty_tpl->tpl_vars['show_refund']->value) {?>

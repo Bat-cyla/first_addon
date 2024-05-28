@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
   from '/app/www/design/backend/templates/views/companies/components/company_field.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc2864be0_60927095',
+  'unifunc' => 'content_6655729b68f581_84773832',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5b72c586d77aee1b72354b8b597b22d8559c19d6' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/company_field.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/ajax_select_object.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcc2864be0_60927095 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729b68f581_84773832 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('owner_company'));
 $_smarty_tpl->_assignInScope('required', (($tmp = $_smarty_tpl->tpl_vars['required']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));
 if ($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && (!$_smarty_tpl->tpl_vars['selected']->value || fn_allowed_for("MULTIVENDOR")) && !$_smarty_tpl->tpl_vars['disable_company_picker']->value) {?>

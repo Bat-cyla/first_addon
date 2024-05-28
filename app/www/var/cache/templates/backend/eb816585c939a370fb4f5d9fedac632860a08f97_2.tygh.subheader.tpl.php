@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:17:08
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
   from '/app/www/design/backend/templates/common/subheader.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641cc84e5eed4_98953258',
+  'unifunc' => 'content_6655729b4cf6b8_62893720',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'eb816585c939a370fb4f5d9fedac632860a08f97' => 
     array (
       0 => '/app/www/design/backend/templates/common/subheader.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/help.tpl' => 1,
   ),
 ),false)) {
-function content_6641cc84e5eed4_98953258 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729b4cf6b8_62893720 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['notes']->value) {?>
     <?php $_smarty_tpl->_subTemplateRender("tygh:common/help.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('content'=>$_smarty_tpl->tpl_vars['notes']->value,'id'=>$_smarty_tpl->tpl_vars['notes_id']->value), 0, false);
 }?>

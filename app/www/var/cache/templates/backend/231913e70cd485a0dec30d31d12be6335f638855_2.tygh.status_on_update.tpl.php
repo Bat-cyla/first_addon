@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:57
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
   from '/app/www/design/backend/templates/views/products/components/status_on_update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4d95a0c3_71400659',
+  'unifunc' => 'content_6655729b8352d2_67876386',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '231913e70cd485a0dec30d31d12be6335f638855' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/status_on_update.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4d95a0c3_71400659 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729b8352d2_67876386 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),));
 \Tygh\Languages\Helper::preloadLangVars(array('status','status'));
 $_smarty_tpl->_assignInScope('status', (($tmp = $_smarty_tpl->tpl_vars['obj']->value['status'] ?? null)===null||$tmp==='' ? '' ?? null : $tmp));

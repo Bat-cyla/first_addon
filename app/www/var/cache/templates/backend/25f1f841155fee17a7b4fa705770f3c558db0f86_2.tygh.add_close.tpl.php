@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-22 14:40:06
+/* Smarty version 4.1.1, created on 2024-05-28 16:18:18
   from '/app/www/design/backend/templates/buttons/add_close.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664dd9969b96b7_50818335',
+  'unifunc' => 'content_6655d99ae7eb48_69758641',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '25f1f841155fee17a7b4fa705770f3c558db0f86' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/add_close.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 3,
   ),
 ),false)) {
-function content_664dd9969b96b7_50818335 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655d99ae7eb48_69758641 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('cancel'));
 ?>
 <a class="cm-dialog-closer cm-cancel tool-link btn <?php if ($_smarty_tpl->tpl_vars['disable_cancel']->value) {?>hidden<?php }?>"><?php echo $_smarty_tpl->__("cancel");?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:20
+/* Smarty version 4.1.1, created on 2024-05-28 13:55:36
   from '/app/www/design/backend/templates/common/carriers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c8745e46_68610603',
+  'unifunc' => 'content_6655b828547243_34122639',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '29685eda9b2371582a34d3dcae405a8492dbd805' => 
     array (
       0 => '/app/www/design/backend/templates/common/carriers.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664455c8745e46_68610603 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655b828547243_34122639 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['capture']->value) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "carrier_field", null, null);
 }?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:21
+/* Smarty version 4.1.1, created on 2024-05-28 13:55:36
   from '/app/www/design/backend/templates/addons/discussion/hooks/orders/customer_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c9230673_72128333',
+  'unifunc' => 'content_6655b828c76231_04858315',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'be240cb635b01185fbae8e2f2d20ee9fd3c1d61b' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/hooks/orders/customer_info.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_664455c9230673_72128333 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655b828c76231_04858315 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('discussion','discussion_title_order','available','disabled','enabled','enabled','disabled'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR") || $_smarty_tpl->tpl_vars['runtime']->value['simple_ultimate']) && $_smarty_tpl->tpl_vars['config']->value['discussion']['enable_order_communication']) {?>

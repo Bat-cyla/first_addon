@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:00:28
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:56
   from '/app/www/design/backend/templates/views/block_manager/components/import_layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d6ac58db00_30071895',
+  'unifunc' => 'content_665572a0ae4c24_93381133',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd95a0f9e631a83e0ab5bcb166a16195e236fc2eb' => 
     array (
       0 => '/app/www/design/backend/templates/views/block_manager/components/import_layout.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_6641d6ac58db00_30071895 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665572a0ae4c24_93381133 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('create_new_layout','update_current_layout','clean_up_all_locations_on_import','override_by_dispatch','import'));
 ?>
 <div class="install-addon">

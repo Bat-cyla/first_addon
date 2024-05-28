@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-28 08:58:52
   from '/app/www/design/backend/templates/addons/bestsellers/hooks/products/detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ed63be3_66511380',
+  'unifunc' => 'content_6655729cb43be2_67275493',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fed212939e197e67622f43b8116c311de9edeb47' => 
     array (
       0 => '/app/www/design/backend/templates/addons/bestsellers/hooks/products/detailed_content.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4ed63be3_66511380 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655729cb43be2_67275493 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('bestselling','sales_amount'));
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("bestselling"),'target'=>"#acc_bestsellers"), 0, false);
 ?>
