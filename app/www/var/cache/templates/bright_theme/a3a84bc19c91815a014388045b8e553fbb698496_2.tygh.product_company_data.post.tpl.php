@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:34:17
+/* Smarty version 4.1.1, created on 2024-05-29 11:09:55
   from '/app/www/design/themes/responsive/templates/addons/vendor_communication/hooks/companies/product_company_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66445769ae5bb8_65244482',
+  'unifunc' => 'content_6656e2d3501583_22640672',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3a84bc19c91815a014388045b8e553fbb698496' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/vendor_communication/hooks/companies/product_company_data.post.tpl',
-      1 => 1715579487,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/vendor_communication/views/vendor_communication/components/new_thread_button.tpl' => 2,
   ),
 ),false)) {
-function content_66445769ae5bb8_65244482 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2d3501583_22640672 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

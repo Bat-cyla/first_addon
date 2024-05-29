@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:59
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/attachments/views/components/add_new_attachments_files.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4f11f932_88477768',
+  'unifunc' => 'content_6656e24514bbc6_12858369',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '887c367cfdac4429541e3176632de5f699794440' => 
     array (
       0 => '/app/www/design/backend/templates/addons/attachments/views/components/add_new_attachments_files.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/popupbox.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4f11f932_88477768 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24514bbc6_12858369 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('new_attachment','add_attachment'));
 ?>
 <div class="btn-toolbar clearfix">

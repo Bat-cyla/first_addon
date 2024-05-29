@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:59
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/attachments/hooks/products/tabs_extra.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4f112616_59160514',
+  'unifunc' => 'content_6656e245136207_50934483',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a9d6a8cd75410a47f976ee7d617b91ea8b956bab' => 
     array (
       0 => '/app/www/design/backend/templates/addons/attachments/hooks/products/tabs_extra.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/attachments/views/attachments/manage.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4f112616_59160514 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e245136207_50934483 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.component.php','function'=>'smarty_block_component',),));
 ?>
 <div id="content_attachments" class="cm-hide-save-button <?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "attachments") {?>hidden<?php }?>">

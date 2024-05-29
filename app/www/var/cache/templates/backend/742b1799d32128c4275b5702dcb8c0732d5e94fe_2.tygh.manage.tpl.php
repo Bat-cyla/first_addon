@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:04:00
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:35
   from '/app/www/design/backend/templates/addons/product_variations/views/product_variations/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f502088e7_85699050',
+  'unifunc' => 'content_6656e24748c515_82065441',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '742b1799d32128c4275b5702dcb8c0732d5e94fe' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/views/product_variations/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_66436f502088e7_85699050 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24748c515_82065441 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.manage','product_variations.edit_features','product_variations.delete','actions','product_variations.add_variations','product_variations.add_variations','warning','product_variations.warning.before_edit_variations_save_product','name','sku','price','quantity','product_variations.add_variations_description'));
 $_smarty_tpl->_assignInScope('is_form_readonly', ($_smarty_tpl->tpl_vars['product']->value['product_id'] && $_smarty_tpl->tpl_vars['runtime']->value['company_id'] && (fn_allowed_for("MULTIVENDOR") || $_smarty_tpl->tpl_vars['product']->value['shared_product'] == "Y") && $_smarty_tpl->tpl_vars['product']->value['company_id'] != $_smarty_tpl->tpl_vars['runtime']->value['company_id']));?>
 

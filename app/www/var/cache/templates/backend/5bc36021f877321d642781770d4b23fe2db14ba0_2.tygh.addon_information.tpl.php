@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:41:54
+/* Smarty version 4.1.1, created on 2024-05-29 12:10:41
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_information.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644593209dbb9_15418973',
+  'unifunc' => 'content_6656f111dca678_55802101',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5bc36021f877321d642781770d4b23fe2db14ba0' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_information.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6644593209dbb9_15418973 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656f111dca678_55802101 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('name','developer','show_all_developer_addons','developer_page','category','addons.other_category','show_all_category_addons','compatibility','addons.mve_ult_or_plus_required','addons.ult_required','addon_is_compatible','addon_required_version','unknown','languages','addons.no_information','addon_id'));
 ?>
 <div class="hidden cm-hide-save-button" id="content_information">

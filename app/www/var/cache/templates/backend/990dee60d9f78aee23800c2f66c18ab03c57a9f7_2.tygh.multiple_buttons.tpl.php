@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/buttons/multiple_buttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc298e2c3_31082186',
+  'unifunc' => 'content_6656e24466e066_11848987',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '990dee60d9f78aee23800c2f66c18ab03c57a9f7' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/multiple_buttons.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/remove_item.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcc298e2c3_31082186 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24466e066_11848987 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 echo smarty_function_script(array('src'=>"js/tygh/node_cloning.js"),$_smarty_tpl);?>
 

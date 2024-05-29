@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:34:18
+/* Smarty version 4.1.1, created on 2024-05-29 11:09:56
   from '/app/www/design/themes/responsive/templates/addons/geo_maps/hooks/products/product_detail_bottom.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644576a1572a0_15863813',
+  'unifunc' => 'content_6656e2d4185672_94512170',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f9c7066e3ddae8a52afffe671fffec81f3a21756' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/geo_maps/hooks/products/product_detail_bottom.pre.tpl',
-      1 => 1715579486,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/geo_maps/views/geo_maps/shipping_estimation.tpl' => 2,
   ),
 ),false)) {
-function content_6644576a1572a0_15863813 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2d4185672_94512170 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:20
+/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
   from '/app/www/design/backend/templates/addons/gift_certificates/views/orders/components/order_details_body.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c8ba21b1_34150383',
+  'unifunc' => 'content_6656c947538488_61794303',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9e768e3c73a7692a177b0bd471d1c9032aaa2dd9' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/views/orders/components/order_details_body.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664455c8ba21b1_34150383 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656c947538488_61794303 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('gift_certificate'));
 if ($_smarty_tpl->tpl_vars['oi']->value['extra']['in_use_certificate']) {?>
 <div>(<?php echo $_smarty_tpl->__("gift_certificate");?>

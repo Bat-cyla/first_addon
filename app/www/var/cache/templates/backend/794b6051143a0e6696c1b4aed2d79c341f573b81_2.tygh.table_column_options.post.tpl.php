@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 16:00:10
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/product_bundles/hooks/product_picker/table_column_options.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643605a345065_79389427',
+  'unifunc' => 'content_6656e245967e00_80288715',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '794b6051143a0e6696c1b4aed2d79c341f573b81' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_bundles/hooks/product_picker/table_column_options.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 4,
   ),
 ),false)) {
-function content_6643605a345065_79389427 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e245967e00_80288715 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('absolute','percent','absolute','percent'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['controller'] === "product_bundles" || $_smarty_tpl->tpl_vars['extra_mode']->value === "product_bundles") && $_smarty_tpl->tpl_vars['product_info']->value) {?>

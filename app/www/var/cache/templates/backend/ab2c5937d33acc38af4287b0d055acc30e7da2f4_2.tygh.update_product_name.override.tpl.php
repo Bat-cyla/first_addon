@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:57
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:30
   from '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_product_name.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4d621f25_96581691',
+  'unifunc' => 'content_6656e2427c8a00_91695898',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ab2c5937d33acc38af4287b0d055acc30e7da2f4' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_product_name.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4d621f25_96581691 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2427c8a00_91695898 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isFieldAvailable("product")) {?>
     <?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"products:update_product_name"));

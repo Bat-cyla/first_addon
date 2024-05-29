@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 09:44:39
+/* Smarty version 4.1.1, created on 2024-05-29 11:24:03
   from '/app/www/design/backend/templates/addons/vendor_panel_configurator/config.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645ab57e077a7_33465610',
+  'unifunc' => 'content_6656e623c5b1e2_66296199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '983cba61709f2b6cf3c40738d7d27980045bbc0a' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_panel_configurator/config.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6645ab57e077a7_33465610 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e623c5b1e2_66296199 (Smarty_Internal_Template $_smarty_tpl) {
 if ((defined('ACCOUNT_TYPE') ? constant('ACCOUNT_TYPE') : null) === "vendor") {?>
     <?php $_smarty_tpl->_assignInScope('navigation_accordion', (($tmp = $_smarty_tpl->tpl_vars['config']->value["vendor_panel_style"]["navigation_accordion"] ?? null)===null||$tmp==='' ? true ?? null : $tmp) ,false ,2);?>
     <?php $_smarty_tpl->_assignInScope('select_languages', (($tmp = $_smarty_tpl->tpl_vars['config']->value["vendor_panel_style"]["select_languages"] ?? null)===null||$tmp==='' ? false ?? null : $tmp) ,false ,2);?>

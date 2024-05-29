@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 15:08:56
+/* Smarty version 4.1.1, created on 2024-05-29 14:38:15
   from '/app/www/design/backend/templates/views/languages/translations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644a5d8728d73_19391169',
+  'unifunc' => 'content_665713a752da74_26089867',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a3efabe7d1050819921d6f734be54e509b713fab' => 
     array (
       0 => '/app/www/design/backend/templates/views/languages/translations.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6644a5d8728d73_19391169 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665713a752da74_26089867 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('value','language_variable','value','language_variable','restore_default','delete','no_data','language_variable','value','language_variable','value','tools','new_language_variable','add_language_variable','on_site_live_editing','translations'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

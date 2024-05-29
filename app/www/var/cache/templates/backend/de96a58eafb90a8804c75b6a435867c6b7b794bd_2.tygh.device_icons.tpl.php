@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:00:28
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:37
   from '/app/www/design/backend/templates/views/block_manager/components/device_icons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d6ac21d6f3_66760958',
+  'unifunc' => 'content_6656e249360d73_85291582',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'de96a58eafb90a8804c75b6a435867c6b7b794bd' => 
     array (
       0 => '/app/www/design/backend/templates/views/block_manager/components/device_icons.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d6ac21d6f3_66760958 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e249360d73_85291582 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('devices', (($tmp = $_smarty_tpl->tpl_vars['item']->value['availability'] ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
 $_smarty_tpl->_assignInScope('all_devices', array_filter($_smarty_tpl->tpl_vars['devices']->value) == $_smarty_tpl->tpl_vars['devices']->value);?>
 

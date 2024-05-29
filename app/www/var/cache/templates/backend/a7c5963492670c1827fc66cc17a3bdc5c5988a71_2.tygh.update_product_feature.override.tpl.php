@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_product_feature.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ec2f9f2_76147631',
+  'unifunc' => 'content_6656e2448a7366_85190476',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a7c5963492670c1827fc66cc17a3bdc5c5988a71' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_product_feature.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tooltip.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4ec2f9f2_76147631 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2448a7366_85190476 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.feature_used_by_variation_group.tooltip'));
 if ($_smarty_tpl->tpl_vars['feature']->value['product_variation_group']) {?>
     <div class="control-group">

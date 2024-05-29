@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
+/* Smarty version 4.1.1, created on 2024-05-29 15:09:06
   from '/app/www/design/backend/templates/views/orders/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e08f961fb2_16069150',
+  'unifunc' => 'content_66571ae2bcf3c9_32381885',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5865703bb1cd24e3e15b197b0170a53fa9415337' => 
     array (
       0 => '/app/www/design/backend/templates/views/orders/manage.tpl',
-      1 => 1716820578,
+      1 => 1716982401,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6655e08f961fb2_16069150 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66571ae2bcf3c9_32381885 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_admin_new_orders','orders','id','phone','id','order','invoice','credit_memo','status','date','customer','phone','tools','view','edit','copy','delete','total','no_data','for_this_page_orders','gross_total','totally_paid','for_all_found_orders','gross_total','totally_paid','add_order','view_purchased_products','export_selected'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>
@@ -63,7 +63,6 @@ $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
 
 <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>
 " method="post" target="_self" name="orders_list_form" id="orders_list_form" data-ca-is-multiple-submit-allowed="true">
-
 <?php $_smarty_tpl->_subTemplateRender("tygh:common/pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('save_current_page'=>true,'save_current_url'=>true,'div_id'=>$_REQUEST['content_id']), 0, false);
 ?>
 
@@ -223,8 +222,8 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
                     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tools_items", null, null);?>
                         <li><?php ob_start();
 echo $_smarty_tpl->__("view");
-$_prefixVariable20 = ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"orders.details?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id']),'text'=>$_prefixVariable20), true);?>
+$_prefixVariable1 = ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"orders.details?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id']),'text'=>$_prefixVariable1), true);?>
 </li>
                         <?php $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"orders:list_extra_links"));
 $_block_repeat=true;
@@ -233,19 +232,19 @@ while ($_block_repeat) {
 ob_start();?>
                             <li><?php ob_start();
 echo $_smarty_tpl->__("edit");
-$_prefixVariable21 = ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"order_management.edit?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id']),'text'=>$_prefixVariable21), true);?>
+$_prefixVariable2 = ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"order_management.edit?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id']),'text'=>$_prefixVariable2), true);?>
 </li>
                             <li><?php ob_start();
 echo $_smarty_tpl->__("copy");
-$_prefixVariable22 = ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"order_management.edit?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id'])."&copy=1",'text'=>$_prefixVariable22), true);?>
+$_prefixVariable3 = ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"order_management.edit?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id'])."&copy=1",'text'=>$_prefixVariable3), true);?>
 </li>
                             <?php $_smarty_tpl->_assignInScope('current_redirect_url', rawurlencode((string)$_smarty_tpl->tpl_vars['config']->value['current_url']));?>
                             <li><?php ob_start();
 echo $_smarty_tpl->__("delete");
-$_prefixVariable23 = ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"orders.delete?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id'])."&redirect_url=".((string)$_smarty_tpl->tpl_vars['current_redirect_url']->value),'class'=>"cm-confirm",'text'=>$_prefixVariable23,'method'=>"POST"), true);?>
+$_prefixVariable4 = ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'href'=>"orders.delete?order_id=".((string)$_smarty_tpl->tpl_vars['o']->value['order_id'])."&redirect_url=".((string)$_smarty_tpl->tpl_vars['current_redirect_url']->value),'class'=>"cm-confirm",'text'=>$_prefixVariable4,'method'=>"POST"), true);?>
 </li>
                         <?php $_block_repeat=false;
 echo smarty_block_hook(array('name'=>"orders:list_extra_links"), ob_get_clean(), $_smarty_tpl, $_block_repeat);

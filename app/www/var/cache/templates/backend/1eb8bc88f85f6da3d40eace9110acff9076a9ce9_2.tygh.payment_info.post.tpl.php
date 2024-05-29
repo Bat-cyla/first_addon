@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:27:20
+/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
   from '/app/www/design/backend/templates/addons/yml_export/hooks/orders/payment_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664455c8ef0154_50512816',
+  'unifunc' => 'content_6656c9477fcf60_96230548',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1eb8bc88f85f6da3d40eace9110acff9076a9ce9' => 
     array (
       0 => '/app/www/design/backend/templates/addons/yml_export/hooks/orders/payment_info.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664455c8ef0154_50512816 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656c9477fcf60_96230548 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('method','yml_export','order_id','payment_type','yml2_payment_type_','payment_method','yml2_payment_method_','status','reason','yml2_substatus_'));
 if ($_smarty_tpl->tpl_vars['order_info']->value['yml_export']) {?>
 

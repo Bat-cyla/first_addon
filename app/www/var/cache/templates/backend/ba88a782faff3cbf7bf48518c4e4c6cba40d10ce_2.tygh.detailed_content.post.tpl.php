@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/discussion/hooks/products/detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ed712c8_00958103',
+  'unifunc' => 'content_6656e244a9fe70_52908725',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ba88a782faff3cbf7bf48518c4e4c6cba40d10ce' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/hooks/products/detailed_content.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/discussion/views/discussion_manager/components/allow_discussion.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4ed712c8_00958103 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244a9fe70_52908725 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('comments_and_reviews','discussion_title_product'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['company_id'] && fn_allowed_for("ULTIMATE") || fn_allowed_for("MULTIVENDOR")) && $_smarty_tpl->tpl_vars['addons']->value['product_reviews']['status'] !== smarty_modifier_enum("ObjectStatuses::ACTIVE")) {?>

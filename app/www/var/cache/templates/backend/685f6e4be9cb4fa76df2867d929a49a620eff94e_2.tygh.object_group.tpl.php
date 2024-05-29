@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:38
   from '/app/www/design/backend/templates/common/object_group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc2b85964_88809134',
+  'unifunc' => 'content_6656e24a2fd510_63409190',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '685f6e4be9cb4fa76df2867d929a49a620eff94e' => 
     array (
       0 => '/app/www/design/backend/templates/common/object_group.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select_popup.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcc2b85964_88809134 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24a2fd510_63409190 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('view','edit','delete'));
 $_smarty_tpl->_assignInScope('is_responsive_table_without_title', (($tmp = $_smarty_tpl->tpl_vars['is_responsive_table_without_title']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>
 

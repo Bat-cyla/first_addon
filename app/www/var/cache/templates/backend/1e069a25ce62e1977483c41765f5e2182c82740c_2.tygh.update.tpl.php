@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:59
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/attachments/views/attachments/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4f13c495_66775260',
+  'unifunc' => 'content_6656e2451874f6_86750183',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1e069a25ce62e1977483c41765f5e2182c82740c' => 
     array (
       0 => '/app/www/design/backend/templates/addons/attachments/views/attachments/update.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4f13c495_66775260 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2451874f6_86750183 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.formatfilesize.php','function'=>'smarty_modifier_formatfilesize',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','name','position','file','usergroups'));
 if ($_smarty_tpl->tpl_vars['attachment']->value['attachment_id']) {?>

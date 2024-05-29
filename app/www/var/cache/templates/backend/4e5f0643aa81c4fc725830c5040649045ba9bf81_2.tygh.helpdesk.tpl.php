@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:11:45
+/* Smarty version 4.1.1, created on 2024-05-29 11:28:20
   from '/app/www/design/backend/templates/buttons/helpdesk.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bd3103f542_64391125',
+  'unifunc' => 'content_6656e724829307_65174976',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4e5f0643aa81c4fc725830c5040649045ba9bf81' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/helpdesk.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641bd3103f542_64391125 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e724829307_65174976 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('helpdesk_account.sign_in'));
 $_smarty_tpl->_assignInScope('btn_text', (($tmp = $_smarty_tpl->tpl_vars['btn_text']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->__("helpdesk_account.sign_in") ?? null : $tmp));
 $_smarty_tpl->_assignInScope('btn_href', (($tmp = $_smarty_tpl->tpl_vars['btn_href']->value ?? null)===null||$tmp==='' ? $_smarty_tpl->tpl_vars['app']->value["helpdesk.connect_url"] ?? null : $tmp));?>
