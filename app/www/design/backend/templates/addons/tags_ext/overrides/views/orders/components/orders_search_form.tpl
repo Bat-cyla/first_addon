@@ -140,25 +140,47 @@
         {include file="common/select_vendor.tpl"}
     </div>
 </div>
-{script src="js/addons/tags_ext/cp_tags_ext_multiselect.js"}
-    <div class="group">
+    <div class="row-fluid">
         <div class="control-group">
-            <label class="control-label">{__("tag")}</label>
+        <label class="control-label" for="tags">{__("tag")}</label>
+        <tr valign="top" class="delim" style="margin-left:40px">
+            <td width="350px" data-th="test">
+                <div class="object-selector object-selector--mobile-full-width object-selector--half-width">
+                    <select id="tags" class="cm-object-selector select2-hidden-accessible" multiple=""
+                            name="tags[]" data-ca-placeholder="Найти" data-ca-enable-images="true" data-ca-image-width="30"
+                            data-ca-image-height="30" data-ca-enable-search="true" data-ca-page-size="10"
+                            data-ca-data-url="http://localhost:8080/admin.php?dispatch=product_features.get_variants_list&amp;feature_id=550"
+                            data-ca-close-on-select="false" data-select2-id="feature_variants_550" tabindex="-1" aria-hidden="true">
 
-                <div class="multiselect_block">
-                    <label for="select-1" class="field_multiselect"></label>
-                    <select id="select-1" class="field_select" name="tags" multiple>
-                        {foreach from=$orders item=$order}
-                            {foreach from=$order.tags item=$tag}
-                                <option value="{$tag}">{$tag}</option>
-                            {/foreach}
-                        {/foreach}
+
+                            {foreach from=$tags item=$tag}
+                        <option value="{$tag}" >{$tag}</option>
+                                {/foreach}
+
                     </select>
+                    <span class="select2 select2-container select2-container--default select2-container--below select2-container--open select2-container--focus" dir="ltr" data-select2-id="7" style="width: 100%;">
+                        <span class="selection">
+                            <span class="select2-selection select2-selection--multiple" role="combobox" aria-haspopup="true" aria-expanded="true" tabindex="-1" aria-disabled="false" aria-owns="select2-feature_variants_550-results" aria-activedescendant="select2-feature_variants_550-result-2rgj-1202">
+                                <ul class="select2-selection__rendered">
+                                    {if $search.tags}
+                                    {foreach from=$search.tags item=$tag}
+                                <li class="select2-selection__choice" title="{$tag}">
+                                    <span class="select2-selection__choice__remove" role="presentation">×</span>{$tag}
+                                </li>
+                                        {/foreach}
+                                        {/if}
+                                </ul>
+                            </span>
+                        </span>
+                        <span class="dropdown-wrapper" aria-hidden="true">
+                        </span>
+                    </span>
                 </div>
+            </td>
 
+        </tr>
         </div>
     </div>
-
 <div class="group">
 <div class="control-group">
     <label class="control-label">{__("shipping")}</label>

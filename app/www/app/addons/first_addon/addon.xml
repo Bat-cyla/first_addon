@@ -10,11 +10,10 @@
 
     <queries>
         <item for="install" editions="MULTIVENDOR">
-            ALTER TABLE `?:products` ADD `my_setting` VARCHAR(32) NOT NULL
+            ALTER TABLE ?:products ADD my_setting VARCHAR(32) NOT NULL
         </item>
         <item for="uninstall" editions="MULTIVENDOR">
-            ALTER TABLE ?:products
-                DROP 'my_setting'
+            ALTER TABLE ?:products DROP my_setting
         </item>
     </queries>
 

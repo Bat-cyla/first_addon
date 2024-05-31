@@ -36,6 +36,10 @@ msgctxt "Languages::tags"
 msgid "Tags"
 msgstr "Теги"
 
+msgctxt "Languages::extended_tags"
+msgid "Extended tags"
+msgstr "Расширенные теги"
+
 msgctxt "Languages::block_tags"
 msgid "Tags"
 msgstr "Теги"
@@ -48,6 +52,10 @@ msgctxt "Languages::addons.tags.add_a_tag"
 msgid "add a tag"
 msgstr "добавить тег"
 
+msgctxt "Languages::order_list_display"
+msgid "Display on order list"
+msgstr "Отображение на списке заказов"
+
 msgctxt "Languages::items_marked_by_tag"
 msgid "Items marked by the \"[tag]\" tag:"
 msgstr "Элементы обозначенные тегом \"[tag]\":"
@@ -55,6 +63,10 @@ msgstr "Элементы обозначенные тегом \"[tag]\":"
 msgctxt "Languages::tag"
 msgid "Tag"
 msgstr "Тег"
+
+msgctxt "Languages::tags_ext"
+msgid "CP:Tags"
+msgstr "CP:Теги"
 
 msgctxt "Languages::add_tag"
 msgid "Add tag"

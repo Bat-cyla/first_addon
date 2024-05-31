@@ -1,4 +1,5 @@
 <div class="object-selector-result-wrapper">
+
     <span class="object-selector-result">
         {include 
             file="common/image.tpl" 

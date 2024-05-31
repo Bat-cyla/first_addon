@@ -12,12 +12,12 @@
 * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
 ****************************************************************************/
 
-$schema['central']['marketing']['items']['banners'] = array(
+$schema['central']['orders']['items']['tags_ext'] = array(
     'attrs' => array(
         'class'=>'is-addon'
     ),
-    'href' => 'banners.manage',
-    'position' => 500
+    'href' => 'tags_ext.manage',
+    'position' => 100
 );
 
 return $schema;

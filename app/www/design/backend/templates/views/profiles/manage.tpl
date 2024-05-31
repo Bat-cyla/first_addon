@@ -150,6 +150,7 @@
                 </td>
                 {/if}
                 {hook name="profiles:manage_data"}{/hook}
+
                 <td width="5%" class="right nowrap mobile-hide">
                     {capture name="tools_list"}
                         {$list_extra_links = false}
@@ -178,6 +179,7 @@
                                 {$list_extra_links = true}
                             {/if}
                             {hook name="list_extra_links:anonymization"}
+
                             {$return_current_url=$config.current_url|escape:url}
                                 {if $user.user_type === "UserTypes::CUSTOMER"|enum}
                                     <li>{btn type="list" text=__("anonymize") class="cm-confirm" data=["data-ca-confirm-text" => "{__("text_anonymize_question")}"] href="profiles.anonymize?user_id=`$user.user_id`&redirect_url=`$return_current_url`" method="POST"}</li>
