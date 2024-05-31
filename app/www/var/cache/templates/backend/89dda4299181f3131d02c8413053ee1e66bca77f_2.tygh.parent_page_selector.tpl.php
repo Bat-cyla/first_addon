@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 11:11:18
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:02
   from '/app/www/design/backend/templates/views/pages/components/parent_page_selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66446e2658de23_76715567',
+  'unifunc' => 'content_66599b2e6b32b2_79262751',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '89dda4299181f3131d02c8413053ee1e66bca77f' => 
     array (
       0 => '/app/www/design/backend/templates/views/pages/components/parent_page_selector.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/pages/picker.tpl' => 1,
   ),
 ),false)) {
-function content_66446e2658de23_76715567 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b2e6b32b2_79262751 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('parent_page','root_level','root_page'));
 $_smarty_tpl->_assignInScope('show_label', (($tmp = $_smarty_tpl->tpl_vars['show_label']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>
 <div class="control-group" id="parent_page_selector">

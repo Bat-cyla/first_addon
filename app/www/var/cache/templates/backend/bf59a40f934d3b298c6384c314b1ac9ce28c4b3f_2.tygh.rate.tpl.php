@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:30:35
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:09
   from '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/rate.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644568b57d8a3_15725790',
+  'unifunc' => 'content_66599b35be0038_48409695',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bf59a40f934d3b298c6384c314b1ac9ce28c4b3f' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/rate.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6644568b57d8a3_15725790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b35be0038_48409695 (Smarty_Internal_Template $_smarty_tpl) {
 ?><fieldset class="rating" id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rate_id']->value, ENT_QUOTES, 'UTF-8');?>
 ">
     <?php

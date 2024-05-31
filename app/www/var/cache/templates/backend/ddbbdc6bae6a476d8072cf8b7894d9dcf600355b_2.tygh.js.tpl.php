@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:05:02
+/* Smarty version 4.1.1, created on 2024-05-31 15:46:08
   from '/app/www/design/backend/templates/pickers/pages/js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d7be8e2268_48063392',
+  'unifunc' => 'content_6659c6905a4819_88482349',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ddbbdc6bae6a476d8072cf8b7894d9dcf600355b' => 
     array (
       0 => '/app/www/design/backend/templates/pickers/pages/js.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d7be8e2268_48063392 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6659c6905a4819_88482349 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove'));
 if ($_smarty_tpl->tpl_vars['page_id']->value) {?>

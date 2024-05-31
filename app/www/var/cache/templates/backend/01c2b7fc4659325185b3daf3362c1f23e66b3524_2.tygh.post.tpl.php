@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:30:35
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:09
   from '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644568b4bb6d5_94997781',
+  'unifunc' => 'content_66599b35b34df0_38567647',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '01c2b7fc4659325185b3daf3362c1f23e66b3524' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/discussion/views/discussion_manager/components/stars.tpl' => 1,
   ),
 ),false)) {
-function content_6644568b4bb6d5_94997781 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b35b34df0_38567647 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('approved','disapprove','not_approved','approve','approved','not_approved','delete','ip_address'));
 $_smarty_tpl->_assignInScope('current_redirect_url', rawurlencode((string)fn_link_attach($_smarty_tpl->tpl_vars['config']->value['current_url'],"selected_section=discussion")));?>
@@ -86,11 +86,11 @@ array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
             <?php if (fn_check_view_permissions("discussion.delete")) {?>
                 <?php ob_start();
 echo $_smarty_tpl->__("delete");
-$_prefixVariable2=ob_get_clean();
+$_prefixVariable1=ob_get_clean();
 ob_start();
 echo htmlspecialchars((string) fn_url("discussion.delete?post_id=".((string)$_smarty_tpl->tpl_vars['post']->value['post_id'])."&redirect_url=".((string)$_smarty_tpl->tpl_vars['current_redirect_url']->value)), ENT_QUOTES, 'UTF-8');
-$_prefixVariable3=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'icon'=>"icon-trash",'title'=>$_prefixVariable2,'class'=>"btn post__btn-delete cm-confirm",'method'=>"POST",'href'=>$_prefixVariable3), true);?>
+$_prefixVariable2=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'icon'=>"icon-trash",'title'=>$_prefixVariable1,'class'=>"btn post__btn-delete cm-confirm",'method'=>"POST",'href'=>$_prefixVariable2), true);?>
 
             <?php }?>
         </div>

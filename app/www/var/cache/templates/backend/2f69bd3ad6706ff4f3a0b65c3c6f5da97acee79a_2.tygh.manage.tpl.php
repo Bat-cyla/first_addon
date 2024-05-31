@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:27:52
+/* Smarty version 4.1.1, created on 2024-05-30 11:28:29
   from '/app/www/design/backend/templates/views/profiles/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e70864bfd8_40459790',
+  'unifunc' => 'content_665838ad9676c0_64675903',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2f69bd3ad6706ff4f3a0b65c3c6f5da97acee79a' => 
     array (
       0 => '/app/www/design/backend/templates/views/profiles/manage.tpl',
-      1 => 1716808809,
+      1 => 1717057705,
       2 => 'tygh',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6656e70864bfd8_40459790 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665838ad9676c0_64675903 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.format_price.php','function'=>'smarty_modifier_format_price',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('person_name','phone','type','orders','status','view','id','person_name','storefront_admin','main_administrator','main_administrator','email','last_login','phone','orders','type','administrator','vendor_administrator','customer','affiliate','view_all_orders','log_in_as_user','text_anonymize_question','anonymize','edit','delete','status','notify_user','no_data','users','add_user'));
 if (fn_allowed_for("MULTIVENDOR")) {?>
@@ -261,6 +261,7 @@ $_block_repeat=false;
 echo smarty_block_hook(array('name'=>"profiles:manage_data"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
+
                 <td width="5%" class="right nowrap mobile-hide">
                     <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tools_list", null, null);?>
                         <?php $_smarty_tpl->_assignInScope('list_extra_links', false);?>
@@ -284,6 +285,7 @@ $_block_repeat=true;
 echo smarty_block_hook(array('name'=>"list_extra_links:anonymization"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
+
                             <?php $_smarty_tpl->_assignInScope('return_current_url', rawurlencode((string)$_smarty_tpl->tpl_vars['config']->value['current_url']));?>
                                 <?php if ($_smarty_tpl->tpl_vars['user']->value['user_type'] === smarty_modifier_enum("UserTypes::CUSTOMER")) {?>
                                     <li><?php ob_start();
