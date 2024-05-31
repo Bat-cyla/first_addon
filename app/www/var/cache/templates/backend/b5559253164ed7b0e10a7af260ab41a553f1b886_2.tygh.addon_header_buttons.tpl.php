@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:41:54
+/* Smarty version 4.1.1, created on 2024-05-29 12:10:42
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/header/addon_header_buttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664459322b1af6_83416762',
+  'unifunc' => 'content_6656f11217d6b1_51609576',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b5559253164ed7b0e10a7af260ab41a553f1b886' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/detailed_page/header/addon_header_buttons.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_664459322b1af6_83416762 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656f11217d6b1_51609576 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('refresh','uninstall','addons.install','addons.activate','addons.install'));
 if ($_smarty_tpl->tpl_vars['addon']->value['snapshot_correct'] && $_smarty_tpl->tpl_vars['addon_install_datetime']->value) {?>

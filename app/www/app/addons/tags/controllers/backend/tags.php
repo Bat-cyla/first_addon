@@ -72,7 +72,6 @@ if ($mode == 'manage') {
     $params = $_REQUEST;
     $params['count_objects'] = true;
     list($tags, $search) = fn_get_tags($params, Registry::get('settings.Appearance.admin_elements_per_page'));
-
     Tygh::$app['view']->assign('tags', $tags);
     Tygh::$app['view']->assign('search', $search);
     Tygh::$app['view']->assign('tag_objects', fn_get_tag_objects());

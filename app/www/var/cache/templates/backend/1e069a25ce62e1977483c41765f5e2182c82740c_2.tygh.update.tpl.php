@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:53
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/attachments/views/attachments/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729d0db9f3_31475152',
+  'unifunc' => 'content_6656e2451874f6_86750183',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_6655729d0db9f3_31475152 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2451874f6_86750183 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.formatfilesize.php','function'=>'smarty_modifier_formatfilesize',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','name','position','file','usergroups'));
 if ($_smarty_tpl->tpl_vars['attachment']->value['attachment_id']) {?>

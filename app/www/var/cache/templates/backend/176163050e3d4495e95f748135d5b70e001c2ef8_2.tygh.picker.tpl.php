@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 12:05:02
+/* Smarty version 4.1.1, created on 2024-05-31 15:46:08
   from '/app/www/design/backend/templates/pickers/pages/picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d7be89af61_07108404',
+  'unifunc' => 'content_6659c690577bc3_98458535',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '176163050e3d4495e95f748135d5b70e001c2ef8' => 
     array (
       0 => '/app/www/design/backend/templates/pickers/pages/picker.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/pages/js.tpl' => 3,
   ),
 ),false)) {
-function content_6641d7be89af61_07108404 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6659c690577bc3_98458535 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_pages','add_pages','position_short','name','no_items'));
 $_smarty_tpl->_assignInScope('data_id', (($tmp = $_smarty_tpl->tpl_vars['data_id']->value ?? null)===null||$tmp==='' ? "pages_list" ?? null : $tmp));

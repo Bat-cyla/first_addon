@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:56
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:37
   from '/app/www/design/backend/templates/views/block_manager/manage_in_tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665572a0352800_94164977',
+  'unifunc' => 'content_6656e249236113_26202138',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/manage.tpl' => 1,
   ),
 ),false)) {
-function content_665572a0352800_94164977 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e249236113_26202138 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('switch_layout'));
 ?>

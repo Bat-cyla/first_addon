@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 15:22:26
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/addons/product_variations/hooks/products/advanced_search.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66547b02d83870_01253055',
+  'unifunc' => 'content_6655e720aa8944_51424346',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/picker.tpl' => 1,
   ),
 ),false)) {
-function content_66547b02d83870_01253055 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e720aa8944_51424346 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.product_type','product_variations.belongs_to_catalog_item'));
 $_smarty_tpl->_assignInScope('show_product_type_filter', (($tmp = $_smarty_tpl->tpl_vars['show_product_type_filter']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

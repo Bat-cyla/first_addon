@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:07:39
+/* Smarty version 4.1.1, created on 2024-05-29 11:27:52
   from '/app/www/design/backend/templates/views/profiles/components/context_menu/notify_checkboxes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bc3b9a6e90_72652424',
+  'unifunc' => 'content_6656e70890ebf4_86537026',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fc271356cefad028f341c2c5512b72967cfb341b' => 
     array (
       0 => '/app/www/design/backend/templates/views/profiles/components/context_menu/notify_checkboxes.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/notify_checkboxes.tpl' => 1,
   ),
 ),false)) {
-function content_6641bc3b9a6e90_72652424 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e70890ebf4_86537026 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('notify_user'));
 ?>
 

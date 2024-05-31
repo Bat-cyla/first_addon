@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:53
+/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
   from '/app/www/design/backend/templates/addons/vendor_communication/views/vendor_communication/components/new_thread_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729d006d65_06642319',
+  'unifunc' => 'content_6656c947ea41e0_58879872',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6655729d006d65_06642319 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656c947ea41e0_58879872 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_admin','vendor_communication.contact_vendor'));
 if (!$_smarty_tpl->tpl_vars['title']->value) {?>
@@ -58,8 +58,8 @@ $_smarty_tpl->_assignInScope('divider', (($tmp = $_smarty_tpl->tpl_vars['divider
 <?php if ($_smarty_tpl->tpl_vars['return_url']->value) {?>
     <?php ob_start();
 echo htmlspecialchars((string) urlencode($_smarty_tpl->tpl_vars['return_url']->value), ENT_QUOTES, 'UTF-8');
-$_prefixVariable17=ob_get_clean();
-$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable17);
+$_prefixVariable4=ob_get_clean();
+$_smarty_tpl->_assignInScope('href', ((string)$_smarty_tpl->tpl_vars['href']->value)."&return_url=".$_prefixVariable4);
 }?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "thread_button", null, null);?>

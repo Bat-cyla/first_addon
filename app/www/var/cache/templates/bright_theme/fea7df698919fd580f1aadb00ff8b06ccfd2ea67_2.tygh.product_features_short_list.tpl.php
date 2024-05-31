@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 14:38:16
+/* Smarty version 4.1.1, created on 2024-05-29 11:09:55
   from '/app/www/design/themes/responsive/templates/views/products/components/product_features_short_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665470a8d54c39_85315984',
+  'unifunc' => 'content_6656e2d3d68008_79224819',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,13 +21,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 2,
   ),
 ),false)) {
-function content_665470a8d54c39_85315984 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2d3d68008_79224819 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'feature_value' => 
   array (
     'compiled_filepath' => '/app/www/var/cache/templates/bright_theme/fea7df698919fd580f1aadb00ff8b06ccfd2ea67_2.tygh.product_features_short_list.tpl.php',
     'uid' => 'fea7df698919fd580f1aadb00ff8b06ccfd2ea67',
-    'call_name' => 'smarty_template_function_feature_value_1986705250665470a8d14848_17187379',
+    'call_name' => 'smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567',
   ),
 ));
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
@@ -102,9 +102,9 @@ if (!$_smarty_tpl->tpl_vars['no_container']->value) {?></div><?php }
 }
 }
 }
-/* smarty_template_function_feature_value_1986705250665470a8d14848_17187379 */
-if (!function_exists('smarty_template_function_feature_value_1986705250665470a8d14848_17187379')) {
-function smarty_template_function_feature_value_1986705250665470a8d14848_17187379(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567 */
+if (!function_exists('smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567')) {
+function smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -145,10 +145,10 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_1986705250665470a8d14848_17187379 */
-/* smarty_template_function_feature_value_1986705250665470a8d14848_17187379 */
-if (!function_exists('smarty_template_function_feature_value_1986705250665470a8d14848_17187379')) {
-function smarty_template_function_feature_value_1986705250665470a8d14848_17187379(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567 */
+/* smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567 */
+if (!function_exists('smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567')) {
+function smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567(Smarty_Internal_Template $_smarty_tpl,$params) {
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
 }
@@ -189,5 +189,5 @@ if ($_smarty_tpl->tpl_vars['feature']->value['suffix']) {?><span class="ty-featu
 </span><?php }
 if ($_smarty_tpl->tpl_vars['feature']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") && $_smarty_tpl->tpl_vars['feature']->value['features_hash']) {?></a><?php }
 }}
-/*/ smarty_template_function_feature_value_1986705250665470a8d14848_17187379 */
+/*/ smarty_template_function_feature_value_13479123316656e2d3d1fd13_13333567 */
 }

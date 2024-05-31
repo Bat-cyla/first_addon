@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 14:42:22
+/* Smarty version 4.1.1, created on 2024-05-29 11:24:06
   from '/app/www/design/backend/templates/addons/vendor_debt_payout/views/vendor_debt_payout/components/refill_balance_button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6654719e5cb344_46315080',
+  'unifunc' => 'content_6656e626127c90_28540698',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6654719e5cb344_46315080 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e626127c90_28540698 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_debt_payout.refill_balance'));
 ob_start();
 echo $_smarty_tpl->__("vendor_debt_payout.refill_balance");

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:51
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:30
   from '/app/www/design/backend/templates/addons/first_addon/hooks/companies/product_details_fields.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729b669a87_73017399',
+  'unifunc' => 'content_6656e242a91b70_39295453',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655729b669a87_73017399 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e242a91b70_39295453 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('my_setting'));
 ?>

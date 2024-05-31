@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 16:41:15
+/* Smarty version 4.1.1, created on 2024-05-29 11:27:52
   from '/app/www/design/backend/templates/addons/first_addon/hooks/profiles/manage_header.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644bb7b417338_34662877',
+  'unifunc' => 'content_6656e7086fc300_30593692',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '02e9b6e7dd7914bc3550c1bbc40abe59fa68830b' => 
     array (
       0 => '/app/www/design/backend/templates/addons/first_addon/hooks/profiles/manage_header.post.tpl',
-      1 => 1715780471,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6644bb7b417338_34662877 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e7086fc300_30593692 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('reports_parameter_2'));
 ?>
 <th style="max-width: 80px" >

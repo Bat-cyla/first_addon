@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:35
   from '/app/www/design/backend/templates/addons/product_variations/views/product_variations/components/link_to_group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729e750b77_74967188',
+  'unifunc' => 'content_6656e2474a8800_13291566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655729e750b77_74967188 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2474a8800_13291566 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.group_code.link','none','none'));
 ?>
 <div class="object-picker__simple object-picker__simple--variation-group input-xlarge">

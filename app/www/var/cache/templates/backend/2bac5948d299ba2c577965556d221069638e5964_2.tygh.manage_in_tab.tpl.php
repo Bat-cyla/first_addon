@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:57
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:38
   from '/app/www/design/backend/templates/views/tabs/manage_in_tab.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665572a10bd971_55008857',
+  'unifunc' => 'content_6656e24a25ce17_39077663',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/tabs/manage.tpl' => 1,
   ),
 ),false)) {
-function content_665572a10bd971_55008857 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24a25ce17_39077663 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="<?php if ($_smarty_tpl->tpl_vars['selected_section']->value !== "product_tabs") {?>hidden<?php }?>" id="content_product_tabs">
     <?php $_smarty_tpl->_subTemplateRender("tygh:views/tabs/manage.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 09:45:17
+/* Smarty version 4.1.1, created on 2024-05-29 11:24:05
   from '/app/www/design/backend/templates/views/index/components/custom_blocks_section/custom_blocks_card.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645ab7d4e9742_94933504',
+  'unifunc' => 'content_6656e625d84b48_37883928',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7c1373fc2590a3013b04b33dfa18264b673c3715' => 
     array (
       0 => '/app/www/design/backend/templates/views/index/components/custom_blocks_section/custom_blocks_card.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6645ab7d4e9742_94933504 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e625d84b48_37883928 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.safe_eval_string.php','function'=>'smarty_function_safe_eval_string',),));
 \Tygh\Languages\Helper::preloadLangVars(array('custom_blocks.dismissed_by_vendor','dismiss'));
 if ($_smarty_tpl->tpl_vars['custom_blocks_card']->value) {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:02:21
+/* Smarty version 4.1.1, created on 2024-05-30 13:43:21
   from '/app/www/design/backend/templates/views/addons/market.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bafdcd5c59_07892648',
+  'unifunc' => 'content_66585849514001_28958904',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8af694a5e6484731227a58a530252da039ff7146' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/market.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641bafdcd5c59_07892648 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66585849514001_28958904 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addon_market','addon_market'));
 echo smarty_function_script(array('src'=>"js/tygh/backend/addons/market.js"),$_smarty_tpl);?>

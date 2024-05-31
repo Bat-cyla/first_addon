@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 15:22:26
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/addons/vendor_data_premoderation/hooks/products/status_select_item.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66547b022e04d8_27207986',
+  'unifunc' => 'content_6655e7205e85d6_11772036',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66547b022e04d8_27207986 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7205e85d6_11772036 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 if ($_smarty_tpl->tpl_vars['status_id']->value === smarty_modifier_enum("Addons\VendorDataPremoderation\ProductStatuses::DISAPPROVED") && !$_smarty_tpl->tpl_vars['runtime']->value['company_id']) {?>
     <a data-ca-target-id="disapproval_reason_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product']->value['product_id'], ENT_QUOTES, 'UTF-8');?>

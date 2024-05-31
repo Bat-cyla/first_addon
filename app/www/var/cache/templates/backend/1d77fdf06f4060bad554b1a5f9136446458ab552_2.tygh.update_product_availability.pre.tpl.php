@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:52
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:31
   from '/app/www/design/backend/templates/addons/price_per_unit/hooks/products/update_product_availability.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729c00b6a5_87566709',
+  'unifunc' => 'content_6656e24391cb88_75058218',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/append_language.tpl' => 1,
   ),
 ),false)) {
-function content_6655729c00b6a5_87566709 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e24391cb88_75058218 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.component.php','function'=>'smarty_block_component',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price_per_unit','unit_name','unit_name_field_description','units_in_product','units_in_product_field_description','show_price_per_x_units','show_price_per_x_units_field_description'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('component', array('name'=>"configurable_page.section",'entity'=>"products",'tab'=>"detailed",'section'=>"price_per_unit"));

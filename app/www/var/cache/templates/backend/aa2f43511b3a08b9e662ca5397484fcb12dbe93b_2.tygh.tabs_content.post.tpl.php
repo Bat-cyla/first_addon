@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:52
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/yml_export/hooks/products/tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729cc57a10_38730119',
+  'unifunc' => 'content_6656e244bbca18_71129151',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/yml_export/common/yml_delivery_options.tpl' => 1,
   ),
 ),false)) {
-function content_6655729cc57a10_38730119 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244bbca18_71129151 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','yml2_offer_type','tt_addons_yml_export_hooks_products_tabs_content_post_yml2_offer_type','yml_export.yml2_exclude_export','yml_export.yml2_cpa','yml2_true','yml2_false','ttc_yml_export.yml2_cpa','yml2_brand','yml_export.yml2_description','ttc_yml_export.yml2_description','yml2_model','tt_addons_yml_export_hooks_products_detailed_content_post_yml2_model','yml2_type_prefix','tt_addons_yml_export_hooks_products_detailed_content_post_yml2_type_prefix','yml2_sales_notes','yml2_country','yml2_manufacturer_warranty','yml2_none','yml2_true','yml2_false','yml2_expiry','tt_addons_yml_export_hooks_products_tabs_content_post_yml2_expiry','yml2_bid','yml2_purchase_price','yml2_adult','yml2_false','yml2_true','shipping','yml2_delivery','yml2_true','yml2_false','yml2_store','yml2_true','yml2_false','yml2_pickup','yml2_true','yml2_false'));
 ?>

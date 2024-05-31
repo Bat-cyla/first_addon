@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 08:58:52
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/views/products/components/picker/skeleton_external.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655729ce52a66_45454031',
+  'unifunc' => 'content_6656e244e733a7_75671922',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655729ce52a66_45454031 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244e733a7_75671922 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="object-picker__skeleton-item object-picker__skeleton-products-image"></div>
 <div class="object-picker__skeleton-group object-picker__skeleton-products-content">
     <div class="object-picker__skeleton-group object-picker__skeleton-products-main">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:39:06
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:09
   from '/app/www/design/backend/templates/addons/discussion/views/discussion/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644588abf6377_47988300',
+  'unifunc' => 'content_66599b35a129e7_30615105',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7ffa94d29d0fc570f026925b90ad2832c314bb04' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion/update.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6644588abf6377_47988300 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b35a129e7_30615105 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('discussion_title_home_page'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>
     <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>
