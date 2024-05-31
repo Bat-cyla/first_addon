@@ -16,7 +16,6 @@
 {/capture}
 
 <form action="{""|fn_url}" method="post" target="_self" name="orders_list_form" id="orders_list_form" data-ca-is-multiple-submit-allowed="true">
-
 {include file="common/pagination.tpl" save_current_page=true save_current_url=true div_id=$smarty.request.content_id}
 
 {$c_url=$config.current_url|fn_query_remove:"sort_by":"sort_order"}
@@ -28,6 +27,7 @@
 {$notify_department=true}
 
 {if $orders}
+
     {capture name="orders_table"}
         <div class="table-responsive-wrapper longtap-selection">
             <table width="100%" class="table table-middle table--relative table-responsive table--overflow-hidden table-manage-orders">

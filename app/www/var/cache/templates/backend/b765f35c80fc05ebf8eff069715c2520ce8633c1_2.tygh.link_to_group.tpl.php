@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:04:00
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:35
   from '/app/www/design/backend/templates/addons/product_variations/views/product_variations/components/link_to_group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f5021cb80_97937311',
+  'unifunc' => 'content_6656e2474a8800_13291566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b765f35c80fc05ebf8eff069715c2520ce8633c1' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/views/product_variations/components/link_to_group.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f5021cb80_97937311 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2474a8800_13291566 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('product_variations.group_code.link','none','none'));
 ?>
 <div class="object-picker__simple object-picker__simple--variation-group input-xlarge">

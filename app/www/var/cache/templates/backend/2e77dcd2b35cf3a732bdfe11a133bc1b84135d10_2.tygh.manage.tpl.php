@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/views/product_options/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc27968c7_73040802',
+  'unifunc' => 'content_6656e245ade309_89962060',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2e77dcd2b35cf3a732bdfe11a133bc1b84135d10' => 
     array (
       0 => '/app/www/design/backend/templates/views/product_options/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcc27968c7_73040802 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e245ade309_89962060 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('create_or_link_an_existing_option','new_option','add_option','new_option','add_option','name','internal_option_name_tooltip','storefront_name','individual','edit','view','view','storefront_name','name','status','product_options_are_not_selectable_for_context_menu','no_data','options'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>
@@ -225,8 +225,8 @@ $_smarty_tpl->tpl_vars['product_option']->do_else = false;
                                         <?php if ($_smarty_tpl->tpl_vars['object']->value == "product" && $_smarty_tpl->tpl_vars['product_option']->value['product_id']) {?>
                                             <?php ob_start();
 echo $_smarty_tpl->__("individual");
-$_prefixVariable1=ob_get_clean();
-$_smarty_tpl->_assignInScope('details', "(".$_prefixVariable1.")");?>
+$_prefixVariable32=ob_get_clean();
+$_smarty_tpl->_assignInScope('details', "(".$_prefixVariable32.")");?>
                                             <?php $_smarty_tpl->_assignInScope('query_product_id', '');?>
                                         <?php } else { ?>
                                             <?php $_smarty_tpl->_assignInScope('details', '');?>
@@ -254,8 +254,8 @@ $_smarty_tpl->_assignInScope('details', "(".$_prefixVariable1.")");?>
 if ($_smarty_tpl->tpl_vars['product_option']->value['company_id'] && !$_smarty_tpl->tpl_vars['runtime']->value['company_id']) {
 echo "cm-vendor-product-option";
 }
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->_assignInScope('additional_class', "cm-no-hide-input cm-longtap-target ".$_prefixVariable2);?>
+$_prefixVariable33=ob_get_clean();
+$_smarty_tpl->_assignInScope('additional_class', "cm-no-hide-input cm-longtap-target ".$_prefixVariable33);?>
                                                 <?php $_smarty_tpl->_assignInScope('hide_for_vendor', false);?>
                                             <?php } else { ?>
                                                 <?php $_smarty_tpl->_assignInScope('link_text', $_smarty_tpl->__("view"));?>
@@ -263,8 +263,8 @@ $_smarty_tpl->_assignInScope('additional_class', "cm-no-hide-input cm-longtap-ta
 if ($_smarty_tpl->tpl_vars['product_option']->value['company_id'] && !$_smarty_tpl->tpl_vars['runtime']->value['company_id']) {
 echo "cm-vendor-product-option";
 }
-$_prefixVariable3=ob_get_clean();
-$_smarty_tpl->_assignInScope('additional_class', "cm-longtap-target ".$_prefixVariable3);?>
+$_prefixVariable34=ob_get_clean();
+$_smarty_tpl->_assignInScope('additional_class', "cm-longtap-target ".$_prefixVariable34);?>
                                                 <?php $_smarty_tpl->_assignInScope('hide_for_vendor', true);?>
                                             <?php }?>
                                         <?php }?>
@@ -286,17 +286,17 @@ $_smarty_tpl->_assignInScope('additional_class', "cm-longtap-target ".$_prefixVa
 
                                         <?php ob_start();
 echo $_smarty_tpl->__("storefront_name");
-$_prefixVariable4=ob_get_clean();
+$_prefixVariable35=ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__("name");
-$_prefixVariable5=ob_get_clean();
+$_prefixVariable36=ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__("status");
-$_prefixVariable6=ob_get_clean();
+$_prefixVariable37=ob_get_clean();
 ob_start();
 echo $_smarty_tpl->__("product_options_are_not_selectable_for_context_menu");
-$_prefixVariable7=ob_get_clean();
-$_smarty_tpl->_subTemplateRender("tygh:common/object_group.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('no_table'=>true,'no_padding'=>true,'id'=>$_smarty_tpl->tpl_vars['product_option']->value['option_id'],'id_prefix'=>"_product_option_",'details'=>$_smarty_tpl->tpl_vars['details']->value,'text'=>$_smarty_tpl->tpl_vars['product_option']->value['internal_option_name'],'href_desc'=>"<br />".((string)$_smarty_tpl->tpl_vars['product_option']->value['option_name']),'href_col_width'=>"70%",'hide_for_vendor'=>$_smarty_tpl->tpl_vars['hide_for_vendor']->value,'status'=>$_smarty_tpl->tpl_vars['status']->value,'table'=>"product_options",'object_id_name'=>"option_id",'href'=>"product_options.update?option_id=".((string)$_smarty_tpl->tpl_vars['product_option']->value['option_id']).((string)$_smarty_tpl->tpl_vars['query_product_id']->value),'href_delete'=>$_smarty_tpl->tpl_vars['href_delete']->value,'delete_target_id'=>$_smarty_tpl->tpl_vars['delete_target_id']->value,'header_text'=>$_smarty_tpl->tpl_vars['product_option']->value['option_name'],'skip_delete'=>!$_smarty_tpl->tpl_vars['allow_save']->value,'additional_class'=>$_smarty_tpl->tpl_vars['additional_class']->value,'prefix'=>"product_options",'link_text'=>$_smarty_tpl->tpl_vars['link_text']->value,'non_editable'=>$_smarty_tpl->tpl_vars['non_editable']->value,'company_object'=>$_smarty_tpl->tpl_vars['product_option']->value,'href_desc_row_hint'=>$_prefixVariable4." / ".$_prefixVariable5,'status_row_hint'=>$_prefixVariable6,'checkbox_name'=>"option_ids[]",'show_checkboxes'=>$_smarty_tpl->tpl_vars['show_checkboxes']->value,'hidden_checkbox'=>true,'checkbox_col_width'=>"0",'checkbox_col_class'=>"table__check-items-cell",'last_col_width'=>"20%",'is_bulkedit_menu'=>($_smarty_tpl->tpl_vars['is_global']->value && $_smarty_tpl->tpl_vars['has_permissions']->value),'bulkedit_disabled_notice'=>$_smarty_tpl->tpl_vars['non_editable']->value ? $_prefixVariable7 : '','link_meta'=>"bulkedit-deselect"), 0, true);
+$_prefixVariable38=ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:common/object_group.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('no_table'=>true,'no_padding'=>true,'id'=>$_smarty_tpl->tpl_vars['product_option']->value['option_id'],'id_prefix'=>"_product_option_",'details'=>$_smarty_tpl->tpl_vars['details']->value,'text'=>$_smarty_tpl->tpl_vars['product_option']->value['internal_option_name'],'href_desc'=>"<br />".((string)$_smarty_tpl->tpl_vars['product_option']->value['option_name']),'href_col_width'=>"70%",'hide_for_vendor'=>$_smarty_tpl->tpl_vars['hide_for_vendor']->value,'status'=>$_smarty_tpl->tpl_vars['status']->value,'table'=>"product_options",'object_id_name'=>"option_id",'href'=>"product_options.update?option_id=".((string)$_smarty_tpl->tpl_vars['product_option']->value['option_id']).((string)$_smarty_tpl->tpl_vars['query_product_id']->value),'href_delete'=>$_smarty_tpl->tpl_vars['href_delete']->value,'delete_target_id'=>$_smarty_tpl->tpl_vars['delete_target_id']->value,'header_text'=>$_smarty_tpl->tpl_vars['product_option']->value['option_name'],'skip_delete'=>!$_smarty_tpl->tpl_vars['allow_save']->value,'additional_class'=>$_smarty_tpl->tpl_vars['additional_class']->value,'prefix'=>"product_options",'link_text'=>$_smarty_tpl->tpl_vars['link_text']->value,'non_editable'=>$_smarty_tpl->tpl_vars['non_editable']->value,'company_object'=>$_smarty_tpl->tpl_vars['product_option']->value,'href_desc_row_hint'=>$_prefixVariable35." / ".$_prefixVariable36,'status_row_hint'=>$_prefixVariable37,'checkbox_name'=>"option_ids[]",'show_checkboxes'=>$_smarty_tpl->tpl_vars['show_checkboxes']->value,'hidden_checkbox'=>true,'checkbox_col_width'=>"0",'checkbox_col_class'=>"table__check-items-cell",'last_col_width'=>"20%",'is_bulkedit_menu'=>($_smarty_tpl->tpl_vars['is_global']->value && $_smarty_tpl->tpl_vars['has_permissions']->value),'bulkedit_disabled_notice'=>$_smarty_tpl->tpl_vars['non_editable']->value ? $_prefixVariable38 : '','link_meta'=>"bulkedit-deselect"), 0, true);
 ?>
                                     <?php
 }

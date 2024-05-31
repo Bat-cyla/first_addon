@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:34:18
+/* Smarty version 4.1.1, created on 2024-05-29 11:09:56
   from '/app/www/design/themes/responsive/templates/addons/price_per_unit/hooks/products/main_price.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644576a12a3f7_24232412',
+  'unifunc' => 'content_6656e2d401eaf2_99022005',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c3b60e835bb480d8c30565707660bb47b53addf2' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/price_per_unit/hooks/products/main_price.post.tpl',
-      1 => 1715579492,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6644576a12a3f7_24232412 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2d401eaf2_99022005 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

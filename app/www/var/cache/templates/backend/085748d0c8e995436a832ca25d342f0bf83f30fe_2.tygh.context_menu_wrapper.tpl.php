@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
   from '/app/www/design/backend/templates/common/context_menu_wrapper.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62b21e91_68562578',
+  'unifunc' => 'content_6655e08fe52321_99115549',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '085748d0c8e995436a832ca25d342f0bf83f30fe' => 
     array (
       0 => '/app/www/design/backend/templates/common/context_menu_wrapper.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,12 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab62b21e91_68562578 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e08fe52321_99115549 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.component.php','function'=>'smarty_block_component',),));
 ob_start();
 echo htmlspecialchars((string) uniqid(), ENT_QUOTES, 'UTF-8');
-$_prefixVariable11=ob_get_clean();
-$_smarty_tpl->_assignInScope('id', (($tmp = $_smarty_tpl->tpl_vars['id']->value ?? null)===null||$tmp==='' ? $_prefixVariable11 ?? null : $tmp));
+$_prefixVariable29=ob_get_clean();
+$_smarty_tpl->_assignInScope('id', (($tmp = $_smarty_tpl->tpl_vars['id']->value ?? null)===null||$tmp==='' ? $_prefixVariable29 ?? null : $tmp));
 $_smarty_tpl->_assignInScope('class', (($tmp = $_smarty_tpl->tpl_vars['class']->value ?? null)===null||$tmp==='' ? '' ?? null : $tmp));
 $_smarty_tpl->_assignInScope('attributes', (($tmp = $_smarty_tpl->tpl_vars['attributes']->value ?? null)===null||$tmp==='' ? array() ?? null : $tmp));
 $_tmp_array = isset($_smarty_tpl->tpl_vars['attributes']) ? $_smarty_tpl->tpl_vars['attributes']->value : array();

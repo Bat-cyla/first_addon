@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 11:11:18
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:02
   from '/app/www/design/backend/templates/views/pages/components/context_menu/parent.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66446e2655da79_60856302',
+  'unifunc' => 'content_66599b2e688879_47471038',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd1a6e566cb2ece9bd9e779f26ee55178aa1132e4' => 
     array (
       0 => '/app/www/design/backend/templates/views/pages/components/context_menu/parent.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/pages/components/parent_page_selector.tpl' => 1,
   ),
 ),false)) {
-function content_66446e2655da79_60856302 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b2e688879_47471038 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('parent','parent','reset','apply'));
 ?>
 

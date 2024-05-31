@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:11:45
+/* Smarty version 4.1.1, created on 2024-05-29 11:28:20
   from '/app/www/design/backend/templates/views/addons/components/manage/manage_sidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bd31488eb6_66420090',
+  'unifunc' => 'content_6656e724d44385_28627571',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bcfcf3d1da45efa365bd2389ce25150e35e21f13' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/manage/manage_sidebar.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/manage/addons_search_form.tpl' => 1,
   ),
 ),false)) {
-function content_6641bd31488eb6_66420090 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e724d44385_28627571 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('categories'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"addons:manage_sidebar"));

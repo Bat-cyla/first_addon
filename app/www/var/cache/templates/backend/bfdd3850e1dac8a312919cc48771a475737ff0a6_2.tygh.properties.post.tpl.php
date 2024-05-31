@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/yml_export/hooks/product_options/properties.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc2912118_60212786',
+  'unifunc' => 'content_6656e245bf6779_16764955',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bfdd3850e1dac8a312919cc48771a475737ff0a6' => 
     array (
       0 => '/app/www/design/backend/templates/addons/yml_export/hooks/product_options/properties.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641bcc2912118_60212786 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e245bf6779_16764955 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('yml2_type_options','yml2_type_option_param'));
 echo smarty_function_script(array('src'=>"js/addons/yml_export/ym_options.js"),$_smarty_tpl);?>

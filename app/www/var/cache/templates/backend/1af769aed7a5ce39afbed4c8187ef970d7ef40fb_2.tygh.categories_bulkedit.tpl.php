@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/common/select2/categories_bulkedit.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62bfed69_21103502',
+  'unifunc' => 'content_6655e7206b9250_02406316',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1af769aed7a5ce39afbed4c8187ef970d7ef40fb' => 
     array (
       0 => '/app/www/design/backend/templates/common/select2/categories_bulkedit.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/categories/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab62bfed69_21103502 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7206b9250_02406316 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 echo smarty_function_script(array('src'=>"js/tygh/backend/categories.js"),$_smarty_tpl);?>
 

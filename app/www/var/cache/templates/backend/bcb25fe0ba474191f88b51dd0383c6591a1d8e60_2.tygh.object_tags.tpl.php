@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/tags/views/tags/components/object_tags.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4edee353_02708294',
+  'unifunc' => 'content_6656e244b56492_94078920',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bcb25fe0ba474191f88b51dd0383c6591a1d8e60' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags/views/tags/components/object_tags.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4edee353_02708294 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244b56492_94078920 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tags'));
 ?>
@@ -42,12 +42,12 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
 $_smarty_tpl->tpl_vars['tag']->do_else = false;
 $_smarty_tpl->tpl_vars['tag']->iteration++;
 $_smarty_tpl->tpl_vars['tag']->last = $_smarty_tpl->tpl_vars['tag']->iteration === $_smarty_tpl->tpl_vars['tag']->total;
-$__foreach_tag_22_saved = $_smarty_tpl->tpl_vars['tag'];
+$__foreach_tag_23_saved = $_smarty_tpl->tpl_vars['tag'];
 echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag'], ENT_QUOTES, 'UTF-8');
 if (!$_smarty_tpl->tpl_vars['tag']->last) {?>
 
 <?php }
-$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_22_saved;
+$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_23_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?></textarea>
                 <input type="hidden" id="object_id" value=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['object_id']->value, ENT_QUOTES, 'UTF-8');?>
@@ -67,10 +67,10 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['tag']->value) {
 $_smarty_tpl->tpl_vars['tag']->do_else = false;
 $_smarty_tpl->tpl_vars['tag']->iteration++;
 $_smarty_tpl->tpl_vars['tag']->last = $_smarty_tpl->tpl_vars['tag']->iteration === $_smarty_tpl->tpl_vars['tag']->total;
-$__foreach_tag_23_saved = $_smarty_tpl->tpl_vars['tag'];
+$__foreach_tag_24_saved = $_smarty_tpl->tpl_vars['tag'];
 ?><li><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag'], ENT_QUOTES, 'UTF-8');?>
 </li><?php
-$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_23_saved;
+$_smarty_tpl->tpl_vars['tag'] = $__foreach_tag_24_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
             </ul>

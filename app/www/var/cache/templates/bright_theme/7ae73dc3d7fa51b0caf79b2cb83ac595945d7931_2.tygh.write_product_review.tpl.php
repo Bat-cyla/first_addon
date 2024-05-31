@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:34:18
+/* Smarty version 4.1.1, created on 2024-05-29 11:09:56
   from '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/write_product_review.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644576a7f1f68_08940108',
+  'unifunc' => 'content_6656e2d48f1c60_36945141',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7ae73dc3d7fa51b0caf79b2cb83ac595945d7931' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/write_product_review.tpl',
-      1 => 1715579491,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_reviews/views/product_reviews/components/write_product_review_button.tpl' => 2,
   ),
 ),false)) {
-function content_6644576a7f1f68_08940108 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2d48f1c60_36945141 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_reviews.review_this_product','product_reviews.review_this_product_description','product_reviews.write_review','product_reviews.review_this_product','product_reviews.review_this_product_description','product_reviews.write_review'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

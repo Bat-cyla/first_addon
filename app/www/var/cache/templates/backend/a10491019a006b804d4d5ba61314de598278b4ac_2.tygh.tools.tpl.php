@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:36
+/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
   from '/app/www/design/backend/templates/common/tools.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab5889ad86_06657922',
+  'unifunc' => 'content_6655e08fcba292_68001537',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a10491019a006b804d4d5ba61314de598278b4ac' => 
     array (
       0 => '/app/www/design/backend/templates/common/tools.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab5889ad86_06657922 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e08fcba292_68001537 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 if ($_smarty_tpl->tpl_vars['skip_check_permissions']->value || fn_check_html_view_permissions($_smarty_tpl->tpl_vars['tools_list']->value)) {?>
 <div class="btn-group <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tool_meta']->value, ENT_QUOTES, 'UTF-8');?>

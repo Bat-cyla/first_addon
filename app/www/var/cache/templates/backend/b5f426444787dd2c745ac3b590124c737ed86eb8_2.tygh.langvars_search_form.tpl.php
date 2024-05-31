@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 15:08:56
+/* Smarty version 4.1.1, created on 2024-05-29 14:38:15
   from '/app/www/design/backend/templates/views/languages/components/langvars_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644a5d88c4019_50795183',
+  'unifunc' => 'content_665713a76ed916_51490916',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b5f426444787dd2c745ac3b590124c737ed86eb8' => 
     array (
       0 => '/app/www/design/backend/templates/views/languages/components/langvars_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/search.tpl' => 1,
   ),
 ),false)) {
-function content_6644a5d88c4019_50795183 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665713a76ed916_51490916 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','search_for_pattern'));
 ?>
 <div class="sidebar-row">

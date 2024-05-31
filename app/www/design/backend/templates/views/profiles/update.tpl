@@ -12,6 +12,7 @@
 {capture name="mainbox"}
 
 {capture name="tabsbox"}
+
     {$hide_inputs=false}
 
     {if $user_data.user_type == $auth.user_type && $user_data.is_root == 'Y' && $user_data.user_id != $auth.user_id && (!$user_data.company_id || $user_data.company_id == $auth.company_id)}

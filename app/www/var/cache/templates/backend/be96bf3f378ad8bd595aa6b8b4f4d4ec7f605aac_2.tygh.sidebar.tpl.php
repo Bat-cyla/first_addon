@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 16:00:10
+/* Smarty version 4.1.1, created on 2024-05-31 15:45:48
   from '/app/www/design/backend/templates/addons/product_bundles/views/product_bundles/components/sidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643605a362ef3_97611836',
+  'unifunc' => 'content_6659c67c0453d7_47341554',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'be96bf3f378ad8bd595aa6b8b4f4d4ec7f605aac' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_bundles/views/product_bundles/components/sidebar.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/products/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_6643605a362ef3_97611836 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6659c67c0453d7_47341554 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','product_bundles.product_bundle_name','owner','any_vendor','product_bundles.search_in_products','admin_search_button'));
 $_smarty_tpl->_assignInScope('dispatch', "product_bundles.manage");?>
 <div class="sidebar-row">

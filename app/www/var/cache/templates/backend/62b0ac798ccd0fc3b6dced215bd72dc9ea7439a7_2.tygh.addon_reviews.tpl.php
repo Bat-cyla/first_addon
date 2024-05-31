@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:41:54
+/* Smarty version 4.1.1, created on 2024-05-29 12:10:41
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66445932153d86_05560040',
+  'unifunc' => 'content_6656f111e9c756_05650124',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '62b0ac798ccd0fc3b6dced215bd72dc9ea7439a7' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_reviews.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_reviews.tpl' => 1,
   ),
 ),false)) {
-function content_66445932153d86_05560040 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656f111e9c756_05650124 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addon_reviews'));
 $_smarty_tpl->_assignInScope('total_reviews', smarty_modifier_count($_smarty_tpl->tpl_vars['reviews']->value) ,false ,2);?>

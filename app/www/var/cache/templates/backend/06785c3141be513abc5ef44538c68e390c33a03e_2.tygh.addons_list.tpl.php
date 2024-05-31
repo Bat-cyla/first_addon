@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:02:21
+/* Smarty version 4.1.1, created on 2024-05-29 11:28:20
   from '/app/www/design/backend/templates/views/addons/components/addons_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bafdd9e686_53752538',
+  'unifunc' => 'content_6656e7248695f7_41199093',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '06785c3141be513abc5ef44538c68e390c33a03e' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/addons_list.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6641bafdd9e686_53752538 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e7248695f7_41199093 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('favorites','name','installed_date','developer','cscart_marketplace.price','status','view_more_addons','no_data'));
 $_smarty_tpl->_assignInScope('show_favorite', (($tmp = $_smarty_tpl->tpl_vars['show_favorite']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));

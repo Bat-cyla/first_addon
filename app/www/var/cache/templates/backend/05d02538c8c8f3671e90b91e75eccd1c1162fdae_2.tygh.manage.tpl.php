@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:30:35
+/* Smarty version 4.1.1, created on 2024-05-31 13:29:28
   from '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644568b3dcf48_87398726',
+  'unifunc' => 'content_6659a688f016f6_51000512',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '05d02538c8c8f3671e90b91e75eccd1c1162fdae' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6644568b3dcf48_87398726 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6659a688f016f6_51000512 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_enabled_testimonials_notice','no_data','add_post','discussion'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

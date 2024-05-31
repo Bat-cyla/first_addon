@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:46:19
+/* Smarty version 4.1.1, created on 2024-05-29 14:38:11
   from '/app/www/design/backend/templates/common/sidebox.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66444c2b8021a5_02916571',
+  'unifunc' => 'content_665713a309b402_81642882',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e3d28650a345f7161fa5dd3c444595fd4f823332' => 
     array (
       0 => '/app/www/design/backend/templates/common/sidebox.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66444c2b8021a5_02916571 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665713a309b402_81642882 (Smarty_Internal_Template $_smarty_tpl) {
 if (trim($_smarty_tpl->tpl_vars['content']->value)) {?>
     <div class="sidebar-row">
         <h6><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['title']->value, ENT_QUOTES, 'UTF-8');?>

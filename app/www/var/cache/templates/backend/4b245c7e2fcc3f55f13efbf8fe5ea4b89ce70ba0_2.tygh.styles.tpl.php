@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:48
+/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
   from '/app/www/design/backend/templates/views/statuses/components/styles.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa744e09b5_68780431',
+  'unifunc' => 'content_6655e08f55f193_48614999',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4b245c7e2fcc3f55f13efbf8fe5ea4b89ce70ba0' => 
     array (
       0 => '/app/www/design/backend/templates/views/statuses/components/styles.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa744e09b5_68780431 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e08f55f193_48614999 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.style.php','function'=>'smarty_function_style',),));
 $_smarty_tpl->_assignInScope('statuses', fn_get_statuses($_smarty_tpl->tpl_vars['type']->value));
 if ($_smarty_tpl->tpl_vars['statuses']->value) {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/reward_points/hooks/products/tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ee0f024_13250098',
+  'unifunc' => 'content_6656e244b7f526_78983016',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dc2e5b6ca567ed5427b06c03d5a1baaf35aaea19' => 
     array (
       0 => '/app/www/design/backend/templates/addons/reward_points/hooks/products/tabs_content.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 2,
   ),
 ),false)) {
-function content_66436f4ee0f024_13250098 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244b7f526_78983016 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('price_in_points','pay_by_points','override_per','price_in_points','earned_points','override_gc_points','usergroup','amount','amount_type','usergroup','amount','amount_type','absolute','points_lower','percent'));
 $_smarty_tpl->_assignInScope('data', $_smarty_tpl->tpl_vars['product_data']->value);?>

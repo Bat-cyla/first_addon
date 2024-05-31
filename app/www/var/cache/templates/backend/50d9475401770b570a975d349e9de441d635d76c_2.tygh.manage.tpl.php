@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:59
+/* Smarty version 4.1.1, created on 2024-05-31 12:54:37
   from '/app/www/design/backend/templates/views/product_filters/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc7566865_08715827',
+  'unifunc' => 'content_66599e5dada933_35327236',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '50d9475401770b570a975d349e9de441d635d76c' => 
     array (
       0 => '/app/www/design/backend/templates/views/product_filters/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -29,7 +29,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcc7566865_08715827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599e5dada933_35327236 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('edit','viewing_filter','product_filters_are_not_selectable_for_context_menu','view','no_data','filters_in_use','add_filter','new_filter','filters'));
 echo smarty_function_script(array('src'=>"js/tygh/tabs.js"),$_smarty_tpl);?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_addons_section.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ecdb759_49479094',
+  'unifunc' => 'content_6656e2449a0959_06720860',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5dde18127e46d4f1f84e897cb4615c2a73cadd51' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/hooks/products/update_addons_section.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4ecdb759_49479094 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2449a0959_06720860 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['product_type']->value->isTabAvailable("addons")) {?>
     <!-- Overridden by the Product Variations add-on -->
 <?php }

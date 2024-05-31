@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:30:35
+/* Smarty version 4.1.1, created on 2024-05-31 13:29:29
   from '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/discussion_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6644568b5e6e22_27521034',
+  'unifunc' => 'content_6659a6891170a7_66550530',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a455e17cfeea8a9abe94f0c978d6d17b5cac83ca' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/discussion_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_6644568b5e6e22_27521034 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6659a6891170a7_66550530 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','author','message','rating','excellent','very_good','average','fair','poor','vendor','any_vendor','period','ip_address','approved','yes','no','sort_by','author','approved','date','ip_address','desc','asc'));
 ?>
 <div class="sidebar-row">

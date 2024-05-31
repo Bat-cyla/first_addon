@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/addons/vendor_data_premoderation/components/context_menu/products/product_approval.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62e749c3_16816853',
+  'unifunc' => 'content_6655e720836477_79711554',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a94298ad2c54aa6574a99e3dc88ea3ea42ea5d23' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_data_premoderation/components/context_menu/products/product_approval.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/vendor_data_premoderation/components/disapproval_popup.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab62e749c3_16816853 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e720836477_79711554 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_approval','approve_selected','disapprove_selected','vendor_data_premoderation.disapprove_products'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"products:bulk_edit_items_product_approval"));

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:50
+/* Smarty version 4.1.1, created on 2024-05-28 16:48:00
   from '/app/www/design/backend/templates/addons/help_center/component/help_center_popup_btn_mobile.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa76286f79_23885695',
+  'unifunc' => 'content_6655e09047afe1_00445769',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2472b58119cdcc426630dc090c77df0fe502f2c6' => 
     array (
       0 => '/app/www/design/backend/templates/addons/help_center/component/help_center_popup_btn_mobile.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa76286f79_23885695 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e09047afe1_00445769 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('help_center.growth_center'));
 $_smarty_tpl->_assignInScope('help_center_counter', (($tmp = $_smarty_tpl->tpl_vars['help_center_counter']->value ?? null)===null||$tmp==='' ? '' ?? null : $tmp));?>
 

@@ -55,6 +55,7 @@
 
     <div class="navbar-admin-top {if $enable_sticky_scroll}cm-sticky-scroll{/if}" data-ca-stick-on-screens="sm-large,md,md-large,lg,uhd" data-ca-top="{$sticky_top}" data-ca-padding="{$sticky_padding}">
         <!--Navbar-->
+
         <div class="navbar navbar-inverse mobile-hidden" id="header_navbar">
             <div class="navbar-inner{if $runtime.is_current_storefront_closed || $runtime.are_all_storefronts_closed} navbar-inner--disabled{/if}">
             {if $runtime.company_data.company}
@@ -446,6 +447,7 @@
                 id="header_main_menu">
 
                 {foreach $navigation.static.central as $first_level_title => $m name="first_level"}
+
                     {capture name="first_level"}
                         {hook name="menu:first_level"}
                         {if $m.status !== "ObjectStatuses::DISABLED"|enum || $smarty.const.BLOCK_MANAGER_MODE}

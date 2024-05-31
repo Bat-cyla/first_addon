@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:50:52
+/* Smarty version 4.1.1, created on 2024-05-31 12:41:36
   from '/app/www/design/backend/templates/addons/product_reviews/views/product_reviews/components/reviews/review_status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66445b4cc4cc35_16517952',
+  'unifunc' => 'content_66599b50b60e79_88795168',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4266500a789a502c7ea4cfc3c57df48aa7285e16' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_reviews/views/product_reviews/components/reviews/review_status.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select_popup.tpl' => 1,
   ),
 ),false)) {
-function content_66445b4cc4cc35_16517952 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66599b50b60e79_88795168 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['product_review_status']->value) {?>
     <?php $_smarty_tpl->_assignInScope('return_url', rawurlencode((string)$_smarty_tpl->tpl_vars['config']->value['current_url']));?>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:58
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/views/product_features/components/variants_picker/item_image.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4ec712a9_21531660',
+  'unifunc' => 'content_6656e244910852_25958896',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '74dbdd318123491c5dd701de515782e2a78c0ddb' => 
     array (
       0 => '/app/www/design/backend/templates/views/product_features/components/variants_picker/item_image.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4ec712a9_21531660 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e244910852_25958896 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['enable_image']->value) {?>
     
         ${data.image_url

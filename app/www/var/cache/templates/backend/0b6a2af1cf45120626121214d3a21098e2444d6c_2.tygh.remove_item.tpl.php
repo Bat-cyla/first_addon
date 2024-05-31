@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:09:54
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:32
   from '/app/www/design/backend/templates/buttons/remove_item.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcc29b9499_19953656',
+  'unifunc' => 'content_6656e2446aa733_24618598',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0b6a2af1cf45120626121214d3a21098e2444d6c' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/remove_item.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641bcc29b9499_19953656 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e2446aa733_24618598 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','remove'));
 if (!$_smarty_tpl->tpl_vars['simple']->value) {?>

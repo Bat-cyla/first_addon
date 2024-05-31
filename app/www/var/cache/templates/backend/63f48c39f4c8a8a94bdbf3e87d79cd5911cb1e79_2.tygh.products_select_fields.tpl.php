@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:46
+/* Smarty version 4.1.1, created on 2024-05-28 17:16:00
   from '/app/www/design/backend/templates/views/products/components/products_select_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab62efa178_68293947',
+  'unifunc' => 'content_6655e7208718a8_10498139',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '63f48c39f4c8a8a94bdbf3e87d79cd5911cb1e79' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/products_select_fields.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/check_items.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab62efa178_68293947 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6655e7208718a8_10498139 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sort_by.php','function'=>'smarty_modifier_sort_by',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.split.php','function'=>'smarty_function_split',),));
 ?>
 <input type="hidden" name="selected_fields[object]" value="product" />

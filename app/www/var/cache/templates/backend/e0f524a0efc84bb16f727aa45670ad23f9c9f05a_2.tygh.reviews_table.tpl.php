@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:59
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:33
   from '/app/www/design/backend/templates/addons/product_reviews/views/product_reviews/components/manage/reviews_table.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4f3093f1_47060374',
+  'unifunc' => 'content_6656e245a6f5c9_27246629',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e0f524a0efc84bb16f727aa45670ad23f9c9f05a' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_reviews/views/product_reviews/components/manage/reviews_table.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/context_menu_wrapper.tpl' => 1,
   ),
 ),false)) {
-function content_66436f4f3093f1_47060374 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e245a6f5c9_27246629 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('id','product_reviews.rating','message','product','customer','product_reviews.helpfulness','status','date','no_data'));
 ?>
 

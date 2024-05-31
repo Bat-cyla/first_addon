@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 17:03:57
+/* Smarty version 4.1.1, created on 2024-05-29 11:07:30
   from '/app/www/design/backend/templates/addons/vendor_data_premoderation/hooks/companies/product_details_fields.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66436f4d78ab77_40968551',
+  'unifunc' => 'content_6656e242b0ef28_69742637',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8111900c1bdfd2d29f129a249e81e050e914feb2' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_data_premoderation/hooks/companies/product_details_fields.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_66436f4d78ab77_40968551 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6656e242b0ef28_69742637 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('approved','yes','pending','no'));
 if (fn_allowed_for("MULTIVENDOR") && ($_smarty_tpl->tpl_vars['product_data']->value['company_pre_moderation'] == "Y" || $_smarty_tpl->tpl_vars['product_data']->value['company_pre_moderation_edit'] == "Y")) {?>
     <div class="control-group">
