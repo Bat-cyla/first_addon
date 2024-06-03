@@ -3,15 +3,93 @@ use Tygh\Registry;
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 //TODO:Переписать удаление тэгов
+function fn_get_tags_ext($params = array(), $items_per_page = 0)
+{
+    // Set default values to input params
+    $default_params = array(
+        'page' => 1,
+        'items_per_page' => $items_per_page
+    );
+
+    $params = array_merge($default_params, $params);
+    $sortings = array(
+        'timestamp' => '?:cp_tags_ext.timestamp',
+        'tag' => '?:cp_tags_ext.tag',
+        'status' => '?:cp_tags_ext.status',
+    );
+
+    $condition = $limit = $join = '';
+
+    if (!empty($params['limit'])) {
+        $limit = db_quote(' LIMIT 0, ?i', $params['limit']);
+    }
+
+    $sorting = db_sort($params, $sortings, 'tag', 'desc');
+
+    if(isset($params['is_search'])){
+            $condition.=db_quote('AND (status=?s OR tag=?s)',$params['status'],($params['tag']));
+    }
+
+    if (!empty($params['item_ids'])) {
+        $condition .= db_quote(' AND ?:cp_tags_ext.tag_id IN (?n)', explode(',', $params['item_ids']));
+    }
+
+
+    if (!empty($params['status'])) {
+        $condition .= db_quote(' AND ?:cp_tags_ext.status = ?s', $params['status']);
+    }
+
+    $fields = array(
+        '?:cp_tags_ext.tag_id',
+        '?:cp_tags_ext.tag',
+        '?:cp_tags_ext.status',
+        '?:cp_tags_ext.timestamp',
+    );
+
+
+    /**
+     * This hook allows you to change parameters of the banner selection before making an SQL query.
+     *
+     * @param array $params The parameters of the user's query (limit, period, item_ids, etc)
+     * @param string $condition The conditions of the selection
+     * @param string $sorting Sorting (ask, desc)
+     * @param string $limit The LIMIT of the returned rows
+     * @param array $fields Selected fields
+     */
+    fn_set_hook('get_tags_ext', $params, $condition, $sorting, $limit, $fields);
+
+    $join .= db_quote(' LEFT JOIN ?:cp_tags_ext_links ON ?:cp_tags_ext.tag_id = ?:cp_tags_ext_links.tag_id ');
+
+    $fields[]="(SELECT COUNT(tag_id) FROM ?:cp_tags_ext_links WHERE tag_id=?:cp_tags_ext.tag_id) as popularity";
+
+    if (!empty($params['items_per_page'])) {
+        $params['total_items'] = db_get_field("SELECT COUNT(tag) FROM ?:cp_tags_ext $join WHERE 1 $condition");
+        $limit = db_paginate($params['page'], $params['items_per_page'], $params['total_items']);
+    }
+    //$condition.= db_quote('AND ?:cp_tags_ext_links.tag_id=?:cp_tags_ext.tag_id');
+    $tags = db_get_hash_array(
+        "SELECT ?p FROM ?:cp_tags_ext " .
+        $join .
+        "WHERE 1 ?p ?p ?p",
+        'tag_id', implode(', ', $fields), $condition, $sorting, $limit
+    );
+
+    if (!empty($params['item_ids'])) {
+        $tags = fn_sort_by_ids($tags, explode(',', $params['item_ids']), 'tag_id');
+    }
+    fn_set_hook('get_tags_ext_post', $tags, $params);
+
+    return array($tags, $params);
+}
+
 
 function fn_tags_ext_get_orders($params, $fields, $sortings, &$condition, &$join, &$group){
     if(isset($params['is_search']) and isset($params['tags'])){
-            $join .= db_quote(" LEFT JOIN ?:cp_tags_ext ON ?:orders.order_id=?:cp_tags_ext.object_id");
-            $tags=$params['tags'];
-            $condition .= db_quote(" AND ?:cp_tags_ext.tag IN (?a)",$tags);
+
+            $join .= db_quote(" LEFT JOIN ?:cp_tags_ext_links ON ?:orders.order_id=?:cp_tags_ext_links.object_id");
+            $tag_ids= db_get_fields('SELECT tag_id FROM ?:cp_tags_ext WHERE tag IN (?a)',$params['tags']);
+            $condition .= db_quote(" AND ?:cp_tags_ext_links.tag_id IN (?n)",$tag_ids);
             $group = ' GROUP BY ?:orders.order_id';
-
-
     }
 }
 
@@ -98,13 +176,6 @@ function fn_cp_tags_ext_update_tags_info($tag_id,$tag_status):void
     );
 
     db_query('UPDATE ?:cp_tags_ext SET ?u WHERE tag_id = ?i', $tag_data, $tag_id);
-    /*
-    $tag_data = array(
-        "object_id" => $object_id,
-        "object_type"=> $object_type,
-    );
-    db_query('UPDATE ?:cp_tags_ext_links SET ?u WHERE tag_id = ?i', $tag_data, $tag_id);
-    */
 }
 
 function fn_cp_tags_ext_add_tag($object_id,$object_type,$tag):void
@@ -135,7 +206,6 @@ function fn_cp_tags_ext_check_if_exist($tag):array
     $tag_data=array(
         'tag'=>$tag,
     );
-    //fn_print_die(db_get_row("SELECT tag_id,tag FROM ?:cp_tags_ext WHERE ?w",$tag_data));
         return db_get_row("SELECT tag_id FROM ?:cp_tags_ext WHERE ?w",$tag_data);
 
 }
@@ -158,17 +228,6 @@ function fn_cp_tags_ext_add_link($tag_id,$object_id,$object_type):void
     );
 
     db_query("INSERT INTO ?:cp_tags_ext_links ?e",$tag_link_data);
-}
-function fn_get_tags_ext_info($object_type): array
-{
-    $arr=[];
-    $tags=db_get_fields('SELECT DISTINCT(?:cp_tags_ext.tag_id) FROM ?:cp_tags_ext LEFT JOIN ?:cp_tags_ext_links AS links ON ?:cp_tags_ext.tag_id = links.tag_id WHERE object_type=?s',$object_type);
-    if(!empty($tags)){
-        foreach($tags as $id){
-            $arr[]=db_get_row('SELECT ?:cp_tags_ext.tag_id,tag, COUNT(links.tag_id) as P,status as S FROM ?:cp_tags_ext LEFT JOIN ?:cp_tags_ext_links AS links ON ?:cp_tags_ext.tag_id = links.tag_id WHERE ?:cp_tags_ext.tag_id=?i',$id);
-        }
-    }
-    return $arr;
 }
 function fn_cp_tags_ext_get_tags_ids($tags,$object_id):void
 {
@@ -216,6 +275,7 @@ function fn_delete_tag_by_id($tag_id):void
     db_query('DELETE FROM ?:cp_tags_ext_links WHERE tag_id=?i',$tag_id);
     db_query('DELETE FROM ?:cp_tags_ext WHERE tag_id=?i',$tag_id);
 }
+
 
 
 

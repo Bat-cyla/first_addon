@@ -11,7 +11,7 @@
 {include file="common/pagination.tpl" save_current_page=true save_current_url=true}
 
 {if $tags}
-
+    {$search|fn_print_r}
     {capture name="tags_table"}
         <div class="table-responsive-wrapper longtap-selection">
             <table width="100%" class="table table-sort table-middle table--relative table-responsive">

@@ -1,7 +1,8 @@
 {capture name="mainbox"}
-{$tags|fn_print_r}
+
     {$c_url=$config.current_url|fn_query_remove:"sort_by":"sort_order"}
     {$tags_statuses=""|fn_get_default_statuses:false}
+    {$rev=$smarty.request.content_id|default:"pagination_contents_tags"}
 
     {include_ext file="common/icon.tpl" class="icon-`$search.sort_order_rev`" assign=c_icon}
     {include_ext file="common/icon.tpl" class="icon-dummy" assign=c_dummy}
@@ -10,8 +11,8 @@
         {include file="common/pagination.tpl" save_current_page=true save_current_url=true}
 
         {if $tags}
-
             {capture name="tags_table"}
+                {$search|fn_print_r}
                 <div class="table-responsive-wrapper longtap-selection">
                     <table width="100%" class="table table-sort table-middle table--relative table-responsive">
                         <thead
@@ -28,11 +29,24 @@
                                        data-ca-bulkedit-enable="[data-ca-bulkedit-expanded-object=true]"
                                 />
                             </th>
-                            <th width="40%"><a class="cm-ajax{if $search.sort_by === "tag"} sort-link-{$search.sort_order_rev}{/if}" href="{"`$c_url`&sort_by=tag&sort_order=`$search.sort_order_rev`"|fn_url}" data-ca-target-id="pagination_contents">{__("tag")}{if $search.sort_by === "tag"}{$c_icon nofilter}{/if}</a></th>
+                            <th width="40%">
+                                <a class="cm-ajax"
+                                   href="{"`$c_url`&sort_by=tag&sort_order=`$search.sort_order_rev`"|fn_url}"
+                                   data-ca-target-id={$rev}>
+                                    {__("tag")}
+                                    {if $search.sort_by=="tag"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}
+                                </a>
+                            </th>
 
                             <th width="8%" class="center">{__('orders')}</th>
                             <th width="8%">&nbsp;</th>
-                            <th width="8%" class="center">{__('order_list_display')}</th>
+                            <th width="8%" class="right">
+                                <a class="cm-ajax"
+                                   href="{"`$c_url`&sort_by=status&sort_order=`$search.sort_order_rev`"|fn_url}"
+                                   data-ca-target-id="pagination_contents">{__('order_list_display')}
+                                    {if $search.sort_by=="status"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}
+                                </a>
+                            </th>
 
 
 
@@ -54,16 +68,16 @@
 
 
                                 <td class="center" width="8%" ">
-                                {$tag.P}
+                                {$tag.popularity}
                                 </td>
                             <td width="8%" ">
                             </td>
                                 <td class="center" width="8%" >
-                                <input type="checkbox" name="tags_data[{$tag.tag_id}][]" value="{$tag.S}"
+                                <input type="checkbox" name="tags_data[{$tag.tag_id}][]" value="{$tag.status}"
 
-                                           {if $tag.S eq 'A'}
+                                           {if $tag.status eq 'A'}
                                                checked
-                                        {elseif $tag.S eq 'D'}
+                                        {elseif $tag.status eq 'D'}
 
                                            {/if}
 
@@ -116,8 +130,8 @@
 {/capture}
 
 {capture name="sidebar"}
-    {include file="common/saved_search.tpl" dispatch="tags.manage" view_type="tags"}
-    {include file="addons/tags/views/tags/components/tags_search_form.tpl" dispatch="tags.manage"}
+    {include file="common/saved_search.tpl" dispatch="tags_ext.manage" view_type="tags_ext"}
+    {include file="addons/tags_ext/views/tags_ext/components/tags_search_form.tpl" dispatch="tags_ext.manage"}
 {/capture}
 
 {include file="common/mainbox.tpl" title=__("tags") content=$smarty.capture.mainbox buttons=$smarty.capture.buttons sidebar=$smarty.capture.sidebar}
