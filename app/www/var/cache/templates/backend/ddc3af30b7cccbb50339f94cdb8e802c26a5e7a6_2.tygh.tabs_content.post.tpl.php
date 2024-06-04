@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 11:11:29
+/* Smarty version 4.1.1, created on 2024-06-04 15:25:57
   from '/app/www/design/backend/templates/addons/form_builder/hooks/pages/tabs_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66446e31be6e93_15325877',
+  'unifunc' => 'content_665f07d5eeddf3_89560831',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ddc3af30b7cccbb50339f94cdb8e802c26a5e7a6' => 
     array (
       0 => '/app/www/design/backend/templates/addons/form_builder/hooks/pages/tabs_content.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/form_builder/views/pages/components/pages_form_elements.tpl' => 1,
   ),
 ),false)) {
-function content_66446e31be6e93_15325877 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665f07d5eeddf3_89560831 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.form_builder.email_subject_field','addons.form_builder.form_fields','addons.form_builder.form_name','addons.form_builder.other_subject','ttc_addons.form_builder.email_subject_field','form_submit_text','email_to'));
 if ($_smarty_tpl->tpl_vars['page_type']->value == (defined('PAGE_TYPE_FORM') ? constant('PAGE_TYPE_FORM') : null)) {?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 15:59:56
+/* Smarty version 4.1.1, created on 2024-06-04 14:15:58
   from '/app/www/design/backend/templates/views/promotions/components/bonuses_group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643604c985ed4_26917360',
+  'unifunc' => 'content_665ef76e7375b0_84920808',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '523719ea7620bbe4912fad540e669855ba1367af' => 
     array (
       0 => '/app/www/design/backend/templates/views/promotions/components/bonuses_group.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/promotions/components/bonus.tpl' => 1,
   ),
 ),false)) {
-function content_6643604c985ed4_26917360 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ef76e7375b0_84920808 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_bonus','no_items'));
 if (!$_smarty_tpl->tpl_vars['hide_add_buttons']->value) {?>

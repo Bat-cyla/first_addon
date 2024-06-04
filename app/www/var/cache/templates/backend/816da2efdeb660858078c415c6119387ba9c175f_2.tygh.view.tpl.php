@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:40:13
+/* Smarty version 4.1.1, created on 2024-06-04 10:13:36
   from '/app/www/design/backend/templates/views/sales_reports/view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664458cd047054_60514270',
+  'unifunc' => 'content_665ebea0281178_15041842',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '816da2efdeb660858078c415c6119387ba9c175f' => 
     array (
       0 => '/app/www/design/backend/templates/views/sales_reports/view.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_664458cd047054_60514270 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ebea0281178_15041842 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('no_data','no_data','no_data','manage_reports','edit_report','reports'));
 echo smarty_function_script(array('src'=>"js/lib/amcharts/amcharts.js"),$_smarty_tpl);?>

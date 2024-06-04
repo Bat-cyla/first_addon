@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:42:10
+/* Smarty version 4.1.1, created on 2024-06-04 15:25:57
   from '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/allow_discussion.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664459426512b9_46710493',
+  'unifunc' => 'content_665f07d5e10a54_57195490',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2c505b8d3f345648ddc1c9ec825a158b65479dde' => 
     array (
       0 => '/app/www/design/backend/templates/addons/discussion/views/discussion_manager/components/allow_discussion.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664459426512b9_46710493 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665f07d5e10a54_57195490 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 ?>
 <div class="control-group <?php if ($_smarty_tpl->tpl_vars['no_hide_input']->value) {?>cm-no-hide-input<?php }?>">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-03 16:46:07
+/* Smarty version 4.1.1, created on 2024-06-04 09:36:31
   from '/app/www/design/backend/templates/addons/first_addon/hooks/profiles/manage_header.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665dc91f99aca0_24772104',
+  'unifunc' => 'content_665eb5efef6684_24632950',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '02e9b6e7dd7914bc3550c1bbc40abe59fa68830b' => 
     array (
       0 => '/app/www/design/backend/templates/addons/first_addon/hooks/profiles/manage_header.post.tpl',
-      1 => 1717422363,
+      1 => 1717482990,
       2 => 'tygh',
     ),
   ),
@@ -20,9 +20,9 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_665dc91f99aca0_24772104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665eb5efef6684_24632950 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('reports_parameter_2'));
-echo htmlspecialchars((string) fn_print_r($_smarty_tpl->tpl_vars['search']->value), ENT_QUOTES, 'UTF-8');?>
+?>
 
 <th style="max-width: 80px" >
         <a class="cm-ajax"

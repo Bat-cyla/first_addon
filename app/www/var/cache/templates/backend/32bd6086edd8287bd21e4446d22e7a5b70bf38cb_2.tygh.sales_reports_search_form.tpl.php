@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:40:13
+/* Smarty version 4.1.1, created on 2024-06-04 10:13:36
   from '/app/www/design/backend/templates/views/sales_reports/components/sales_reports_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664458cd06fd77_42731270',
+  'unifunc' => 'content_665ebea02ba1c9_34861648',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '32bd6086edd8287bd21e4446d22e7a5b70bf38cb' => 
     array (
       0 => '/app/www/design/backend/templates/views/sales_reports/components/sales_reports_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_664458cd06fd77_42731270 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ebea02ba1c9_34861648 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title'));
 ?>
 <div class="sidebar-row">

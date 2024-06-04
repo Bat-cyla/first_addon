@@ -5,16 +5,13 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 if($mode == 'manage' )
 {
-
-    list($tags, $params)=fn_get_tags_ext($_REQUEST,Registry::get('settings.Appearance.admin_elements_per_page'),'O');
+    list($tags, $params)=fn_get_tags_ext($_REQUEST,Registry::get('settings.Appearance.admin_elements_per_page'),'C');
 
     Tygh::$app['view']->assign(array(
         'tags'  => $tags,
         'search' => $params,
     ));
 }
-
-
 if ($_SERVER['REQUEST_METHOD']	== 'POST') {
     if ($mode == 'm_update') {
         $tags = $_REQUEST['tags_data'];
@@ -33,6 +30,6 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
             fn_delete_tag_by_id($_REQUEST['tag_id']);
         }
     }
-    
-    return array(CONTROLLER_STATUS_OK, 'tags_ext.manage');
+
+    return array(CONTROLLER_STATUS_OK, 'tags_ext_customers.manage');
 }

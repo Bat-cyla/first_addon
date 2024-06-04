@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:09:51
+/* Smarty version 4.1.1, created on 2024-06-04 10:25:49
   from '/app/www/design/backend/templates/views/profiles/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f0dfbffe17_75232360',
+  'unifunc' => 'content_665ec17dbc8fa5_54730017',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f449cad9a362059308d7316e180db2bb23e133c4' => 
     array (
       0 => '/app/www/design/backend/templates/views/profiles/update.tpl',
-      1 => 1716973658,
+      1 => 1717162795,
       2 => 'tygh',
     ),
   ),
@@ -35,7 +35,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6656f0dfbffe17_75232360 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ec17dbc8fa5_54730017 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('storefront','all_storefronts','helpdesk_account.helpdesk_account','helpdesk_account.activate_free_license_message','activate','helpdesk_account.helpdesk_account','helpdesk_account.signed_in_message','helpdesk_account.sign_out','helpdesk_account.signed_out_message','helpdesk_account.sign_in','contact_information','user_profile_info','text_multiprofile_notice','billing_address','shipping_address','shipping_address','usergroup','status','usergroup','status','notify_user','no_data','api_access_for_user','api_key','generate_new_api_key','please_copy_api_key','new_profile','view_all_orders','log_in_as_user','text_anonymize_question','anonymize','delete','create','notify_user'));
 if ($_smarty_tpl->tpl_vars['user_data']->value) {?>

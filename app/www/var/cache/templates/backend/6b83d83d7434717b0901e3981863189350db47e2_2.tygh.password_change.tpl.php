@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 09:44:40
+/* Smarty version 4.1.1, created on 2024-06-04 15:32:35
   from '/app/www/design/backend/templates/views/auth/password_change.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645ab585b3bf5_23019928',
+  'unifunc' => 'content_665f09636e9658_71130862',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6b83d83d7434717b0901e3981863189350db47e2' => 
     array (
       0 => '/app/www/design/backend/templates/views/auth/password_change.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6645ab585b3bf5_23019928 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665f09636e9658_71130862 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('administration_panel','error_password_expired','email','password','confirm_password','save','sign_out'));
 ?>
 <div class="modal signin-modal">

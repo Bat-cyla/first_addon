@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-03 16:51:51
+/* Smarty version 4.1.1, created on 2024-06-04 09:33:36
   from '/app/www/design/backend/templates/addons/tags_ext/views/tags_ext/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665dca777b4d14_40896247',
+  'unifunc' => 'content_665eb540f40876_88043705',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '19b3767be4e81ba14bd170ab136378565362a04d' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags_ext/views/tags_ext/manage.tpl',
-      1 => 1717422707,
+      1 => 1717482815,
       2 => 'tygh',
     ),
   ),
@@ -27,7 +27,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_665dca777b4d14_40896247 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665eb540f40876_88043705 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tag','tag','tools','delete','no_data','tags'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>
@@ -45,11 +45,8 @@ $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?
 
         <?php $_smarty_tpl->_subTemplateRender("tygh:common/pagination.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('save_current_page'=>true,'save_current_url'=>true), 0, false);
 ?>
-
         <?php if ($_smarty_tpl->tpl_vars['tags']->value) {?>
             <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tags_table", null, null);?>
-                <?php echo htmlspecialchars((string) fn_print_r($_smarty_tpl->tpl_vars['search']->value), ENT_QUOTES, 'UTF-8');?>
-
                 <div class="table-responsive-wrapper longtap-selection">
                     <table width="100%" class="table table-sort table-middle table--relative table-responsive">
                         <thead
@@ -71,8 +68,7 @@ $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?
                                 <a class="cm-ajax"
                                    href="<?php echo htmlspecialchars((string) fn_url(((string)$_smarty_tpl->tpl_vars['c_url']->value)."&sort_by=tag&sort_order=".((string)$_smarty_tpl->tpl_vars['search']->value['sort_order_rev'])), ENT_QUOTES, 'UTF-8');?>
 "
-                                   data-ca-target-id=<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rev']->value, ENT_QUOTES, 'UTF-8');?>
->
+                                   data-ca-target-id="pagination_contents">
                                     <?php echo $_smarty_tpl->__("tag");?>
 
                                     <?php if ($_smarty_tpl->tpl_vars['search']->value['sort_by'] == "tag") {

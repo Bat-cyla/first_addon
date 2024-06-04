@@ -56,6 +56,10 @@ msgctxt "Languages::order_list_display"
 msgid "Display on order list"
 msgstr "Отображение на списке заказов"
 
+msgctxt "Languages::customers_list_display"
+msgid "Display on customer list"
+msgstr "Отображение на списке покупателей"
+
 msgctxt "Languages::items_marked_by_tag"
 msgid "Items marked by the \"[tag]\" tag:"
 msgstr "Элементы обозначенные тегом \"[tag]\":"
@@ -64,9 +68,13 @@ msgctxt "Languages::tag"
 msgid "Tag"
 msgstr "Тег"
 
-msgctxt "Languages::tags_ext"
-msgid "CP:Tags"
-msgstr "CP:Теги"
+msgctxt "Languages::tags_ext_orders"
+msgid "CP:Tags by orders"
+msgstr "CP:Теги по заказам"
+
+msgctxt "Languages::tags_ext_customers"
+msgid "CP:Tags by customers"
+msgstr "CP:Теги по покупателям"
 
 msgctxt "Languages::add_tag"
 msgid "Add tag"

@@ -36,12 +36,12 @@
                                 </a>
                             </th>
 
-                            <th width="8%" class="center">{__('orders')}</th>
+                            <th width="8%" class="center">{__('customers')}</th>
                             <th width="8%">&nbsp;</th>
                             <th width="8%" class="right">
                                 <a class="cm-ajax"
                                    href="{"`$c_url`&sort_by=status&sort_order=`$search.sort_order_rev`"|fn_url}"
-                                   data-ca-target-id="pagination_contents">{__('order_list_display')}
+                                   data-ca-target-id="pagination_contents">{__('customers_list_display')}
                                     {if $search.sort_by=="status"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}
                                 </a>
                             </th>
@@ -123,13 +123,13 @@
     {/capture}
     {dropdown content=$smarty.capture.tools_list}
     {if $tags}
-        {include file="buttons/save.tpl" but_name="dispatch[tags_ext.m_update]" but_role="submit-link" but_target_form="tags_ext_form"}
+        {include file="buttons/save.tpl" but_name="dispatch[tags_ext_customers.m_update]" but_role="submit-link" but_target_form="tags_ext_form"}
     {/if}
 {/capture}
 
 {capture name="sidebar"}
     {include file="common/saved_search.tpl" dispatch="tags_ext.manage" view_type="tags_ext"}
-    {include file="addons/tags_ext/views/tags_ext/components/tags_search_form.tpl" dispatch="tags_ext.manage"}
+    {include file="addons/tags_ext/views/tags_ext_customers/components/tags_search_form.tpl" dispatch="tags_ext_customers.manage"}
 {/capture}
 
 {include file="common/mainbox.tpl" title=__("tags") content=$smarty.capture.mainbox buttons=$smarty.capture.buttons sidebar=$smarty.capture.sidebar}

@@ -36,13 +36,21 @@ msgctxt "Languages::block_tags"
 msgid "Tags"
 msgstr "Tags"
 
-msgctxt "Languages::tags_ext"
-msgid "CP:Tags"
-msgstr "CP:Tags"
+msgctxt "Languages::tags_ext_orders"
+msgid "CP:Tags by orders"
+msgstr "CP:Tags by orders"
+
+msgctxt "Languages::tags_ext_customers"
+msgid "CP:Tags by customers"
+msgstr "CP:Tags by customers"
 
 msgctxt "Languages::order_list_display"
 msgid "Display on order list"
 msgstr "Отображение на списке заказов"
+
+msgctxt "Languages::customers_list_display"
+msgid "Display on customer list"
+msgstr "Display on customer list"
 
 msgctxt "Languages::block_tags_description"
 msgid "Product tags"

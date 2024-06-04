@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:07:57
+/* Smarty version 4.1.1, created on 2024-06-04 14:13:11
   from '/app/www/design/backend/templates/views/profile_fields/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bc4da4e8e2_13099879',
+  'unifunc' => 'content_665ef6c70114c0_15891709',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '50cf13191de0246bde53d4dc79b482c2734f7eb0' => 
     array (
       0 => '/app/www/design/backend/templates/views/profile_fields/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641bc4da4e8e2_13099879 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ef6c70114c0_15891709 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),5=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('edit','view','position_short','description','type','show','required','show_on_storefront','expand_section','expand_section','collapse_section','collapse_section','deprecated','position_short','description','type','checkbox','input_field','radiogroup','selectbox','textarea','date','email','zip_postal_code','phone','country','state','address_type','vendor_terms','file','show','required','show_on_storefront','delete','no_items','add_field','profile_fields'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

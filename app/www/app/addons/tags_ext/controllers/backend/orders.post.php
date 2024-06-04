@@ -13,6 +13,7 @@ if($mode=='details'){
     $tags=fn_cp_tags_ext_get_object_tags_data($_REQUEST['order_id'],'O');
 
     $order_info=Tygh::$app['view']->getTemplateVars('order_info');
+
     $order_info['tags']=$tags;
     Tygh::$app['view']->assign('order_info', $order_info);
 }

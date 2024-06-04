@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 15:59:56
+/* Smarty version 4.1.1, created on 2024-06-04 14:15:58
   from '/app/www/design/backend/templates/views/promotions/components/condition.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643604c9326f5_78634095',
+  'unifunc' => 'content_665ef76e5cebc3_51694511',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2538be5d153aa9c3c8d71c1d7321eb55ed45831f' => 
     array (
       0 => '/app/www/design/backend/templates/views/promotions/components/condition.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/ajax_select_object.tpl' => 1,
   ),
 ),false)) {
-function content_6643604c9326f5_78634095 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ef76e5cebc3_51694511 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','no_data','yes'));
 $_smarty_tpl->_assignInScope('l', "promotion_cond_".((string)$_smarty_tpl->tpl_vars['condition_data']->value['condition']));?>

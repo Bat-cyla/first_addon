@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-14 15:59:56
+/* Smarty version 4.1.1, created on 2024-06-04 14:15:58
   from '/app/www/design/backend/templates/views/promotions/components/bonus.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6643604c9aabd3_09863239',
+  'unifunc' => 'content_665ef76e75b395_85085062',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '98ca34e973c7addbe43f30fd2d54f11eeb8bb819' => 
     array (
       0 => '/app/www/design/backend/templates/views/promotions/components/bonus.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6643604c9aabd3_09863239 (Smarty_Internal_Template $_smarty_tpl) {
+function content_665ef76e75b395_85085062 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','yes','no_data'));
 $_smarty_tpl->_assignInScope('l', "promotion_bonus_".((string)$_smarty_tpl->tpl_vars['bonus_data']->value['bonus']));?>
