@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 14:43:59
+/* Smarty version 4.1.1, created on 2024-06-05 09:10:55
   from '/app/www/design/backend/templates/views/companies/components/balance_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645f17fad4aa5_25080532',
+  'unifunc' => 'content_6660016f3343c1_59729854',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'da727ed7115ac84af9ec2357d74968ebaf40ad7c' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/balance_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_6645f17fad4aa5_25080532 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6660016f3343c1_59729854 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','vendor','all_vendors','vendor_payouts.type','all','vendor_payouts.type.','vendor_payouts.approval_status','all'));
 ?>
 <div class="sidebar-row">

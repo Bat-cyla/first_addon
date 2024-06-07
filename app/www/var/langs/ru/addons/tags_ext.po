@@ -44,6 +44,10 @@ msgctxt "Languages::block_tags"
 msgid "Tags"
 msgstr "Теги"
 
+msgctxt "Languages::adding_a_tag"
+msgid "Adding a tag"
+msgstr "Добавление тега"
+
 msgctxt "Languages::block_tags_description"
 msgid "Product tags"
 msgstr "Теги товаров"

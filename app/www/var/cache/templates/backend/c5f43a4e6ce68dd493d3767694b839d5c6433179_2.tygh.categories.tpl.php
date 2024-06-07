@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:10:08
+/* Smarty version 4.1.1, created on 2024-06-05 10:01:27
   from '/app/www/design/backend/templates/views/product_features/components/context_menu/categories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bcd01b9128_49998133',
+  'unifunc' => 'content_66600d4704fc76_80259224',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c5f43a4e6ce68dd493d3767694b839d5c6433179' => 
     array (
       0 => '/app/www/design/backend/templates/views/product_features/components/context_menu/categories.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select2/categories_bulkedit.tpl' => 1,
   ),
 ),false)) {
-function content_6641bcd01b9128_49998133 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66600d4704fc76_80259224 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('category','categories','bulk_product_features_warning','view_feature_groups','bulk_edit.what_do_these_checkboxes_mean','show','hide','show','bulk_edit.what_do_these_checkboxes_mean_checked','bulk_edit.what_do_these_checkboxes_mean_unchecked','bulk_edit.what_do_these_checkboxes_mean_indeterminate','reset','apply'));
 ?>
 

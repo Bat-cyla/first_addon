@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:29:42
+/* Smarty version 4.1.1, created on 2024-06-05 10:28:53
   from '/app/www/design/backend/templates/views/companies/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66444846da2a02_90385125',
+  'unifunc' => 'content_666013b5efcfe3_33915621',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bf17204cd00e7635dc1d8d5cd67ab7a276768dff' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -33,7 +33,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_66444846da2a02_90385125 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666013b5efcfe3_33915621 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.puny_decode.php','function'=>'smarty_modifier_puny_decode',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('id','name','email','storefront_url','registered','status','ttc_stores_status','stores_status','id','name','email','storefront','registered','tools','view_vendor_products','view_vendor_admins','view_vendor_users','view_vendor_orders','merge','edit','delete','delete','status','stores_status','no_data','proceed','change_to_status','change_to_status','invite_vendors_title','invite_vendors','add_vendor','add_storefront','ultimate_or_storefront_license_required.','vendors','storefronts'));
 $_smarty_tpl->_subTemplateRender("tygh:views/profiles/components/profiles_scripts.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);

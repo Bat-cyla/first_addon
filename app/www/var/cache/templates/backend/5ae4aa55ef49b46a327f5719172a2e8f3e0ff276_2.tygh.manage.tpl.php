@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:11:17
+/* Smarty version 4.1.1, created on 2024-06-05 10:00:15
   from '/app/www/design/backend/templates/views/storefronts/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bd151eb058_94492749',
+  'unifunc' => 'content_66600cffd36181_74348409',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5ae4aa55ef49b46a327f5719172a2e8f3e0ff276' => 
     array (
       0 => '/app/www/design/backend/templates/views/storefronts/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6641bd151eb058_94492749 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66600cffd36181_74348409 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('mve_ultimate_license_required','add_storefront','add_storefront','storefronts'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:29:42
+/* Smarty version 4.1.1, created on 2024-06-05 10:28:54
   from '/app/www/design/backend/templates/views/companies/components/status_on_manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66444846ef6851_55263450',
+  'unifunc' => 'content_666013b617bd06_41147865',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '44c776a87b39269433b4d912e02970736964995b' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/status_on_manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/companies/components/company_status_switcher.tpl' => 1,
   ),
 ),false)) {
-function content_66444846ef6851_55263450 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666013b617bd06_41147865 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('notify_vendor'));
 ?>

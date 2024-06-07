@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-04 09:33:36
+/* Smarty version 4.1.1, created on 2024-06-07 08:07:14
   from '/app/www/design/backend/templates/addons/tags_ext/views/tags_ext/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665eb540f40876_88043705',
+  'unifunc' => 'content_66629582c91a09_46202700',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '19b3767be4e81ba14bd170ab136378565362a04d' => 
     array (
       0 => '/app/www/design/backend/templates/addons/tags_ext/views/tags_ext/manage.tpl',
-      1 => 1717482815,
+      1 => 1717682200,
       2 => 'tygh',
     ),
   ),
@@ -27,15 +27,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_665eb540f40876_88043705 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66629582c91a09_46202700 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
-\Tygh\Languages\Helper::preloadLangVars(array('tag','tag','tools','delete','no_data','tags'));
+\Tygh\Languages\Helper::preloadLangVars(array('tag','tag','cart','delete','no_data','tags'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>
 
     <?php $_smarty_tpl->_assignInScope('c_url', fn_query_remove($_smarty_tpl->tpl_vars['config']->value['current_url'],"sort_by","sort_order"));?>
     <?php $_smarty_tpl->_assignInScope('tags_statuses', fn_get_default_statuses('',false));?>
     <?php $_smarty_tpl->_assignInScope('rev', (($tmp = $_REQUEST['content_id'] ?? null)===null||$tmp==='' ? "pagination_contents_tags" ?? null : $tmp));?>
-
     <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>"icon-".((string)$_smarty_tpl->tpl_vars['search']->value['sort_order_rev']),'assign'=>'c_icon'),$_smarty_tpl);?>
 
     <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>"icon-dummy",'assign'=>'c_dummy'),$_smarty_tpl);?>
@@ -78,7 +77,6 @@ echo $_smarty_tpl->tpl_vars['c_dummy']->value;
 }?>
                                 </a>
                             </th>
-
                             <th width="8%" class="center"><?php echo $_smarty_tpl->__('orders');?>
 </th>
                             <th width="8%">&nbsp;</th>
@@ -135,24 +133,23 @@ $_smarty_tpl->tpl_vars['tag']->do_else = false;
                                 <input type="checkbox" name="tags_data[<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['tag_id'], ENT_QUOTES, 'UTF-8');?>
 ][]" value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['tag']->value['status'], ENT_QUOTES, 'UTF-8');?>
 "
-
                                            <?php if ($_smarty_tpl->tpl_vars['tag']->value['status'] == 'A') {?>
                                                checked
                                         <?php } elseif ($_smarty_tpl->tpl_vars['tag']->value['status'] == 'D') {?>
-
                                            <?php }?>
-
                                 />
                                 </td>
-                            <td width="8%" data-th="<?php echo $_smarty_tpl->__("tools");?>
+                            <td width="8%" data-th="<?php echo $_smarty_tpl->__("cart");?>
 ">
 
-                                <div class="">
-                                    <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "tools_list", null, null);?>
-                                        <li><?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'class'=>"cm-confirm",'text'=>$_smarty_tpl->__("delete"),'href'=>"tags_ext.delete?tag_id=".((string)$_smarty_tpl->tpl_vars['tag']->value['tag_id']),'method'=>"POST"), true);?>
-</li>
+                                <div class="cart">
+                                    <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "trash_can", null, null);?>
+                                        <li>
+                                            <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"list",'class'=>"cm-confirm",'text'=>$_smarty_tpl->__("delete"),'href'=>"tags_ext.delete?tag_id=".((string)$_smarty_tpl->tpl_vars['tag']->value['tag_id']),'method'=>"POST"), true);?>
+
+                                        </li>
                                     <?php $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
-                                    <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'dropdown', array('content'=>$_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'tools_list')), true);?>
+                                    <?php $_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'dropdown', array('content'=>$_smarty_tpl->smarty->ext->_capture->getBuffer($_smarty_tpl, 'trash_can')), true);?>
 
                                 </div>
                             </td>

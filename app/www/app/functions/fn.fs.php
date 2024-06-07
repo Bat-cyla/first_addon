@@ -339,6 +339,7 @@ function fn_get_content_disposition_header($filename)
  */
 function fn_get_file($file_path, $filename = '', $delete = false)
 {
+
     $handle_stream = @fopen($file_path, 'rb');
     if (!$handle_stream) {
         return false;
@@ -1459,6 +1460,7 @@ function fn_ftp_chmod_file($filename, $perm = DEFAULT_FILE_PERMISSIONS, $recursi
 function fn_get_files_dir_path($company_id = null)
 {
     $path = Registry::get('config.dir.files');
+
     if ($company_id === null) {
         $company_id = Registry::get('runtime.simple_ultimate') ? Registry::get('runtime.forced_company_id') : Registry::get('runtime.company_id');
     }

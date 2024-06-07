@@ -3,7 +3,6 @@
     {$c_url=$config.current_url|fn_query_remove:"sort_by":"sort_order"}
     {$tags_statuses=""|fn_get_default_statuses:false}
     {$rev=$smarty.request.content_id|default:"pagination_contents_tags"}
-
     {include_ext file="common/icon.tpl" class="icon-`$search.sort_order_rev`" assign=c_icon}
     {include_ext file="common/icon.tpl" class="icon-dummy" assign=c_dummy}
     <form class="form-horizontal form-edit" action="{""|fn_url}" method="post" name="tags_ext_form">
@@ -35,7 +34,6 @@
                                     {if $search.sort_by=="tag"}{$c_icon nofilter}{else}{$c_dummy nofilter}{/if}
                                 </a>
                             </th>
-
                             <th width="8%" class="center">{__('orders')}</th>
                             <th width="8%">&nbsp;</th>
                             <th width="8%" class="right">
@@ -72,22 +70,21 @@
                             </td>
                                 <td class="center" width="8%" >
                                 <input type="checkbox" name="tags_data[{$tag.tag_id}][]" value="{$tag.status}"
-
                                            {if $tag.status eq 'A'}
                                                checked
                                         {elseif $tag.status eq 'D'}
-
                                            {/if}
-
                                 />
                                 </td>
-                            <td width="8%" data-th="{__("tools")}">
+                            <td width="8%" data-th="{__("cart")}">
 
-                                <div class="">
-                                    {capture name="tools_list"}
-                                        <li>{btn type="list" class="cm-confirm" text=__("delete") href="tags_ext.delete?tag_id=`$tag.tag_id`" method="POST"}</li>
+                                <div class="cart">
+                                    {capture name="trash_can"}
+                                        <li>
+                                            {btn type="list" class="cm-confirm" text=__("delete") href="tags_ext.delete?tag_id=`$tag.tag_id`" method="POST"}
+                                        </li>
                                     {/capture}
-                                    {dropdown content=$smarty.capture.tools_list}
+                                    {dropdown content=$smarty.capture.trash_can}
                                 </div>
                             </td>
                         </tr>

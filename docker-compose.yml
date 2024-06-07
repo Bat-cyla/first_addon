@@ -11,6 +11,15 @@ services:
     ports:
       - "3306:3306"
 
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - PMA_ARBITRARY=1
+
   nginx:
     image: nginx:alpine
     container_name: nginx
@@ -19,7 +28,7 @@ services:
       - ./app:/app
       - ./config/nginx:/etc/nginx/conf.d
     ports:
-      - "80:80"
+      - "8080:8080"
       - "443:443"
     depends_on:
       - php7.3

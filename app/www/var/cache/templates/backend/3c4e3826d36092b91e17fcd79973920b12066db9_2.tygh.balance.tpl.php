@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 14:43:59
+/* Smarty version 4.1.1, created on 2024-06-05 09:10:55
   from '/app/www/design/backend/templates/views/companies/balance.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645f17f8602d7_13085092',
+  'unifunc' => 'content_6660016f248cb1_36456246',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3c4e3826d36092b91e17fcd79973920b12066db9' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/balance.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -33,7 +33,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6645f17f8602d7_13085092 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6660016f248cb1_36456246 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sanitize_html.php','function'=>'smarty_modifier_sanitize_html',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','status','date','vendor_payouts.type','vendor','vendor_payouts.transaction_value','expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','status','date','vendor_payouts.type','vendor','deleted','tools','delete','vendor_payouts.transaction_value','comment','no_data','new_withdrawal','add_withdrawal','new_payout','add_payout','vendor_accounting','vendor_payouts.current_balance'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

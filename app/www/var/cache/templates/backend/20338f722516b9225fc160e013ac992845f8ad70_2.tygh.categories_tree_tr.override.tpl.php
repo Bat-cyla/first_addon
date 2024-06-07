@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:36
+/* Smarty version 4.1.1, created on 2024-06-06 16:06:44
   from '/app/www/design/backend/templates/addons/vendor_plans/hooks/categories/categories_tree_tr.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab5861c999_18543098',
+  'unifunc' => 'content_6661b46432afb7_61783792',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '20338f722516b9225fc160e013ac992845f8ad70' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_plans/hooks/categories/categories_tree_tr.override.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641ab5861c999_18543098 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6661b46432afb7_61783792 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items','disabled'));
 if ($_smarty_tpl->tpl_vars['category']->value['disabled']) {?>

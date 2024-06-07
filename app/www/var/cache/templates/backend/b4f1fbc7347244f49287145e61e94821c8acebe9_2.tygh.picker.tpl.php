@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:11:17
+/* Smarty version 4.1.1, created on 2024-06-05 10:00:16
   from '/app/www/design/backend/templates/pickers/companies/picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bd154b9d86_00229778',
+  'unifunc' => 'content_66600d000cac88_21467164',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b4f1fbc7347244f49287145e61e94821c8acebe9' => 
     array (
       0 => '/app/www/design/backend/templates/pickers/companies/picker.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/companies/js.tpl' => 5,
   ),
 ),false)) {
-function content_6641bd154b9d86_00229778 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66600d000cac88_21467164 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_companies','choose','add_companies','choose','add_companies','add_companies','add_companies','position_short','name','no_items'));
 $_smarty_tpl->_assignInScope('data_id', (($tmp = $_smarty_tpl->tpl_vars['data_id']->value ?? null)===null||$tmp==='' ? "companies_list" ?? null : $tmp));

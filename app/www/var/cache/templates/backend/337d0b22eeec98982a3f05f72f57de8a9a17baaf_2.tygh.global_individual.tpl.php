@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:17:08
+/* Smarty version 4.1.1, created on 2024-06-05 10:01:49
   from '/app/www/design/backend/templates/components/global_individual.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641cc84e8c5a8_06208660',
+  'unifunc' => 'content_66600d5d67d6e4_68852964',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '337d0b22eeec98982a3f05f72f57de8a9a17baaf' => 
     array (
       0 => '/app/www/design/backend/templates/components/global_individual.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641cc84e8c5a8_06208660 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66600d5d67d6e4_68852964 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('default','global_individual.global_tooltip','global_individual.individual_tooltip'));
 ?>

@@ -34,6 +34,6 @@ RUN set -xe; \
     docker-php-ext-enable imagick; \
     docker-php-ext-enable mysqli;
 
-# RUN set -xe ; \
-#     pecl install xdebug; \
-#     docker-php-ext-enable xdebug
+RUN set -xe ; \
+    pecl install xdebug; \
+    docker-php-ext-enable xdebug

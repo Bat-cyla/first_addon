@@ -28,6 +28,10 @@ msgctxt "Languages::tags"
 msgid "Tags"
 msgstr "Tags"
 
+msgctxt "Languages::adding_a_tag"
+msgid "Adding a tag"
+msgstr "Adding a tag"
+
 msgctxt "Languages::extended_tags"
 msgid "Extended Tags"
 msgstr "Extended Tags"

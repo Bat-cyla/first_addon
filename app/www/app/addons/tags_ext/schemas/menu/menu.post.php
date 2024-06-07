@@ -27,6 +27,4 @@ $schema['central']['customers']['items']['tags_ext_customers'] = array(
     'position' => 100
 );
 
-
-
 return $schema;

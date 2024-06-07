@@ -1,12 +1,14 @@
 <?php
 use Tygh\Registry;
+use Tygh\Tygh;
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 if($mode == 'manage' )
 {
+    $company_id=fn_get_runtime_company_id();
 
-    list($tags, $params)=fn_get_tags_ext($_REQUEST,Registry::get('settings.Appearance.admin_elements_per_page'),'O');
+    list($tags, $params)=fn_get_tags_ext($_REQUEST,Registry::get('settings.Appearance.admin_elements_per_page'),'O',$company_id);
 
     Tygh::$app['view']->assign(array(
         'tags'  => $tags,

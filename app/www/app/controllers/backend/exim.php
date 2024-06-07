@@ -221,7 +221,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 if ($mode == 'export') {
-
     if (empty($_REQUEST['section'])) {
         $_REQUEST['section'] = 'products';
     }
@@ -333,7 +332,6 @@ if ($mode == 'export') {
 
 } elseif ($mode == 'get_file' && !empty($_REQUEST['filename'])) {
     $file = fn_basename($_REQUEST['filename']);
-
     if (!empty($_REQUEST['to_screen'])) {
         header("Content-type: text/plain");
         readfile(fn_get_files_dir_path() . $file);

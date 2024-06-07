@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-16 14:43:59
+/* Smarty version 4.1.1, created on 2024-06-05 09:10:55
   from '/app/www/design/backend/templates/views/companies/components/balance_new_payment.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6645f17f980093_38976684',
+  'unifunc' => 'content_6660016f2f22e1_49610670',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7359cd9d27623cf4f15915a3ab8927f631168f7d' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/balance_new_payment.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_6645f17f980093_38976684 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6660016f2f22e1_49610670 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('payment_amount','comments','notify_vendor'));
 ?>
 <form action="<?php echo htmlspecialchars((string) fn_url(''), ENT_QUOTES, 'UTF-8');?>

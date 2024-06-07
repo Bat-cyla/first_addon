@@ -1,6 +1,7 @@
 
 {include file="common/subheader.tpl" title=__("extended_tags")}
 {script src="js/addons/tags_ext/tags_autocomplete.js"}
+{$company=fn_get_runtime_company_id()}
 <div class="control-group {if $allow_save}cm-no-hide-input{/if}">
     <label class="control-label">{__("tags")}:</label>
     <div class="controls">
@@ -18,3 +19,9 @@
         </ul>
     </div>
 </div>
+
+{capture name="buttons"}
+    {if $tags}
+        {include file="buttons/save.tpl" but_name="dispatch[profiles.update]" but_role="submit-link" but_target_form="profile_form"}
+    {/if}
+{/capture}

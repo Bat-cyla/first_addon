@@ -1,20 +1,25 @@
 <?php
-$schema['tags_ext_orders']=array(
-    'permissions' => 'manage_tags',
-    'modes' => array(
-        'update' => array(
-            'permissions' => array(
-                'GET' => 'view_tags',
-                'POST' => 'manage_tags'
-            ),
-        ),
-        'manage' => array(
-            'permissions' => 'view_tags',
-        ),
-        'delete' => array(
-            'permissions' => 'manage_tags',
-        ),
-    ),
-);
-$schema['tools']['modes']['update_status']['param_permissions']['table']['banners'] = 'manage_tags';
-return $schema;
+return [
+    'default_permission' => true,
+    'controllers'        => [
+        'tags_ext' => [
+        'modes' => [
+            'manage' => [
+                'permissions' => true
+            ],
+            'delete' => [
+                'permissions' => true
+            ],
+            'm_update' => [
+                'permissions' =>
+                [
+                    'GET'=>true,
+                    'POST'=>true
+                ]
+               ],
+            ],
+        ]
+    ]
+];
+
+

@@ -21,13 +21,15 @@
     </compatibility>
     <queries>
         <item>DROP TABLE IF EXISTS ?:cp_tags_ext_links;</item>
-    <item>DROP TABLE IF EXISTS ?:cp_tags_ext;</item>
+        <item>DROP TABLE IF EXISTS ?:cp_tags_ext;</item>
+        <item>DROP IF EXISTS ?:promotions.tags;</item>
 
         <item>
             CREATE TABLE `?:cp_tags_ext_links` (
             `tag_id` mediumint(8) unsigned NOT NULL,
             `object_type` char(1) NOT NULL default 'O',
             `object_id` mediumint(8) unsigned NOT NULL,
+            `company_id` int(8),
             PRIMARY KEY  (`object_type`,`object_id`,`tag_id`),
             KEY `tag_id` (`tag_id`),
             KEY `ids` (`tag_id`,`object_type`,`object_id`)
@@ -42,8 +44,14 @@
         PRIMARY KEY  (`tag_id`)
         ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
     </item>
+        <item>
+            INSERT INTO `?:promotions` (
+            `tags` varchar(1) NOT NULL default 'N'
+            ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+        </item>
         <item for="uninstall">DROP TABLE IF EXISTS ?:cp_tags_ext_links;</item>
         <item for="uninstall">DROP TABLE IF EXISTS ?:cp_tags_ext;</item>
+        <item for="uninstall">DROP IF EXISTS ?:promotions.tags;</item>
 
     </queries>
 </addon>

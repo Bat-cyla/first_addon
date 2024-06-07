@@ -22,7 +22,6 @@ if($mode=='manage'){
 
 
     $orders=Tygh::$app['view']->getTemplateVars('orders');
-
     foreach($orders as $key=>$order){
         $orders[$key]['tags']=fn_cp_tags_ext_get_object_tags_data($order['order_id'],'O');
     }

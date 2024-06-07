@@ -3,7 +3,7 @@ use Tygh\Registry;
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 //TODO:Переписать удаление тэгов
-function fn_get_tags_ext($params = array(), $items_per_page = 0, $object_type)
+function fn_get_tags_ext($params = array(), $items_per_page = 0, $object_type,$company_id)
 {
     // Set default values to input params
     $default_params = array(
@@ -68,7 +68,11 @@ function fn_get_tags_ext($params = array(), $items_per_page = 0, $object_type)
         $params['total_items'] = db_get_field("SELECT COUNT(tag) FROM ?:cp_tags_ext $join WHERE 1 $condition");
         $limit = db_paginate($params['page'], $params['items_per_page'], $params['total_items']);
     }
-    $condition.= db_quote('AND ?:cp_tags_ext_links.object_type=?s',$object_type);
+    $condition.= db_quote('AND ?:cp_tags_ext_links.object_type=?s ',$object_type);
+
+    if($company_id!==0){
+        $condition.=db_quote('AND ?:cp_tags_ext_links.company_id=?s',$company_id);
+    }
     $tags = db_get_hash_array(
         "SELECT ?p FROM ?:cp_tags_ext " .
         $join .
@@ -94,11 +98,18 @@ function fn_tags_ext_get_orders($params, $fields, $sortings, &$condition, &$join
             $group = ' GROUP BY ?:orders.order_id';
     }
 }
+function fn_tags_ext_get_promotion_data_post($promotion_id,$lang_code, &$promotion_data):array
+{
+     $promotion_data['tags'] = db_get_field("SELECT tags FROM ?:promotions WHERE promotion_id = ?i", $promotion_id);
 
+
+     return $promotion_data;
+}
 function fn_tags_ext_update_order_details_post($params, &$order_info):void
 {
     $tags=$_REQUEST['order_info']['tags'];
     $company_id=$order_info['company_id'];
+    fn_print_r($company_id);
     $object_type='O';
     $order_id=$_REQUEST['order_id'];
     foreach ($tags as $key => $tag) {
@@ -107,12 +118,12 @@ function fn_tags_ext_update_order_details_post($params, &$order_info):void
             if (!empty(fn_cp_tags_ext_check_if_exist($tag))) {
                 $tag_id=fn_cp_tags_ext_check_if_exist($tag);
                 //Checking if there is a link to this tag
-                if(!empty(fn_cp_tags_ext_check_ids_match($tag_id,$order_id,$object_type))){
+                if(!empty(fn_cp_tags_ext_check_ids_match($tag_id,$order_id,$object_type,$company_id))){
                     //Updating tag info
-                    fn_cp_tags_ext_update_tags_info($tag_id,$order_id);
+                    fn_cp_tags_ext_update_tags_info($tag_id,$order_id,$company_id);
                 }else{
                     //Adding a link to an existing tag
-                    fn_cp_tags_ext_add_link($tag_id, $order_id, $object_type);
+                    fn_cp_tags_ext_add_link($tag_id, $order_id, $object_type,$company_id);
                 }
             }else{
                 //Adding tag
@@ -219,22 +230,24 @@ function fn_cp_tags_ext_check_if_exist($tag):string
 
 }
 
-function fn_cp_tags_ext_check_ids_match($tag_id,$object_id,$object_type):array
+function fn_cp_tags_ext_check_ids_match($tag_id,$object_id,$object_type,$company_id):array
 {
     $tag_data=array(
         'tag_id'=>$tag_id,
         'object_id'=>$object_id,
         'object_type'=>$object_type,
+        'company_id'=>$company_id
     );
     //fn_print_die(db_get_row("SELECT tag_id FROM ?:cp_tags_ext_links WHERE ?w",$tag_data));
     return db_get_row("SELECT tag_id FROM ?:cp_tags_ext_links WHERE ?w",$tag_data);
 }
-function fn_cp_tags_ext_add_link($tag_id,$object_id,$object_type):void
+function fn_cp_tags_ext_add_link($tag_id,$object_id,$object_type,$company_id):void
 {
     $tag_link_data = array(
         'tag_id'=>$tag_id,
         'object_id'=>$object_id,
         'object_type'=>$object_type,
+        'company_id'=>$company_id
     );
 
     db_query("INSERT INTO ?:cp_tags_ext_links ?e",$tag_link_data);
@@ -283,6 +296,7 @@ function fn_delete_tag_by_id($tag_id):void
     db_query('DELETE FROM ?:cp_tags_ext_links WHERE tag_id=?i',$tag_id);
     db_query('DELETE FROM ?:cp_tags_ext WHERE tag_id=?i',$tag_id);
 }
+
 
 
 

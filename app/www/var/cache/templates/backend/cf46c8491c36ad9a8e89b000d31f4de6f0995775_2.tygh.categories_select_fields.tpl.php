@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:55:36
+/* Smarty version 4.1.1, created on 2024-06-06 16:06:44
   from '/app/www/design/backend/templates/views/categories/components/categories_select_fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641ab587f4ef6_83946520',
+  'unifunc' => 'content_6661b4644ce863_23413827',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cf46c8491c36ad9a8e89b000d31f4de6f0995775' => 
     array (
       0 => '/app/www/design/backend/templates/views/categories/components/categories_select_fields.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/check_items.tpl' => 1,
   ),
 ),false)) {
-function content_6641ab587f4ef6_83946520 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6661b4644ce863_23413827 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('status','meta_description','product_details_view','position','name','meta_keywords','creation_date','localization','category_description','image_pair','title','usergroups'));
 ?>

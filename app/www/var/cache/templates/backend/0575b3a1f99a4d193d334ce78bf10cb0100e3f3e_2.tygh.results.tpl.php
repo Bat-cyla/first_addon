@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:31:25
+/* Smarty version 4.1.1, created on 2024-06-05 09:25:19
   from '/app/www/design/backend/templates/views/search/results.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664456bd56ab54_27646214',
+  'unifunc' => 'content_666004cfaafe74_62791771',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0575b3a1f99a4d193d334ce78bf10cb0100e3f3e' => 
     array (
       0 => '/app/www/design/backend/templates/views/search/results.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_664456bd56ab54_27646214 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666004cfaafe74_62791771 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_no_matching_results_found','text_no_matching_results_found','search_results_for'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

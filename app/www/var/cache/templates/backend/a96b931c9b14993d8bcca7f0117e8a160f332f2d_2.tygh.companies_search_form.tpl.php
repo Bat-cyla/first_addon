@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:29:43
+/* Smarty version 4.1.1, created on 2024-06-05 10:28:54
   from '/app/www/design/backend/templates/views/companies/components/companies_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66444847206789_93103354',
+  'unifunc' => 'content_666013b6440b11_77624908',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a96b931c9b14993d8bcca7f0117e8a160f332f2d' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/companies_search_form.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_66444847206789_93103354 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666013b6440b11_77624908 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.array_to_fields.php','function'=>'smarty_function_array_to_fields',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','name','email','address','city','country','select_country','state','select_state','status','active','pending','suspended','new','disabled','zip_postal_code','phone','url'));
 if ($_smarty_tpl->tpl_vars['in_popup']->value) {?>

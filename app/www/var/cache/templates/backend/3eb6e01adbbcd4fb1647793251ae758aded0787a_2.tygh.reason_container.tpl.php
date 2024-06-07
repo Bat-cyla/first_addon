@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:29:43
+/* Smarty version 4.1.1, created on 2024-06-05 10:28:54
   from '/app/www/design/backend/templates/views/companies/components/reason_container.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664448470795b6_03746078',
+  'unifunc' => 'content_666013b62553a1_07065000',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3eb6e01adbbcd4fb1647793251ae758aded0787a' => 
     array (
       0 => '/app/www/design/backend/templates/views/companies/components/reason_container.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_664448470795b6_03746078 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666013b62553a1_07065000 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('reason','notify_vendors_by_email'));
 ?>
 <div class="form-horizontal form-edit">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 08:29:43
+/* Smarty version 4.1.1, created on 2024-06-05 10:28:54
   from '/app/www/design/backend/templates/addons/vendor_plans/hooks/companies/search_form_main.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66444847261bb2_05298725',
+  'unifunc' => 'content_666013b64a0971_27052734',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ab2bdb84c95faf70233ffd61c53752c267bc67f6' => 
     array (
       0 => '/app/www/design/backend/templates/addons/vendor_plans/hooks/companies/search_form_main.post.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 1,
   ),
 ),false)) {
-function content_66444847261bb2_05298725 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666013b64a0971_27052734 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_plans.plan'));
 ?>
 <div class="sidebar-field">

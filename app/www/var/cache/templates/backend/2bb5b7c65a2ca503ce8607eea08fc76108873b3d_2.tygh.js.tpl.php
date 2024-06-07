@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 10:11:17
+/* Smarty version 4.1.1, created on 2024-06-05 10:00:16
   from '/app/www/design/backend/templates/pickers/companies/js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641bd15507f77_14897631',
+  'unifunc' => 'content_66600d000f6f91_89986916',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2bb5b7c65a2ca503ce8607eea08fc76108873b3d' => 
     array (
       0 => '/app/www/design/backend/templates/pickers/companies/js.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641bd15507f77_14897631 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66600d000f6f91_89986916 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('remove','edit'));
 if (intval($_smarty_tpl->tpl_vars['company_id']->value)) {?>
