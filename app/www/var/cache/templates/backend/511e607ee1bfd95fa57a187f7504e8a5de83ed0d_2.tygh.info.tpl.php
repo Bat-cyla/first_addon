@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 08:51:41
+/* Smarty version 4.1.1, created on 2024-06-13 08:37:29
   from '/app/www/design/backend/templates/addons/call_requests/settings/info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641aa6de17cc4_02086269',
+  'unifunc' => 'content_666a8599ca29c5_04262855',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '511e607ee1bfd95fa57a187f7504e8a5de83ed0d' => 
     array (
       0 => '/app/www/design/backend/templates/addons/call_requests/settings/info.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641aa6de17cc4_02086269 (Smarty_Internal_Template $_smarty_tpl) {
+function content_666a8599ca29c5_04262855 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('call_requests.phone_from_settings'));
 ?>
 <div class="control-group setting-wide call_requests">
