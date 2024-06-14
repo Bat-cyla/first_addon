@@ -33,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
     }
 
     if ($mode == 'm_update') {
+
         foreach ($_REQUEST['tags_data'] as $tag_id => $tag_data) {
             fn_update_tag($tag_data, $tag_id);
         }
