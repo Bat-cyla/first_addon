@@ -1,5 +1,4 @@
 <div class="{if $selected_section !== "tags"}hidden{/if}" id="content_tags">
-
 {script src="js/addons/tags/tags_autocomplete.js"}
 
     <div class="control-group {if $allow_save}cm-no-hide-input{/if}">

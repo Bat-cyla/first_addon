@@ -49,6 +49,7 @@ if ($mode == 'add' && Registry::get('addons.tags.tags_for_products') == 'Y') {
     }
 
 } elseif ($mode == 'update' && Registry::get('addons.tags.tags_for_products') == 'Y') {
+
     if (Registry::get('runtime.company_id') && fn_allowed_for('ULTIMATE') || fn_allowed_for('MULTIVENDOR')) {
         Registry::set('navigation.tabs.tags', array(
             'title' => __('tags'),
@@ -64,6 +65,5 @@ if ($mode == 'add' && Registry::get('addons.tags.tags_for_products') == 'Y') {
     ));
 
     $product['tags'] = $tags;
-
     Tygh::$app['view']->assign('product_data', $product);
 }
