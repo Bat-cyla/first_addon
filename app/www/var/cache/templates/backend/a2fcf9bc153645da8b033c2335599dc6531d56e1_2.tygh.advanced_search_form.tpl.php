@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-19 09:20:57
+/* Smarty version 4.1.1, created on 2024-06-19 10:45:11
   from '/app/www/design/backend/templates/views/products/components/advanced_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667278c9305d32_63998103',
+  'unifunc' => 'content_66728c877f7676_74826019',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a2fcf9bc153645da8b033c2335599dc6531d56e1' => 
     array (
       0 => '/app/www/design/backend/templates/views/products/components/advanced_search_form.tpl',
-      1 => 1718778054,
+      1 => 1718778526,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/calendar.tpl' => 2,
   ),
 ),false)) {
-function content_667278c9305d32_63998103 (Smarty_Internal_Template $_smarty_tpl) {
+function content_66728c877f7676_74826019 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.split.php','function'=>'smarty_function_split',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','none','your_range','none','yes','no'));
 echo smarty_function_split(array('data'=>$_smarty_tpl->tpl_vars['filter_features']->value,'size'=>"2",'assign'=>"splitted_filter",'preverse_keys'=>true),$_smarty_tpl);?>
@@ -74,7 +74,7 @@ $_smarty_tpl->tpl_vars['filter']->do_else = false;
 ">
                     <?php if ($_smarty_tpl->tpl_vars['filter']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::TEXT_SELECTBOX") || $_smarty_tpl->tpl_vars['filter']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::EXTENDED") || $_smarty_tpl->tpl_vars['filter']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::MULTIPLE_CHECKBOX") || $_smarty_tpl->tpl_vars['filter']->value['feature_type'] == smarty_modifier_enum("ProductFeatures::NUMBER_SELECTBOX") && !$_smarty_tpl->tpl_vars['id']->value) {?>
                         <div class="object-selector object-selector--mobile-full-width object-selector--half-width">
-                            
+
                             <select id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['prefix']->value, ENT_QUOTES, 'UTF-8');?>
 variants_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['id']->value, ENT_QUOTES, 'UTF-8');?>
 "

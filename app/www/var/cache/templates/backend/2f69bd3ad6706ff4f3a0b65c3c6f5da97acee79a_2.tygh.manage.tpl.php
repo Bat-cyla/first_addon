@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-03 16:44:57
+/* Smarty version 4.1.1, created on 2024-06-19 13:19:51
   from '/app/www/design/backend/templates/views/profiles/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665dc8d9890129_31873436',
+  'unifunc' => 'content_6672b0c7694370_65089136',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2f69bd3ad6706ff4f3a0b65c3c6f5da97acee79a' => 
     array (
       0 => '/app/www/design/backend/templates/views/profiles/manage.tpl',
-      1 => 1717162795,
+      1 => 1718792378,
       2 => 'tygh',
     ),
   ),
@@ -30,14 +30,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_665dc8d9890129_31873436 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6672b0c7694370_65089136 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.format_price.php','function'=>'smarty_modifier_format_price',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('person_name','phone','type','orders','status','view','id','person_name','storefront_admin','main_administrator','main_administrator','email','last_login','phone','orders','type','administrator','vendor_administrator','customer','affiliate','view_all_orders','log_in_as_user','text_anonymize_question','anonymize','edit','delete','status','notify_user','no_data','users','add_user'));
 if (fn_allowed_for("MULTIVENDOR")) {?>
     <?php $_smarty_tpl->_assignInScope('no_hide_input', "cm-no-hide-input");
-}?>
-
-<?php $_smarty_tpl->_subTemplateRender("tygh:views/profiles/components/profiles_scripts.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+}
+$_smarty_tpl->_subTemplateRender("tygh:views/profiles/components/profiles_scripts.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

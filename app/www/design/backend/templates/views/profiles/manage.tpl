@@ -1,7 +1,6 @@
 {if "MULTIVENDOR"|fn_allowed_for}
     {$no_hide_input="cm-no-hide-input"}
 {/if}
-
 {include file="views/profiles/components/profiles_scripts.tpl"}
 
 {capture name="mainbox"}
