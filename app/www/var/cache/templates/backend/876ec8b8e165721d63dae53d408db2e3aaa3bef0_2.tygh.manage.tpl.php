@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-15 09:40:09
+/* Smarty version 4.1.1, created on 2024-06-18 14:40:14
   from '/app/www/design/backend/templates/views/shipments/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_664458c9e655f4_41333465',
+  'unifunc' => 'content_6671721e036d18_22176886',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '876ec8b8e165721d63dae53d408db2e3aaa3bef0' => 
     array (
       0 => '/app/www/design/backend/templates/views/shipments/manage.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'tygh',
     ),
   ),
@@ -28,7 +28,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_664458c9e655f4_41333465 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6671721e036d18_22176886 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('shipment_id','shipment_id','order_id','shipment_date','order_date','customer','tools','view','print_slip','delete','status','no_data','shipments','order'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

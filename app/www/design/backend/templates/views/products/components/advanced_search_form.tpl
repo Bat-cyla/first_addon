@@ -26,6 +26,7 @@
                         || $filter.feature_type == "ProductFeatures::MULTIPLE_CHECKBOX"|enum
                         || $filter.feature_type == "ProductFeatures::NUMBER_SELECTBOX"|enum && !$id}
                         <div class="object-selector object-selector--mobile-full-width object-selector--half-width">
+
                             <select id="{$prefix}variants_{$id}"
 
                                     class="cm-object-selector"
