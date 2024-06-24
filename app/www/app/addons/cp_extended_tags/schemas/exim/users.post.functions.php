@@ -27,7 +27,7 @@ function fn_exim_users_get_tags($user_id):string
 
     $db_tags=db_get_fields("SELECT tag FROM ?:cp_extended_tags ?p WHERE ?w", $join, $data);
     if(!empty($db_tags)){
-        return implode($db_tags);
+        return implode(',',$db_tags);
     }
     return '';
 }

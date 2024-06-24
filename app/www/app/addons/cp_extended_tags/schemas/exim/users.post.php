@@ -21,6 +21,10 @@ include_once('users.post.functions.php');
 $schema['export_fields']['Tags']=array(
     'linked'=>false,
     'process_get' => array('fn_exim_users_get_tags','#key'),
-    'process_put' => array('fn_exim_users_set_tags','#this','#key')
+    'process_put' => [
+        'fn_exim_users_set_tags',
+        '#this',
+        '#key'
+    ]
 );
 return $schema;

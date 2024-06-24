@@ -36,8 +36,6 @@ function fn_exim_orders_set_tags($tag_data, $order_id):bool
     $company_id=0;
     $object_type='O';
     if(!empty($tag_data)){
-        $tag_data=trim($tag_data,"'");
-
         $tag_data=explode(',',$tag_data);
 
     }
