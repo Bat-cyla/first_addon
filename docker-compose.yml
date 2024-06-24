@@ -13,7 +13,6 @@ services:
 
   phpmyadmin:
     image: phpmyadmin
-    container_name: phpmyadmin
     restart: always
     ports:
       - "80:80"
