@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:09:52
+/* Smarty version 4.1.1, created on 2024-06-27 14:46:38
   from '/app/www/design/backend/templates/components/bottom_panel/icons/bp-close.svg' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2d08dd804_89096188',
+  'unifunc' => 'content_667d511e749e84_62129122',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6656e2d08dd804_89096188 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d511e749e84_62129122 (Smarty_Internal_Template $_smarty_tpl) {
 ?><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
     class="bp-close__icon">
     <path

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:09:56
+/* Smarty version 4.1.1, created on 2024-06-27 14:46:52
   from '/app/www/design/themes/responsive/templates/addons/geo_maps/hooks/products/product_detail_bottom.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2d4185672_94512170',
+  'unifunc' => 'content_667d512c6a9de2_01884722',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/geo_maps/views/geo_maps/shipping_estimation.tpl' => 2,
   ),
 ),false)) {
-function content_6656e2d4185672_94512170 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d512c6a9de2_01884722 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

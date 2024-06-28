@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:36:28
+/* Smarty version 4.1.1, created on 2024-06-27 08:25:51
   from '/app/www/design/backend/templates/addons/hybrid_auth/hooks/profiles/detailed_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e90cdb28d9_49067859',
+  'unifunc' => 'content_667cf7dfb5f930_62503569',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/subheader.tpl' => 1,
   ),
 ),false)) {
-function content_6656e90cdb28d9_49067859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf7dfb5f930_62503569 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('hybrid_auth.link_provider'));
 if ($_smarty_tpl->tpl_vars['providers_list']->value) {
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("hybrid_auth.link_provider")), 0, false);

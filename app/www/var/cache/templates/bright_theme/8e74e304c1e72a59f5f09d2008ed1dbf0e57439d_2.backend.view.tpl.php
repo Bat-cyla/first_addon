@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:48:12
+/* Smarty version 4.1.1, created on 2024-06-27 15:32:04
   from '/app/www/design/backend/templates/views/theme_editor/view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d3ccdf42a8_61458017',
+  'unifunc' => 'content_667d5bc420dbb2_48153985',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8e74e304c1e72a59f5f09d2008ed1dbf0e57439d' => 
     array (
       0 => '/app/www/design/backend/templates/views/theme_editor/view.tpl',
-      1 => 1693486476,
+      1 => 1716808809,
       2 => 'backend',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'backend:views/theme_editor/components/colorpicker.tpl' => 6,
   ),
 ),false)) {
-function content_6641d3ccdf42a8_61458017 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5bc420dbb2_48153985 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.to_json.php','function'=>'smarty_modifier_to_json',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),5=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),6=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('theme_editor.color_scheme','theme_editor.styles','theme_editor.style_name','theme_editor.incorrect_style_name','theme_editor.text_close_editor','theme_editor.text_close_editor_unsaved','theme_editor.text_reset_changes','theme_editor.error_style_exists','theme_editor.confirm_enable_less','theme_editor.hide_show','theme_editor.close','theme_editor.page_cant_be_configured','layout','layout','theme_editor','none','clone','delete','save','theme_editor.customize','save','files','none','save','theme_editor.favicon','theme_editor.favicon_size','theme_editor.on','theme_editor.off','theme_editor.reset_general','theme_editor.reset_css','theme_editor_logo.','theme_editor_logo.','alt_text','image','theme_editor.reset_colors','theme_editor.system_fonts','theme_editor.popular_fonts','theme_editor.other_fonts','theme_editor.reset_fonts','theme_editor.background_color','theme_editor.gradient','theme_editor.on','theme_editor.off','theme_editor.full_width','theme_editor.on','theme_editor.off','theme_editor.full_width','theme_editor.on','theme_editor.off','theme_editor.transparent','theme_editor.pattern','theme_editor.upload_image','theme_editor.position','theme_editor.repeat','theme_editor.repeat','theme_editor.repeat_x','theme_editor.repeat_x','theme_editor.repeat_y','theme_editor.repeat_y','theme_editor.no_repeat','theme_editor.no_repeat','theme_editor.repeat','theme_editor.scroll','theme_editor.scroll','theme_editor.fixed','theme_editor.fixed','theme_editor.scroll','theme_editor.reset_backgrounds','theme_editor.enable_less','theme_editor.warning_css_changes_will_be_reverted','theme_editor.color_scheme','theme_editor.styles','theme_editor.style_name','theme_editor.incorrect_style_name','theme_editor.text_close_editor','theme_editor.text_close_editor_unsaved','theme_editor.text_reset_changes','theme_editor.error_style_exists','theme_editor.confirm_enable_less','theme_editor.hide_show','theme_editor.close','theme_editor.page_cant_be_configured','layout','layout','theme_editor','none','clone','delete','save','theme_editor.customize','save','files','none','save','theme_editor.favicon','theme_editor.favicon_size','theme_editor.on','theme_editor.off','theme_editor.reset_general','theme_editor.reset_css','theme_editor_logo.','theme_editor_logo.','alt_text','image','theme_editor.reset_colors','theme_editor.system_fonts','theme_editor.popular_fonts','theme_editor.other_fonts','theme_editor.reset_fonts','theme_editor.background_color','theme_editor.gradient','theme_editor.on','theme_editor.off','theme_editor.full_width','theme_editor.on','theme_editor.off','theme_editor.full_width','theme_editor.on','theme_editor.off','theme_editor.transparent','theme_editor.pattern','theme_editor.upload_image','theme_editor.position','theme_editor.repeat','theme_editor.repeat','theme_editor.repeat_x','theme_editor.repeat_x','theme_editor.repeat_y','theme_editor.repeat_y','theme_editor.no_repeat','theme_editor.no_repeat','theme_editor.repeat','theme_editor.scroll','theme_editor.scroll','theme_editor.fixed','theme_editor.fixed','theme_editor.scroll','theme_editor.reset_backgrounds','theme_editor.enable_less','theme_editor.warning_css_changes_will_be_reverted'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

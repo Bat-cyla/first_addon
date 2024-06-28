@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:36:29
+/* Smarty version 4.1.1, created on 2024-06-27 08:25:51
   from '/app/www/design/backend/templates/addons/geo_maps/hooks/profile/manage_sidebar.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e90d064602_75025688',
+  'unifunc' => 'content_667cf7dfc68518_55382848',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6656e90d064602_75025688 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf7dfc68518_55382848 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('geo_maps.shipping_address_on_map','store_locator.use_two_fingers_for_move_map','no_data'));
 if ($_smarty_tpl->tpl_vars['user_data']->value['user_id'] && $_smarty_tpl->tpl_vars['user_data']->value['user_type'] == 'C') {?>
     <div class="sidebar-row">

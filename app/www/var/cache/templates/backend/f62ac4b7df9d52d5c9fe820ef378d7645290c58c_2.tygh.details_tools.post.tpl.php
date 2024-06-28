@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
   from '/app/www/design/backend/templates/addons/vendor_communication/hooks/orders/details_tools.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656c947e62b08_74024706',
+  'unifunc' => 'content_667c1933bc5903_07917459',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/vendor_communication/views/vendor_communication/components/new_thread_button.tpl' => 2,
   ),
 ),false)) {
-function content_6656c947e62b08_74024706 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c1933bc5903_07917459 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('vendor_communication.contact_customer'));
 if ($_smarty_tpl->tpl_vars['is_user_can_manage_customer_order_thread']->value && !$_smarty_tpl->tpl_vars['order_vendor_to_customer_thread']->value && $_smarty_tpl->tpl_vars['order_info']->value['user_id']) {?>

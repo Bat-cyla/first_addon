@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-04 14:13:38
+/* Smarty version 4.1.1, created on 2024-06-27 09:47:44
   from '/app/www/design/backend/templates/views/usergroups/components/privileges_section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665ef6e21b9b23_98177321',
+  'unifunc' => 'content_667d0b108f7873_55533378',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/usergroups/components/privileges_group.tpl' => 1,
   ),
 ),false)) {
-function content_665ef6e21b9b23_98177321 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d0b108f7873_55533378 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('privilege_sections.'));
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("privilege_sections.".((string)$_smarty_tpl->tpl_vars['section_id']->value)),'target'=>"#".((string)$_smarty_tpl->tpl_vars['section_id']->value)."_contents"), 0, false);

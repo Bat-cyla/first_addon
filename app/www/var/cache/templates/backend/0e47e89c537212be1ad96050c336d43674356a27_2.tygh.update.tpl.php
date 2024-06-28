@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:41
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f111b95fc3_82807059',
+  'unifunc' => 'content_667c190e4ce871_55511201',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -32,7 +32,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_6656f111b95fc3_82807059 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e4ce871_55511201 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('activate','helpdesk_account.activate_free_license_message','helpdesk_account.signed_out_message.marketplace_single_addon'));
 $_smarty_tpl->_assignInScope('_addon', $_REQUEST['addon']);

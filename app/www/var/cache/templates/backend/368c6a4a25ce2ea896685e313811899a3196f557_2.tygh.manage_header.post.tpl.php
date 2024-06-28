@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-10 09:53:21
+/* Smarty version 4.1.1, created on 2024-06-27 08:25:16
   from '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/profiles/manage_header.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6666a2e113b822_73526860',
+  'unifunc' => 'content_667cf7bccd1e90_75617822',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/table_col_head.tpl' => 1,
   ),
 ),false)) {
-function content_6666a2e113b822_73526860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf7bccd1e90_75617822 (Smarty_Internal_Template $_smarty_tpl) {
 ?><th width="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['email_col_width']->value, ENT_QUOTES, 'UTF-8');?>
 ">
     <?php $_smarty_tpl->_subTemplateRender("tygh:common/table_col_head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('type'=>"tags"), 0, false);

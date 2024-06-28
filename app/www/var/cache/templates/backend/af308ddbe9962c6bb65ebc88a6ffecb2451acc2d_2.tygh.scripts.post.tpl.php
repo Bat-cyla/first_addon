@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:48:00
+/* Smarty version 4.1.1, created on 2024-06-26 16:28:30
   from '/app/www/design/backend/templates/addons/product_bundles/hooks/index/scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e090658810_58473491',
+  'unifunc' => 'content_667c177ee5d867_97776264',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655e090658810_58473491 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c177ee5d867_97776264 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('options','any_option_combinations','product_bundles.any_variation'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('inline_script', array());

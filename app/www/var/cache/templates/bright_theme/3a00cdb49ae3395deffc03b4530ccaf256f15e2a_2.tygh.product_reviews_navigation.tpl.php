@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:09:56
+/* Smarty version 4.1.1, created on 2024-06-27 14:46:53
   from '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/product_reviews_navigation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2d48ac807_69541916',
+  'unifunc' => 'content_667d512dd8b3f3_37564259',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/sorting.tpl' => 2,
   ),
 ),false)) {
-function content_6656e2d48ac807_69541916 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d512dd8b3f3_37564259 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_reviews.with_photo','product_reviews.with_photo'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -56,8 +56,8 @@ echo "0";
 } else {
 echo "1";
 }
-$_prefixVariable34=ob_get_clean();
-echo htmlspecialchars((string) fn_url(fn_link_attach($_smarty_tpl->tpl_vars['curl']->value,"with_images=".$_prefixVariable34."&selected_section=product_reviews")), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable3=ob_get_clean();
+echo htmlspecialchars((string) fn_url(fn_link_attach($_smarty_tpl->tpl_vars['curl']->value,"with_images=".$_prefixVariable3."&selected_section=product_reviews")), ENT_QUOTES, 'UTF-8');?>
 "
                 class="ty-product-review-reviews-navigation__filter-link cm-ajax"
                 data-ca-target-id="pagination_contents_comments_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product_id']->value, ENT_QUOTES, 'UTF-8');?>
@@ -110,8 +110,8 @@ echo "0";
 } else {
 echo "1";
 }
-$_prefixVariable35=ob_get_clean();
-echo htmlspecialchars((string) fn_url(fn_link_attach($_smarty_tpl->tpl_vars['curl']->value,"with_images=".$_prefixVariable35."&selected_section=product_reviews")), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable4=ob_get_clean();
+echo htmlspecialchars((string) fn_url(fn_link_attach($_smarty_tpl->tpl_vars['curl']->value,"with_images=".$_prefixVariable4."&selected_section=product_reviews")), ENT_QUOTES, 'UTF-8');?>
 "
                 class="ty-product-review-reviews-navigation__filter-link cm-ajax"
                 data-ca-target-id="pagination_contents_comments_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['product_id']->value, ENT_QUOTES, 'UTF-8');?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
   from '/app/www/design/backend/templates/addons/gift_certificates/hooks/orders/product_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656c947525934_84425539',
+  'unifunc' => 'content_667c1933038548_90717858',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/gift_certificates/views/orders/components/order_details_body.tpl' => 1,
   ),
 ),false)) {
-function content_6656c947525934_84425539 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c1933038548_90717858 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("tygh:addons/gift_certificates/views/orders/components/order_details_body.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }
 }

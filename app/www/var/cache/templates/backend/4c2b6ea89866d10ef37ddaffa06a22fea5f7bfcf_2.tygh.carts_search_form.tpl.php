@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-19 10:44:13
+/* Smarty version 4.1.1, created on 2024-06-27 15:47:38
   from '/app/www/design/backend/templates/views/cart/components/carts_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66728c4d956125_84812759',
+  'unifunc' => 'content_667d5f6a51a983_97866985',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_66728c4d956125_84812759 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5f6a51a983_97866985 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','customer','email','total','content','cart','with_contact_information','online_only','tt_views_cart_components_carts_search_form_online_only','user_type','any','usergroup_registered','guest','products_in_cart'));
 ?>

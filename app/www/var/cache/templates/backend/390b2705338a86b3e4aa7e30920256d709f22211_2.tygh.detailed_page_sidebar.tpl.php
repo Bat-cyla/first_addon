@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:41
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/sidebar/detailed_page_sidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f111f14959_31446536',
+  'unifunc' => 'content_667c190e884fb4_81444602',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/detailed_page/sidebar/addon_support.tpl' => 1,
   ),
 ),false)) {
-function content_6656f111f14959_31446536 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e884fb4_81444602 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"addons_detailed:manage_sidebar"));
 $_block_repeat=true;

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:48:00
+/* Smarty version 4.1.1, created on 2024-06-26 16:28:29
   from '/app/www/design/backend/templates/components/notifications_center/opener.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e09036bf69_51697380',
+  'unifunc' => 'content_667c177dbf7417_23392178',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655e09036bf69_51697380 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c177dbf7417_23392178 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('notifications_center.notifications','notifications_center.notifications','notifications_center.notifications','loading','loading','show_more','show_less','notifications_center.no_notifications','notifications_center.notifications','notifications_center.mark_all_as_read'));
 $_smarty_tpl->_assignInScope('show_menu_caret', (($tmp = $_smarty_tpl->tpl_vars['show_menu_caret']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>

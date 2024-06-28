@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:07:37
+/* Smarty version 4.1.1, created on 2024-06-27 15:32:49
   from '/app/www/design/backend/templates/views/block_manager/components/device_switch.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2493bcf64_31824045',
+  'unifunc' => 'content_667d5bf19d6b96_55468465',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6656e2493bcf64_31824045 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5bf19d6b96_55468465 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('block_manager.view_layout.phone','block_manager.view_layout.tablet','block_manager.view_layout.desktop','block_manager.view_layout.reset_filter'));
 ob_start();
 echo $_smarty_tpl->__("block_manager.view_layout.phone");

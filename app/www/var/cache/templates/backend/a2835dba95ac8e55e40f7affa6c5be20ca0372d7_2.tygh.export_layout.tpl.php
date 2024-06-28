@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:07:37
+/* Smarty version 4.1.1, created on 2024-06-27 15:32:49
   from '/app/www/design/backend/templates/views/block_manager/components/export_layout.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e249abffe4_38565700',
+  'unifunc' => 'content_667d5bf1ca0e92_91844023',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_6656e249abffe4_38565700 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5bf1ca0e92_91844023 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','block_manager.layout_pages','output','direct_download','server','screen','filename','export'));
 ?>

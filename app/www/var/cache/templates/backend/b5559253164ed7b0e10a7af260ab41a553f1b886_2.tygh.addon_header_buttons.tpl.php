@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:42
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/header/addon_header_buttons.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f11217d6b1_51609576',
+  'unifunc' => 'content_667c190e9ca205_22864146',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_license_required.tpl' => 1,
   ),
 ),false)) {
-function content_6656f11217d6b1_51609576 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e9ca205_22864146 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('refresh','uninstall','addons.install','addons.activate','addons.install'));
 if ($_smarty_tpl->tpl_vars['addon']->value['snapshot_correct'] && $_smarty_tpl->tpl_vars['addon_install_datetime']->value) {?>
@@ -80,8 +80,8 @@ while ($_block_repeat) {
 ob_start();?>
         <?php ob_start();
 echo htmlspecialchars((string) rawurlencode((string)"addons.update&addon=".((string)$_smarty_tpl->tpl_vars['addon']->value['addon'])), ENT_QUOTES, 'UTF-8');
-$_prefixVariable9=ob_get_clean();
-$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn btn-primary",'method'=>"POST",'text'=>$_smarty_tpl->__("addons.install"),'href'=>"addons.install?addon=".((string)$_smarty_tpl->tpl_vars['_addon']->value)."&return_url=".$_prefixVariable9), true);?>
+$_prefixVariable12=ob_get_clean();
+$_smarty_tpl->smarty->ext->_tplFunction->callTemplateFunction($_smarty_tpl, 'btn', array('type'=>"text",'class'=>"btn btn-primary",'method'=>"POST",'text'=>$_smarty_tpl->__("addons.install"),'href'=>"addons.install?addon=".((string)$_smarty_tpl->tpl_vars['_addon']->value)."&return_url=".$_prefixVariable12), true);?>
 
     <?php $_block_repeat=false;
 echo smarty_block_hook(array('name'=>"addons:action_buttons"), ob_get_clean(), $_smarty_tpl, $_block_repeat);

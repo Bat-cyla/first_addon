@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-19 10:44:13
+/* Smarty version 4.1.1, created on 2024-06-27 15:47:38
   from '/app/www/design/backend/templates/views/cart/cart_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66728c4d8d3589_08776143',
+  'unifunc' => 'content_667d5f6a17c726_51660530',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_66728c4d8d3589_08776143 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5f6a17c726_51660530 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('expand_collapse_list','expand_collapse_list','expand_collapse_list','expand_collapse_list','cart','total','customer','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','expand_sublist_of_items','collapse_sublist_of_items','collapse_sublist_of_items','unregistered_customer_short','date','cart','n_products','order','tools','delete','add_as_order','add_as_order','total','user_info','email','phone','first_name','last_name','ip_address','billing_address','billing_shipping_address','first_name','last_name','phone','address','address_2','city','state','country','zip_postal_code','shipping_address','first_name','last_name','phone','address','address_2','city','state','country','zip_postal_code','user_info','customer','unregistered_customer_short','email','phone','first_name','last_name','ip_address','product','quantity','price','product','deleted_product','quantity','price','total','total','quantity','subtotal','no_data','users_carts'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "mainbox", null, null);?>

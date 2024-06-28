@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:36:28
+/* Smarty version 4.1.1, created on 2024-06-27 08:25:51
   from '/app/www/design/backend/templates/views/profiles/components/profiles_account.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e90cacd0c0_73539515',
+  'unifunc' => 'content_667cf7df95fe19_48665509',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/select_status.tpl' => 1,
   ),
 ),false)) {
-function content_6656e90cacd0c0_73539515 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf7df95fe19_48665509 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('user_account_information','email','password','confirm_password','tax_exempt','language'));
 $_smarty_tpl->_subTemplateRender("tygh:common/subheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('title'=>$_smarty_tpl->__("user_account_information")), 0, false);
 ?>

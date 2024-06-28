@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:42
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/sidebar/addon_support.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f1120e3e32_95438038',
+  'unifunc' => 'content_667c190e9529e4_59981549',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/support/contact_developer.tpl' => 1,
   ),
 ),false)) {
-function content_6656f1120e3e32_95438038 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e9529e4_59981549 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.support'));
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('hook', array('name'=>"addons_detailed:sidebar_support"));

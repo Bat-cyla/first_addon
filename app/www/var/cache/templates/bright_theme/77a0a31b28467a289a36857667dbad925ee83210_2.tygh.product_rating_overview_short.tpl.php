@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:09:55
+/* Smarty version 4.1.1, created on 2024-06-27 14:46:51
   from '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/product_rating_overview_short.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2d3dd3d02_67932321',
+  'unifunc' => 'content_667d512bcb8c32_57542504',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_reviews/views/product_reviews/components/write_product_review_button.tpl' => 2,
   ),
 ),false)) {
-function content_6656e2d3dd3d02_67932321 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d512bcb8c32_57542504 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_reviews.write_review','product_reviews.write_review'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

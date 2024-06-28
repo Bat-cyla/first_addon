@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-19 14:58:12
+/* Smarty version 4.1.1, created on 2024-06-27 08:25:16
   from '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/profiles/manage_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6672c7d4b202c2_61321176',
+  'unifunc' => 'content_667cf7bcd3f898_02063268',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6672c7d4b202c2_61321176 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf7bcd3f898_02063268 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <td>
     <?php

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:41
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/components/addons/addon_reviews.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f111eeb0b6_32848651',
+  'unifunc' => 'content_667c190e859e06_35853137',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_6656f111eeb0b6_32848651 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e859e06_35853137 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('addons.show_all_reviews','addons.hide_all_reviews','no_data'));
 $_smarty_tpl->_assignInScope('reviews_displayed_number', (($tmp = $_smarty_tpl->tpl_vars['reviews_displayed_number']->value ?? null)===null||$tmp==='' ? 3 ?? null : $tmp));?>
 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-04 14:13:38
+/* Smarty version 4.1.1, created on 2024-06-27 09:47:44
   from '/app/www/design/backend/templates/views/usergroups/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665ef6e20e7c00_41060968',
+  'unifunc' => 'content_667d0b10858343_73520086',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/save_cancel.tpl' => 1,
   ),
 ),false)) {
-function content_665ef6e20e7c00_41060968 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d0b10858343_73520086 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 \Tygh\Languages\Helper::preloadLangVars(array('general','usergroup','type'));
 if ($_smarty_tpl->tpl_vars['usergroup']->value['usergroup_id']) {?>

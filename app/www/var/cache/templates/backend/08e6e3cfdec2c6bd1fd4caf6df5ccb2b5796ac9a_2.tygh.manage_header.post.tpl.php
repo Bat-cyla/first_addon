@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-10 09:40:05
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
   from '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/orders/manage_header.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66669fc5a70a60_16144160',
+  'unifunc' => 'content_667c1930bbbfe5_44601262',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/table_col_head.tpl' => 1,
   ),
 ),false)) {
-function content_66669fc5a70a60_16144160 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c1930bbbfe5_44601262 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('tags'));
 ?>
 <th width="14%">

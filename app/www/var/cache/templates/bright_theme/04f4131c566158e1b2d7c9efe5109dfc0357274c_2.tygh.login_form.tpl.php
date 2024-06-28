@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 14:38:14
+/* Smarty version 4.1.1, created on 2024-06-27 08:16:51
   from '/app/www/design/themes/responsive/templates/views/auth/login_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665470a62cfa63_20279698',
+  'unifunc' => 'content_667cf5c39ee6a5_56443122',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/login.tpl' => 2,
   ),
 ),false)) {
-function content_665470a62cfa63_20279698 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf5c39ee6a5_56443122 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('returning_customer','email','password','forgot_password_question','error_incorrect_login','register_new_account','remember_me','sign_in','returning_customer','email','password','forgot_password_question','error_incorrect_login','register_new_account','remember_me','sign_in'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

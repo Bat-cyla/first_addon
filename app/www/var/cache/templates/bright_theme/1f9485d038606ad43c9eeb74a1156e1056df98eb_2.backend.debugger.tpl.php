@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-24 07:50:14
+/* Smarty version 4.1.1, created on 2024-06-27 08:16:52
   from '/app/www/design/backend/templates/views/debugger/debugger.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6678fb068e1921_73692105',
+  'unifunc' => 'content_667cf5c4e9eb35_62304975',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6678fb068e1921_73692105 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf5c4e9eb35_62304975 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 echo smarty_function_script(array('src'=>"js/lib/highlight/highlight.pack.js"),$_smarty_tpl);?>
 

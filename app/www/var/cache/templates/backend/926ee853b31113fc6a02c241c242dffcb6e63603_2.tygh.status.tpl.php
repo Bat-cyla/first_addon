@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
   from '/app/www/design/backend/templates/common/status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e08fabdf75_27888220',
+  'unifunc' => 'content_667c193082f660_03684126',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6655e08fabdf75_27888220 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c193082f660_03684126 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.html_options.php','function'=>'smarty_function_html_options',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.html_checkboxes.php','function'=>'smarty_function_html_checkboxes',),));
 if (!$_smarty_tpl->tpl_vars['order_status_descr']->value) {?>
     <?php if (!$_smarty_tpl->tpl_vars['status_type']->value) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
   from '/app/www/design/backend/templates/pickers/products/js.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e08fba7696_63491577',
+  'unifunc' => 'content_667c1930922ae6_52624112',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 1,
   ),
 ),false)) {
-function content_6655e08fba7696_63491577 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c1930922ae6_52624112 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('name','quantity','delete','position_short','name','tools','edit','remove'));
 $_smarty_tpl->_assignInScope('product_data', fn_get_product_data($_smarty_tpl->tpl_vars['product_id']->value,$_SESSION['auth'],(defined('CART_LANGUAGE') ? constant('CART_LANGUAGE') : null),"?:products.company_id,?:product_descriptions.product",false,false,false,false,false,false,true));

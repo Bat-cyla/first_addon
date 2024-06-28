@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:09:52
+/* Smarty version 4.1.1, created on 2024-06-27 08:16:51
   from '/app/www/design/themes/bright_theme/templates/blocks/my_account.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e2d0e98bb8_79263119',
+  'unifunc' => 'content_667cf5c373cd81_34975930',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/auth/login_form.tpl' => 2,
   ),
 ),false)) {
-function content_6656e2d0e98bb8_79263119 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf5c373cd81_34975930 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.live_edit.php','function'=>'smarty_function_live_edit',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),5=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in','profile_details','downloads','orders','view_comparison_list','track_my_order','track_my_order','order_id','email','go','go_to_admin_panel','sign_out','sign_in','register','sign_in'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -139,8 +139,8 @@ if (!$_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>/<?php echo $_smarty_t
             <?php if ($_smarty_tpl->tpl_vars['is_vendor_with_active_company']->value) {?>
                 <a href="<?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("SiteArea::STOREFRONT"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable16=ob_get_clean();
-echo htmlspecialchars((string) fn_url("bottom_panel.login_as_vendor?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".$_prefixVariable16."&user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable2=ob_get_clean();
+echo htmlspecialchars((string) fn_url("bottom_panel.login_as_vendor?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".$_prefixVariable2."&user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])), ENT_QUOTES, 'UTF-8');?>
 " rel="nofollow" class="ty-btn ty-btn__primary cm-post" target="_blank"><?php echo $_smarty_tpl->__("go_to_admin_panel");?>
 </a>
             <?php }?>
@@ -289,8 +289,8 @@ if (!$_smarty_tpl->tpl_vars['auth']->value['user_id']) {?>/<?php echo $_smarty_t
             <?php if ($_smarty_tpl->tpl_vars['is_vendor_with_active_company']->value) {?>
                 <a href="<?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("SiteArea::STOREFRONT"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable17=ob_get_clean();
-echo htmlspecialchars((string) fn_url("bottom_panel.login_as_vendor?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".$_prefixVariable17."&user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])), ENT_QUOTES, 'UTF-8');?>
+$_prefixVariable3=ob_get_clean();
+echo htmlspecialchars((string) fn_url("bottom_panel.login_as_vendor?url=".((string)(urlencode($_smarty_tpl->tpl_vars['config']->value['current_url'])))."&area=".$_prefixVariable3."&user_id=".((string)$_smarty_tpl->tpl_vars['auth']->value['user_id'])), ENT_QUOTES, 'UTF-8');?>
 " rel="nofollow" class="ty-btn ty-btn__primary cm-post" target="_blank"><?php echo $_smarty_tpl->__("go_to_admin_panel");?>
 </a>
             <?php }?>

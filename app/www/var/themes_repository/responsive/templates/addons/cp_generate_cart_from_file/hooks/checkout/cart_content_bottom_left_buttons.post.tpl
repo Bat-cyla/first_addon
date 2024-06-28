@@ -1,0 +1,1 @@
+{include file="buttons/button.tpl" but_text=__("load_template_file") but_meta="ty-btn__primary cm-process-items cp-generate-cart-page-link"}

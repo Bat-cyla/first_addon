@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-27 14:38:15
+/* Smarty version 4.1.1, created on 2024-06-27 14:46:40
   from '/app/www/design/themes/bright_theme/templates/blocks/products/products_scroller.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665470a7bcd156_78807026',
+  'unifunc' => 'content_667d5120b64271_48557100',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/scroller_init.tpl' => 2,
   ),
 ),false)) {
-function content_665470a7bcd156_78807026 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5120b64271_48557100 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);
@@ -67,12 +67,12 @@ $_tmp_array['properties']['outside_navigation'] = "N";
 $_smarty_tpl->_assignInScope('block', $_tmp_array);
 ob_start();
 echo htmlspecialchars((string) uniqid(), ENT_QUOTES, 'UTF-8');
-$_prefixVariable4=ob_get_clean();
+$_prefixVariable15=ob_get_clean();
 $_tmp_array = isset($_smarty_tpl->tpl_vars['block']) ? $_smarty_tpl->tpl_vars['block']->value : array();
 if (!(is_array($_tmp_array) || $_tmp_array instanceof ArrayAccess)) {
 settype($_tmp_array, 'array');
 }
-$_tmp_array['block_id'] = ((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])."_".$_prefixVariable4;
+$_tmp_array['block_id'] = ((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])."_".$_prefixVariable15;
 $_smarty_tpl->_assignInScope('block', $_tmp_array);
 $_smarty_tpl->_assignInScope('item_quantity', (($tmp = $_smarty_tpl->tpl_vars['block']->value['properties']['item_quantity'] ?? null)===null||$tmp==='' ? 5 ?? null : $tmp));
 $_smarty_tpl->_assignInScope('item_quantity_desktop', $_smarty_tpl->tpl_vars['item_quantity']->value);
@@ -296,12 +296,12 @@ $_tmp_array['properties']['outside_navigation'] = "N";
 $_smarty_tpl->_assignInScope('block', $_tmp_array);
 ob_start();
 echo htmlspecialchars((string) uniqid(), ENT_QUOTES, 'UTF-8');
-$_prefixVariable5=ob_get_clean();
+$_prefixVariable16=ob_get_clean();
 $_tmp_array = isset($_smarty_tpl->tpl_vars['block']) ? $_smarty_tpl->tpl_vars['block']->value : array();
 if (!(is_array($_tmp_array) || $_tmp_array instanceof ArrayAccess)) {
 settype($_tmp_array, 'array');
 }
-$_tmp_array['block_id'] = ((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])."_".$_prefixVariable5;
+$_tmp_array['block_id'] = ((string)$_smarty_tpl->tpl_vars['block']->value['block_id'])."_".$_prefixVariable16;
 $_smarty_tpl->_assignInScope('block', $_tmp_array);
 $_smarty_tpl->_assignInScope('item_quantity', (($tmp = $_smarty_tpl->tpl_vars['block']->value['properties']['item_quantity'] ?? null)===null||$tmp==='' ? 5 ?? null : $tmp));
 $_smarty_tpl->_assignInScope('item_quantity_desktop', $_smarty_tpl->tpl_vars['item_quantity']->value);

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-30 13:43:21
+/* Smarty version 4.1.1, created on 2024-06-27 09:37:35
   from '/app/www/design/backend/templates/views/addons/components/marketplace/marketplace_addon_actions.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665858495a0097_65379949',
+  'unifunc' => 'content_667d08af2dc3a2_02343186',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_665858495a0097_65379949 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d08af2dc3a2_02343186 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('cscart_marketplace.buy'));
 if ($_smarty_tpl->tpl_vars['is_marketplace_addons']->value) {?>
     <div>

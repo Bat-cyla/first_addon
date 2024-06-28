@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-18 14:33:39
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
   from '/app/www/design/backend/templates/views/orders/components/orders_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667170938574c5_79857157',
+  'unifunc' => 'content_667c19306f8cf4_97052935',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/advanced_search.tpl' => 1,
   ),
 ),false)) {
-function content_667170938574c5_79857157 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c19306f8cf4_97052935 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.html_checkboxes.php','function'=>'smarty_function_html_checkboxes',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','customer','email','phone','total','manager','no_manager_assigned','period','order_status','tax_exempt','yes','no','order_id','company','has_credit_memo','credit_memo_id','has_invoice','invoice_id','shipping','payment_methods','ordered_products'));
 if ($_smarty_tpl->tpl_vars['in_popup']->value) {?>

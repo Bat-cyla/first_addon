@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 12:10:42
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/sidebar/addon_status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656f11205cd50_81616882',
+  'unifunc' => 'content_667c190e8fb410_29126249',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/addons/components/addons/addon_favorite.tpl' => 1,
   ),
 ),false)) {
-function content_6656f11205cd50_81616882 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c190e8fb410_29126249 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('status','active','addons.disabled','addons.disabled','addons.not_installed','favorites','version','upgrade','available','license_expires','never','developer','core_addon','verified'));
 ?>
@@ -50,15 +50,15 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smart
                     <?php } else { ?>
                         <?php ob_start();
 echo htmlspecialchars((string) rawurlencode((string)"addons.update&addon=".((string)$_smarty_tpl->tpl_vars['addon']->value['addon'])), ENT_QUOTES, 'UTF-8');
-$_prefixVariable6=ob_get_clean();
-$_smarty_tpl->_assignInScope('submit_url', "addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['addon']->value['addon'])."&return_url=".$_prefixVariable6);?>
+$_prefixVariable9=ob_get_clean();
+$_smarty_tpl->_assignInScope('submit_url', "addons.update_status?id=".((string)$_smarty_tpl->tpl_vars['addon']->value['addon'])."&return_url=".$_prefixVariable9);?>
                         <?php ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("ObjectStatuses::ACTIVE"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable7 = ob_get_clean();
+$_prefixVariable10 = ob_get_clean();
 ob_start();
 echo htmlspecialchars((string) smarty_modifier_enum("ObjectStatuses::DISABLED"), ENT_QUOTES, 'UTF-8');
-$_prefixVariable8 = ob_get_clean();
-$_smarty_tpl->_subTemplateRender("tygh:common/switcher.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('meta'=>"company-switch-storefront-status-button storefront__status",'checked'=>$_smarty_tpl->tpl_vars['addon']->value['status'] == smarty_modifier_enum("ObjectStatuses::ACTIVE"),'extra_attrs'=>array("data-ca-submit-url"=>$_smarty_tpl->tpl_vars['submit_url']->value,"data-ca-opened-status"=>$_prefixVariable7,"data-ca-closed-status"=>$_prefixVariable8,"data-ca-result-ids"=>"addon_icon,addon_status")), 0, false);
+$_prefixVariable11 = ob_get_clean();
+$_smarty_tpl->_subTemplateRender("tygh:common/switcher.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('meta'=>"company-switch-storefront-status-button storefront__status",'checked'=>$_smarty_tpl->tpl_vars['addon']->value['status'] == smarty_modifier_enum("ObjectStatuses::ACTIVE"),'extra_attrs'=>array("data-ca-submit-url"=>$_smarty_tpl->tpl_vars['submit_url']->value,"data-ca-opened-status"=>$_prefixVariable10,"data-ca-closed-status"=>$_prefixVariable11,"data-ca-result-ids"=>"addon_icon,addon_status")), 0, false);
 ?>
                     <?php }?>
                 <?php } elseif ($_smarty_tpl->tpl_vars['addon_install_datetime']->value && !$_smarty_tpl->tpl_vars['addon']->value['snapshot_correct']) {?>

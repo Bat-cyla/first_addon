@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-28 16:47:59
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:45
   from '/app/www/design/backend/templates/views/orders/components/context_menu/status.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6655e08fe97a57_71501604',
+  'unifunc' => 'content_667c19310158f0_13842313',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/notify_checkboxes.tpl' => 1,
   ),
 ),false)) {
-function content_6655e08fe97a57_71501604 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c19310158f0_13842313 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('status','change_to_status'));
 ?>
 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-13 11:48:11
+/* Smarty version 4.1.1, created on 2024-06-27 08:16:52
   from 'e8b94caf412ea65cd82f9652b9ce49c31375c144' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6641d3cb183a56_80906821',
+  'unifunc' => 'content_667cf5c462e864_95997033',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -14,7 +14,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6641d3cb183a56_80906821 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667cf5c462e864_95997033 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('get_social'));
 ?>
 <div class="ty-social-link-block"><h3 class="ty-social-link__title"><?php echo $_smarty_tpl->__("get_social");?>

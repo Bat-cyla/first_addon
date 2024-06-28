@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-04 14:13:38
+/* Smarty version 4.1.1, created on 2024-06-27 09:47:44
   from '/app/www/design/backend/templates/views/usergroups/components/privileges_group.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_665ef6e21feb69_53756280',
+  'unifunc' => 'content_667d0b1092b995_22089132',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/check_items.tpl' => 1,
   ),
 ),false)) {
-function content_665ef6e21feb69_53756280 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d0b1092b995_22089132 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.split.php','function'=>'smarty_function_split',),2=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),));
 \Tygh\Languages\Helper::preloadLangVars(array('privilege_groups.other','privilege_groups.','select_all'));
 $_smarty_tpl->_assignInScope('group_name', $_smarty_tpl->__("privilege_groups.other"));

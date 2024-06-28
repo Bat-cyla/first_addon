@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 11:07:37
+/* Smarty version 4.1.1, created on 2024-06-27 15:32:49
   from '/app/www/design/backend/templates/views/block_manager/render/grid.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656e24933b987_72678177',
+  'unifunc' => 'content_667d5bf19551b5_03458595',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/block_manager/components/device_icons.tpl' => 1,
   ),
 ),false)) {
-function content_6656e24933b987_72678177 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667d5bf19551b5_03458595 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('grid','add_grid_block','insert_grid','insert_block','grid_options','enable_or_disable_grid','delete_grid','editing_grid','insert_grid','insert_block','grid_options','delete_grid','on_off'));
 ?>
 <div class="<?php echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['default_class']->value ?? null)===null||$tmp==='' ? "device-specific-block grid" ?? null : $tmp), ENT_QUOTES, 'UTF-8');?>

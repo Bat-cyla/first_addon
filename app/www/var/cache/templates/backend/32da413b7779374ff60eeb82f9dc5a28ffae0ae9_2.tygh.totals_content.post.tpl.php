@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-05-29 09:20:55
+/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
   from '/app/www/design/backend/templates/addons/gift_certificates/hooks/orders/totals_content.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6656c9476be834_35693123',
+  'unifunc' => 'content_667c1933343c94_64060182',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 1,
   ),
 ),false)) {
-function content_6656c9476be834_35693123 (Smarty_Internal_Template $_smarty_tpl) {
+function content_667c1933343c94_64060182 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('payment_information','gift_certificate'));
 if ($_smarty_tpl->tpl_vars['order_info']->value['use_gift_certificates']) {
 if ($_smarty_tpl->tpl_vars['order_info']->value['payment_id'] == 0) {?>
