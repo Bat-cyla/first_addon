@@ -44,6 +44,22 @@ msgctxt "Languages::cp_generate_view"
 msgid "Upload from file"
 msgstr "Загрузить из файла"
 
+msgctxt "Languages::cp_export_view"
+msgid "Export cart"
+msgstr "Экспорт корзины"
+
+msgctxt "Languages::cp_csv_table"
+msgid "Table in CSV"
+msgstr "Таблица в CSV"
+
+msgctxt "Languages::cp_pdf_commercial_proposal"
+msgid "Commercial proposal in PDF"
+msgstr "Коммерческое предложение в PDF"
+
+msgctxt "Languages::cp_export_view_message"
+msgid "The export file is ready. You can download it or send it to the specified email address."
+msgstr "Файл экспорта готов. Вы можете скачать его или отправить на указанный адрес электронной почты."
+
 msgctxt "Languages::select_of_column_order"
 msgid "Specify the order of the columns in your table, then upload the file"
 msgstr "Укажите порядок колонок в Вашей таблице, затем загрузите файл"

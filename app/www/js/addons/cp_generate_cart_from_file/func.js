@@ -8,7 +8,7 @@
         context.find('a.cp-generate-cart-page-link').on('click', function() {
             ajaxGetModal();
         });
-        context.find('a.cp-generate-export-cart-page-link').on('click', function() {
+        context.find('a.cp-export-cart-page-link').on('click', function() {
             ajaxGetExportModal();
         });
         context.find('li.cp-generate-cart-page-link').on('click', function() {
@@ -78,6 +78,7 @@
             method: 'get',
             force_exec: true,
             caching : false,
+            result_ids: 'cp_export_cart_modal',
         });
     }
     function ajaxFinish()

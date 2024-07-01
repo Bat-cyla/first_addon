@@ -10,7 +10,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     );
 
     if ($mode == 'update') {
-
         if (isset($_REQUEST['addon_data']) && $_REQUEST['addon'] == 'cp_generate_cart_from_file') {
             foreach($_REQUEST['addon_data']['options'] as $option_id=>$val) {
                 if($val == 'Y') {
