@@ -1,24 +1,33 @@
 {capture name="mainbox"}
+
     {assign var="object_type" value=$object_type}
+
     {$c_url=$config.current_url|fn_query_remove:"sort_by":"sort_order"}
     {$tags_statuses=""|fn_get_default_statuses:false}
     {$rev=$smarty.request.content_id|default:"pagination_contents_tags"}
+
     {include_ext file="common/icon.tpl" class="icon-`$search.sort_order_rev`" assign=c_icon}
     {include_ext file="common/icon.tpl" class="icon-dummy" assign=c_dummy}
+
     <form class="form-horizontal form-edit" action="{""|fn_url}" method="post" name="cp_extended_tags_form">
 
         {include file="common/pagination.tpl" save_current_page=true save_current_url=true}
         {if $tags}
-            {capture name="tags_table"}
+
+
+
+            {capture name="cp_extended_tags_table"}
                 <div class="table-responsive-wrapper longtap-selection">
                     <table width="100%" class="table table-sort table-middle table--relative table-responsive">
                         <thead
                                 data-ca-bulkedit-default-object="true"
                                 data-ca-bulkedit-component="defaultObject"
+
                         >
                         <tr>
+
                             <th class="left mobile-hide" width="6%">
-                                {include file="common/check_items.tpl" check_statuses=$tags_statuses}
+                                {include file="common/check_items.tpl" check_statuses=$tags_statuses }
 
                                 <input type="checkbox"
                                        class="bulkedit-toggler hide"
@@ -63,16 +72,16 @@
                             data-ca-id="{$tag.tag_id}"
                         >
                             <td width="6%" class="left mobile-hide">
-
+                                <input type="checkbox" class="cm-item cm-item-status-{$tag.status|lower} hide" value="{$tag.tag_id}" name="tag_ids[]"/>
                             </td>
                             <td width="40%" data-th="{__("tag")}">
                                 <input type="text" value="{$tag.tag}" size="20" class="input-hidden">
                             </td>
 
-                                <td class="center" width="8%" ">
+                                <td class="center" width="8%" >
                                   {$tag.popularity}
                                 </td>
-                            <td width="8%" ">
+                            <td width="8%" >
                             </td>
                                 <td class="center" width="8%" >
                                     <input type="hidden" value="{$tag.tag_id}" name="tags_ids[]">
@@ -98,9 +107,9 @@
             {/capture}
 
             {include file="common/context_menu_wrapper.tpl"
-            form="tags_form"
-            object="tags"
-            items=$smarty.capture.tags_table
+            form="cp_extended_tags_form"
+            object="cp_extended_tags"
+            items=$smarty.capture.cp_extended_tags_table
             }
 
         {else}
@@ -122,10 +131,13 @@
         {/if}
     {/capture}
     {dropdown content=$smarty.capture.tools_list}
+
     {if $tags}
         {include file="buttons/save.tpl" but_name="dispatch[cp_extended_tags.m_update]" but_role="submit-link" but_target_form="cp_extended_tags_form"}
     {/if}
 {/capture}
+
+
 
 {capture name="sidebar"}
     {include file="addons/cp_extended_tags/views/cp_extended_tags/components/tags_search_form.tpl" dispatch="cp_extended_tags.manage"}

@@ -13,8 +13,8 @@ msgstr ""
 "PO-Revision-Date: 2023-08-31 12:45\n"
 
 msgctxt "Addons::name::cp_extended_tags"
-msgid "Cart-Power: Tags for Users and Orders (NEW)"
-msgstr "Cart-Power: Tags for Users and Orders (NEW)"
+msgid "Cart-Power: Tags for Users and Orders"
+msgstr "Cart-Power: Tags for Users and Orders"
 
 msgctxt "Addons::description::cp_extended_tags"
 msgid "Allows you to use tags for users and orders in the administration panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"

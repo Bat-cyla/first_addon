@@ -31,6 +31,22 @@ if ($_SERVER['REQUEST_METHOD']	== 'POST') {
         }
 
     }
+    if ($mode == 'approve') {
+
+        db_query("UPDATE ?:tags SET status = 'A' WHERE tag_id IN (?n)", $_REQUEST['tag_ids']);
+    }
+
+    if ($mode == 'disapprove') {
+        fn_print_die($_REQUEST);
+        db_query("UPDATE ?:tags SET status = 'D' WHERE tag_id IN (?n)", $_REQUEST['tag_ids']);
+    }
+
+    if ($mode == 'm_delete') {
+        if (!empty($_REQUEST['tag_ids'])) {
+            fn_delete_tags($_REQUEST['tag_ids']);
+        }
+    }
+
     elseif ($mode == 'm_update') {
         $object_type=Tygh::$app['view']->getTemplateVars('object_type');
         if (isset($_REQUEST['active_tags_ids'])) {

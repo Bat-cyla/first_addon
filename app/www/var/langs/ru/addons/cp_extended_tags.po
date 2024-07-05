@@ -13,7 +13,7 @@ msgstr ""
 "PO-Revision-Date: 2023-08-31 12:45\n"
 
 msgctxt "Addons::name::cp_extended_tags"
-msgid "Cart-Power: Tags for Users and Orders (NEW)"
+msgid "Cart-Power: Tags for Users and Orders"
 msgstr "Cart-Power: Теги для пользователей и заказов"
 
 msgctxt "Addons::description::cp_extended_tags"
@@ -77,12 +77,12 @@ msgid "Tag"
 msgstr "Тег"
 
 msgctxt "Languages::extended_tags_orders"
-msgid "CP:Tags by orders"
-msgstr "CP:Теги по заказам"
+msgid "CP:Tags for orders"
+msgstr "CP:Теги для заказов"
 
 msgctxt "Languages::extended_tags_customers"
-msgid "CP:Tags by customers"
-msgstr "CP:Теги по покупателям"
+msgid "CP:Tags for users"
+msgstr "CP:Теги для пользователей"
 
 msgctxt "Languages::add_tag"
 msgid "Add tag"
