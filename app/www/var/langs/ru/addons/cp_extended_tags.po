@@ -13,12 +13,12 @@ msgstr ""
 "PO-Revision-Date: 2023-08-31 12:45\n"
 
 msgctxt "Addons::name::cp_extended_tags"
-msgid "Cart-Power:Tags[Extended]"
-msgstr "Cart-Power:Теги[Расширенный]"
+msgid "Cart-Power: Tags for Users and Orders (NEW)"
+msgstr "Cart-Power: Теги для пользователей и заказов"
 
 msgctxt "Addons::description::cp_extended_tags"
-msgid "Enables orders and customers tags"
-msgstr "Теги для заказов и покупателей"
+msgid "Allows you to use tags for users and orders in the administration panel. Developed by <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
+msgstr "Позволяет использовать теги для пользователей и заказов в панели администрирования. Разработано <a target=\"_blank\" href=\"http://cart-power.com/\">Cart-Power</a>"
 
 msgctxt "Languages::extended_tags_orders_menu_description"
 msgid "Manage orders extended tags."

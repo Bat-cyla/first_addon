@@ -63,6 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 if ($mode == 'getfile') {
     if (!empty($_REQUEST['attachment_id'])) {
+
         fn_get_attachment($_REQUEST['attachment_id']);
     }
     exit;

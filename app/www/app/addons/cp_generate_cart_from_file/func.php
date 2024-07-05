@@ -293,3 +293,48 @@ function fn_cp_generate_cart_from_file_delete_dir()
         fn_rm($save_dir_path);
     }
 }
+
+function fn_cp_generate_cart_from_file_export_file(&$data, &$options)
+{
+    $data=array_map('fn_cp_generate_cart_from_file_array_map',$data);
+
+    $delimiter=$options['delimiter'];
+    $eol = "\n";
+
+
+    Tygh::$app['view']->assign('fields', array_keys($data[0]));
+    Tygh::$app['view']->assign('export_data', $data);
+    Tygh::$app['view']->assign('delimiter', $delimiter);
+    Tygh::$app['view']->assign('eol', $eol);
+    $csv = Tygh::$app['view']->fetch('design/backend/templates/views/exim/components/export_csv.tpl');
+
+    file_put_contents('var/cp_generate_cart_from_file/'.$options['filename'],$csv);
+    $export_obj= Storage::instance('cp_generate_cart_from_file');
+    if(!$export_obj->isExist($options['filename'])){
+        return false;
+    }
+
+    $export_obj->get($options['filename']);
+
+    $export_obj->delete($options['filename']);
+
+
+    return true;
+
+}
+
+function fn_cp_generate_cart_from_file_array_map($arr){
+
+        $arr=[
+            'product'=>$arr['product'],
+            'product_code'=>$arr['product_code'],
+            'product_options'=>$arr['product_options'],
+            //'company_id'=>$arr['company_id'],
+            'price'=>$arr['price'],
+            'amount'=>$arr['amount'],
+            'total_price'=>$arr['total_price'],
+            ];
+
+    return $arr;
+}
+
