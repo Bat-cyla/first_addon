@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:23:51
+/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
   from '/app/www/design/themes/responsive/templates/views/checkout/components/checkout_totals_info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e6137a203a8_80699125',
+  'unifunc' => 'content_668e652cbdeec1_30362653',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5b4415f4ab24288b01010677b49bb83bd754f476' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/views/checkout/components/checkout_totals_info.tpl',
-      1 => 1716808809,
+      1 => 1720608018,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/modifier.tpl' => 2,
   ),
 ),false)) {
-function content_668e6137a203a8_80699125 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e652cbdeec1_30362653 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),2=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('subtotal','shipping_cost','including_discount','order_discount','taxes','included','payment_surcharge','subtotal','shipping_cost','including_discount','order_discount','taxes','included','payment_surcharge'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

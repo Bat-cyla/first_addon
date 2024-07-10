@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 08:16:52
+/* Smarty version 4.1.1, created on 2024-07-10 13:40:45
   from '/app/www/design/themes/responsive/templates/addons/geo_maps/hooks/index/scripts.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667cf5c4847e96_43958333',
+  'unifunc' => 'content_668e652d56cf76_40220617',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '15ff03f3905ca0d8c72890851e7a51b2b799232a' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/geo_maps/hooks/index/scripts.post.tpl',
-      1 => 1716808809,
+      1 => 1720608018,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'backend:addons/geo_maps/components/scripts.tpl' => 2,
   ),
 ),false)) {
-function content_667cf5c4847e96_43958333 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e652d56cf76_40220617 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('geo_maps.google_maps_cookie_title','geo_maps.google_maps_cookie_description','geo_maps.yandex_maps_cookie_title','geo_maps.yandex_maps_cookie_description','geo_maps.google_maps_cookie_title','geo_maps.google_maps_cookie_description','geo_maps.yandex_maps_cookie_title','geo_maps.yandex_maps_cookie_description'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

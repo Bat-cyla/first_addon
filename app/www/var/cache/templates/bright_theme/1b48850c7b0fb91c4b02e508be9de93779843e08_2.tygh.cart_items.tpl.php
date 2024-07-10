@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:23:50
+/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
   from '/app/www/design/themes/responsive/templates/views/checkout/components/cart_items.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e6136b92287_26285825',
+  'unifunc' => 'content_668e652c381f56_16657822',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b48850c7b0fb91c4b02e508be9de93779843e08' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/views/checkout/components/cart_items.tpl',
-      1 => 1716808809,
+      1 => 1720608018,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox_cart.tpl' => 2,
   ),
 ),false)) {
-function content_668e6136b92287_26285825 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e652c381f56_16657822 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product','unit_price','quantity','total_price','remove','sku','free','discount','taxes','price','quantity','discount','tax','subtotal','cart_items','product','unit_price','quantity','total_price','remove','sku','free','discount','taxes','price','quantity','discount','tax','subtotal','cart_items'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

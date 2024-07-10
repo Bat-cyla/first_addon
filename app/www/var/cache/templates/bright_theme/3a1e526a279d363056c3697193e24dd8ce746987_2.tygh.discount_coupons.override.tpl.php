@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:47:03
+/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
   from '/app/www/design/themes/responsive/templates/addons/gift_certificates/hooks/checkout/discount_coupons.override.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d5137851cb6_24845343',
+  'unifunc' => 'content_668e652cab06c1_03426698',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3a1e526a279d363056c3697193e24dd8ce746987' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/gift_certificates/hooks/checkout/discount_coupons.override.tpl',
-      1 => 1716808809,
+      1 => 1720608018,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/go.tpl' => 2,
   ),
 ),false)) {
-function content_667d5137851cb6_24845343 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e652cab06c1_03426698 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('promo_code','promo_code_or_certificate','apply','apply','promo_code','promo_code_or_certificate','apply','apply'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

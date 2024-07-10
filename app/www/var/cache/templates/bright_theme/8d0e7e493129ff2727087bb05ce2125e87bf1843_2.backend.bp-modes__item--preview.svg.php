@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:46:38
+/* Smarty version 4.1.1, created on 2024-07-10 13:40:42
   from '/app/www/design/backend/templates/components/bottom_panel/icons/bp-modes__item--preview.svg' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d511e5d4ea7_88786432',
+  'unifunc' => 'content_668e652adbb095_39734344',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8d0e7e493129ff2727087bb05ce2125e87bf1843' => 
     array (
       0 => '/app/www/design/backend/templates/components/bottom_panel/icons/bp-modes__item--preview.svg',
-      1 => 1716808809,
+      1 => 1720608018,
       2 => 'backend',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d511e5d4ea7_88786432 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e652adbb095_39734344 (Smarty_Internal_Template $_smarty_tpl) {
 ?><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
     class="bp-modes__item-icon">
     <path
