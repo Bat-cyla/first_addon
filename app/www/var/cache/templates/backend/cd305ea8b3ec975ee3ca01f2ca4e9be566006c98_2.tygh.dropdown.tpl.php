@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-02 11:46:55
+/* Smarty version 4.1.1, created on 2024-07-10 13:21:51
   from '/app/www/design/backend/templates/components/context_menu/items/dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_6683be7f592957_43267386',
+  'unifunc' => 'content_668e60bf124215_64117067',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6683be7f592957_43267386 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e60bf124215_64117067 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.render_tag_attrs.php','function'=>'smarty_modifier_render_tag_attrs',),));
 ?>
 

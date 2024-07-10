@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 15:11:47
+/* Smarty version 4.1.1, created on 2024-07-10 13:23:51
   from '/app/www/design/themes/responsive/templates/addons/gift_certificates/hooks/checkout/extra_list.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d570318b6c7_11178389',
+  'unifunc' => 'content_668e61373f0320_63015133',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/options_info.tpl' => 2,
   ),
 ),false)) {
-function content_667d570318b6c7_11178389 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e61373f0320_63015133 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('edit','gift_certificate','remove','gift_certificate','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','free_products','remove','sku','price','qty','discount','tax','subtotal','price_summary','free','free','free','edit','gift_certificate','remove','gift_certificate','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','free_products','remove','sku','price','qty','discount','tax','subtotal','price_summary','free','free','free'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

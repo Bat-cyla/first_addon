@@ -20,7 +20,6 @@
                 data-ca-bulkedit-component="defaultObject"
             >
             <tr>
-
                 <th class="left mobile-hide" width="6%">
                     {include file="common/check_items.tpl" check_statuses=$tags_statuses}
 

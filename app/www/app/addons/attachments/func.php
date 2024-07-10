@@ -142,7 +142,7 @@ function fn_update_attachments(array $attachment_data, $attachment_id, $object_t
         /**
          * Executes after new file was added. Allows to do additional actions.
          *
-         * @param array  $attachment_data Data of the attachment
+         * @param array  $attachment_data Data of the atttachment
          * @param string $object_type     Object type
          * @param int    $object_id       Object identifier
          * @param string $type            Attachment type
@@ -270,13 +270,13 @@ function fn_get_attachment($attachment_id)
     $data = db_get_row('SELECT * FROM ?:attachments WHERE attachment_id = ?i ?p', $attachment_id, $condition);
 
     fn_set_hook('attachments_get_attachment', $data, $attachment_id);
+
     if (empty($data)) {
         return false;
     }
 
     if (YesNo::toBool($data['on_server'])) {
         $attachment_storage = Storage::instance('attachments');
-
         $attachment_filename = $data['object_type'] . '/' . $data['object_id'] . '/' . $data['filename'];
 
         if (!$attachment_storage->isExist($attachment_filename)) {

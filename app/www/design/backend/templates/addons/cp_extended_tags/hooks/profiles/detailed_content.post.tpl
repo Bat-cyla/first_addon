@@ -1,13 +1,12 @@
 
-{include file="common/subheader.tpl" title=__("extended_tags_customers")}
+{include file="common/subheader.tpl" title=__("extended_tags")}
 
-{script src="js/addons/cp_extended_tags/tags_autocomplete.js"}
+{script src="js/addons/tags_ext/tags_autocomplete.js"}
 {$company_id=fn_get_runtime_company_id()}
 <div class="control-group {if $allow_save}cm-no-hide-input{/if}">
     <label class="control-label">{__("tags")}:</label>
     <div class="controls">
-        <span class="cp-input">
-        <ul id="my_tags" class="cp-ul">
+        <ul id="my_tags">
             {foreach $user_data.tags as $tag}
                 <textarea name="user_tags[{$tag.tag_id}]" type="text" data-ca-tags="TagsValues" class="hidden-accessible">{$tag.tag}{if !$tag@last}{/if}</textarea>
             {/foreach}
@@ -16,7 +15,6 @@
                 <li>{$tag.tag}</li>
             {/foreach}
         </ul>
-        </span>
     </div>
 </div>
 

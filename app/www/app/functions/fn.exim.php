@@ -232,6 +232,7 @@ function fn_export($pattern, $export_fields, $options)
         // Put data
         $enclosure = (isset($pattern['enclosure'])) ? $pattern['enclosure'] : '"';
         fn_echo(' .');
+
         if (isset($pattern['func_save_content_to_file']) && is_callable($pattern['func_save_content_to_file'])) {
             call_user_func($pattern['func_save_content_to_file'], $_result, $options, $enclosure);
         } else {
@@ -252,6 +253,7 @@ function fn_export($pattern, $export_fields, $options)
 
     return $data_exported;
 }
+
 //
 // Process csv file using pattern
 // Parameters:
@@ -444,8 +446,6 @@ function fn_exim_put_csv(&$data, &$options, $enclosure)
         $delimiter = ';';
     }
 
-
-
     fn_mkdir(fn_get_files_dir_path());
 
     foreach ($data as $k => $v) {
@@ -460,7 +460,6 @@ function fn_exim_put_csv(&$data, &$options, $enclosure)
         }
     }
 
-
     if ($output_started == false || isset($options['force_header'])) {
         Tygh::$app['view']->assign('fields', array_keys($data[0]));
     } else {
@@ -471,9 +470,7 @@ function fn_exim_put_csv(&$data, &$options, $enclosure)
     Tygh::$app['view']->assign('delimiter', $delimiter);
     Tygh::$app['view']->assign('eol', $eol);
 
-
-    $csv = Tygh::$app['view']->fetch('design/backend/templates/views/exim/components/export_csv.tpl');
-
+    $csv = Tygh::$app['view']->fetch('views/exim/components/export_csv.tpl');
     $fd = fopen(fn_get_files_dir_path() . $options['filename'], ($output_started && !isset($options['force_header'])) ? 'ab' : 'wb');
     if ($fd) {
         fwrite($fd, $csv, strlen($csv));

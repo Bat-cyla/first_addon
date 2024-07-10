@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-03 11:00:51
+/* Smarty version 4.1.1, created on 2024-07-10 13:21:53
   from '/app/www/design/backend/templates/addons/product_bundles/hooks/product_picker/table_column_options.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_66850533b71cd8_31032033',
+  'unifunc' => 'content_668e60c179f1f3_70665798',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 4,
   ),
 ),false)) {
-function content_66850533b71cd8_31032033 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e60c179f1f3_70665798 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('absolute','percent','absolute','percent'));
 if (($_smarty_tpl->tpl_vars['runtime']->value['controller'] === "product_bundles" || $_smarty_tpl->tpl_vars['extra_mode']->value === "product_bundles") && $_smarty_tpl->tpl_vars['product_info']->value) {?>

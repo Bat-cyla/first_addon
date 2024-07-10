@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 15:11:47
+/* Smarty version 4.1.1, created on 2024-07-10 13:23:51
   from '/app/www/design/themes/responsive/templates/addons/reward_points/hooks/checkout/payment_options.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d5703b406f9_11931497',
+  'unifunc' => 'content_668e61379da608_27416294',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:buttons/button.tpl' => 2,
   ),
 ),false)) {
-function content_667d5703b406f9_11931497 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e61379da608_27416294 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('points_to_use','apply','apply','text_point_in_account','points_lowercase','points_in_use_lowercase','points_to_use','apply','apply','text_point_in_account','points_lowercase','points_in_use_lowercase'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
