@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:29
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:01
   from '/app/www/design/backend/templates/common/mainbox.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177d455a05_56342206',
+  'unifunc' => 'content_668e70053cd7a3_79904817',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '48f995a147def9f608382f35b631149418a9d81f' => 
     array (
       0 => '/app/www/design/backend/templates/common/mainbox.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/tools.tpl' => 1,
   ),
 ),false)) {
-function content_667c177d455a05_56342206 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e70053cd7a3_79904817 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.notes.php','function'=>'smarty_block_notes',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sanitize_html.php','function'=>'smarty_modifier_sanitize_html',),5=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),6=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('notes','admin_search_field','all_vendors','choose_action','sidebar','language','sidebar'));
 if (!$_smarty_tpl->tpl_vars['sidebar_position']->value) {?>
@@ -105,8 +105,8 @@ ob_start();?>
                             <?php } else { ?>
                                 <?php ob_start();
 echo htmlspecialchars((string) (($tmp = $_smarty_tpl->tpl_vars['method']->value ?? null)===null||$tmp==='' ? "GET" ?? null : $tmp), ENT_QUOTES, 'UTF-8');
-$_prefixVariable47 = ob_get_clean();
-if (fn_check_view_permissions($_smarty_tpl->tpl_vars['m']->value['href'],$_prefixVariable47)) {?>
+$_prefixVariable22 = ob_get_clean();
+if (fn_check_view_permissions($_smarty_tpl->tpl_vars['m']->value['href'],$_prefixVariable22)) {?>
                                     <li class="<?php if ($_smarty_tpl->tpl_vars['m']->value['js'] == true) {?>cm-js<?php }
 if ((isset($_smarty_tpl->tpl_vars['__smarty_foreach_first_level']->value['last']) ? $_smarty_tpl->tpl_vars['__smarty_foreach_first_level']->value['last'] : null)) {?> last-item<?php }
 if ($_smarty_tpl->tpl_vars['navigation']->value['dynamic']['active_section'] == $_smarty_tpl->tpl_vars['s_id']->value) {?> active<?php }?>"><a href="<?php echo htmlspecialchars((string) fn_url($_smarty_tpl->tpl_vars['m']->value['href']), ENT_QUOTES, 'UTF-8');?>

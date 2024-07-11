@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:28
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:00
   from '/app/www/design/backend/templates/buttons/helpers.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177c7c5f83_06671116',
+  'unifunc' => 'content_668e7004ea8584_86286110',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8280dd8e4988728dfe06a923215a411e4a5bc2aa' => 
     array (
       0 => '/app/www/design/backend/templates/buttons/helpers.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,19 +20,19 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c177c7c5f83_06671116 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7004ea8584_86286110 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'btn' => 
   array (
     'compiled_filepath' => '/app/www/var/cache/templates/backend/8280dd8e4988728dfe06a923215a411e4a5bc2aa_2.tygh.helpers.tpl.php',
     'uid' => '8280dd8e4988728dfe06a923215a411e4a5bc2aa',
-    'call_name' => 'smarty_template_function_btn_1332092841667c177c77fa39_40374043',
+    'call_name' => 'smarty_template_function_btn_1253910036668e7004dbb809_29718619',
   ),
   'dropdown' => 
   array (
     'compiled_filepath' => '/app/www/var/cache/templates/backend/8280dd8e4988728dfe06a923215a411e4a5bc2aa_2.tygh.helpers.tpl.php',
     'uid' => '8280dd8e4988728dfe06a923215a411e4a5bc2aa',
-    'call_name' => 'smarty_template_function_dropdown_1332092841667c177c77fa39_40374043',
+    'call_name' => 'smarty_template_function_dropdown_1253910036668e7004dbb809_29718619',
   ),
 ));
 ?>
@@ -40,9 +40,9 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
 
 <?php }
 \Tygh\Languages\Helper::preloadLangVars(array('delete_selected','delete','tools'));
-/* smarty_template_function_btn_1332092841667c177c77fa39_40374043 */
-if (!function_exists('smarty_template_function_btn_1332092841667c177c77fa39_40374043')) {
-function smarty_template_function_btn_1332092841667c177c77fa39_40374043(Smarty_Internal_Template $_smarty_tpl,$params) {
+/* smarty_template_function_btn_1253910036668e7004dbb809_29718619 */
+if (!function_exists('smarty_template_function_btn_1253910036668e7004dbb809_29718619')) {
+function smarty_template_function_btn_1253910036668e7004dbb809_29718619(Smarty_Internal_Template $_smarty_tpl,$params) {
 $params = array_merge(array('text'=>'','href'=>'','title'=>'','onclick'=>'','target'=>'','class'=>'','data'=>array(),'form'=>'','method'=>'','raw'=>false), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -217,10 +217,10 @@ if (!$_smarty_tpl->tpl_vars['hide_clone']->value) {?><li><?php $_smarty_tpl->sma
 
     <?php }
 }}
-/*/ smarty_template_function_btn_1332092841667c177c77fa39_40374043 */
-/* smarty_template_function_dropdown_1332092841667c177c77fa39_40374043 */
-if (!function_exists('smarty_template_function_dropdown_1332092841667c177c77fa39_40374043')) {
-function smarty_template_function_dropdown_1332092841667c177c77fa39_40374043(Smarty_Internal_Template $_smarty_tpl,$params) {
+/*/ smarty_template_function_btn_1253910036668e7004dbb809_29718619 */
+/* smarty_template_function_dropdown_1253910036668e7004dbb809_29718619 */
+if (!function_exists('smarty_template_function_dropdown_1253910036668e7004dbb809_29718619')) {
+function smarty_template_function_dropdown_1253910036668e7004dbb809_29718619(Smarty_Internal_Template $_smarty_tpl,$params) {
 $params = array_merge(array('text'=>'','title'=>'','class'=>'','content'=>'','icon'=>'','no_caret'=>false,'placement'=>"left"), $params);
 foreach ($params as $key => $value) {
 $_smarty_tpl->tpl_vars[$key] = new Smarty_Variable($value, $_smarty_tpl->isRenderingCache);
@@ -252,5 +252,5 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/lib/vendor/smar
         </div>
     <?php }
 }}
-/*/ smarty_template_function_dropdown_1332092841667c177c77fa39_40374043 */
+/*/ smarty_template_function_dropdown_1253910036668e7004dbb809_29718619 */
 }

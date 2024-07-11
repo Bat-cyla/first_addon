@@ -12,7 +12,7 @@
 * "copyright.txt" FILE PROVIDED WITH THIS DISTRIBUTION PACKAGE.            *
 ****************************************************************************/
 
-use Tygh\Addons\GiftCertificates\Notifications\EventIdProviders\CertificateProvider;
+use Tygh\Addons\GiftCertificates\Notifications\EventIdProviders\CartProvider;
 use Tygh\Registry;
 use Tygh\Tygh;
 

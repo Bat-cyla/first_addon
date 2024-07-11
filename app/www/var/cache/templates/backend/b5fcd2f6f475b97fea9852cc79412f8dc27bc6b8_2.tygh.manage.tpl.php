@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:21:50
+/* Smarty version 4.1.1, created on 2024-07-10 14:29:15
   from '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/manage.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e60bee758d5_67157612',
+  'unifunc' => 'content_668e708b5cb0b8_71057007',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b5fcd2f6f475b97fea9852cc79412f8dc27bc6b8' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/manage.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -30,7 +30,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_668e60bee758d5_67157612 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e708b5cb0b8_71057007 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 \Tygh\Languages\Helper::preloadLangVars(array('code','gift_cert_from','gift_cert_to','type','date','current_amount','status','code','gift_cert_from','gift_cert_to','type','mail','email','date','current_amount','edit','delete','status','no_data','gift_certificate_statuses','add_gift_certificate','gift_certificates'));
 echo smarty_function_script(array('src'=>"js/addons/gift_certificates/bulk_edit.js"),$_smarty_tpl);?>

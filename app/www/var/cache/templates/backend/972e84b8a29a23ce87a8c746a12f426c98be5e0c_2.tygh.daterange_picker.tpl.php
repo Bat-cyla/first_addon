@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 15:03:37
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:07
   from '/app/www/design/backend/templates/common/daterange_picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d55191ab6c8_69335937',
+  'unifunc' => 'content_668e700b028741_59474272',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '972e84b8a29a23ce87a8c746a12f426c98be5e0c' => 
     array (
       0 => '/app/www/design/backend/templates/common/daterange_picker.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d55191ab6c8_69335937 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e700b028741_59474272 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),));
 \Tygh\Languages\Helper::preloadLangVars(array('month_name_abr_1','month_name_abr_2','month_name_abr_3','month_name_abr_4','month_name_abr_5','month_name_abr_6','month_name_abr_7','month_name_abr_8','month_name_abr_9','month_name_abr_10','month_name_abr_11','month_name_abr_12','weekday_abr_0','weekday_abr_1','weekday_abr_2','weekday_abr_3','weekday_abr_4','weekday_abr_5','weekday_abr_6','today','yesterday','this_month','last_month','this_year','last_year','custom_range','apply','clear','cancel','from','to'));
 $_smarty_tpl->_assignInScope('enable_inputs', (($tmp = $_smarty_tpl->tpl_vars['enable_inputs']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));?>

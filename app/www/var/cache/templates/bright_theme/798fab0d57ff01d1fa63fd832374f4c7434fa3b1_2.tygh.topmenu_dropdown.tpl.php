@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:40:43
+/* Smarty version 4.1.1, created on 2024-07-10 14:31:29
   from '/app/www/design/themes/responsive/templates/blocks/topmenu_dropdown.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e652be15212_97224574',
+  'unifunc' => 'content_668e7111cc5c11_27352397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '798fab0d57ff01d1fa63fd832374f4c7434fa3b1' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/blocks/topmenu_dropdown.tpl',
-      1 => 1720608018,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668e652be15212_97224574 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7111cc5c11_27352397 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('menu','text_topmenu_view_more','text_topmenu_view_more','text_topmenu_more','menu','text_topmenu_view_more','text_topmenu_view_more','text_topmenu_more'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

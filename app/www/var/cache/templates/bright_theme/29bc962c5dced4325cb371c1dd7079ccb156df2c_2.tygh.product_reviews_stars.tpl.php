@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:46:41
+/* Smarty version 4.1.1, created on 2024-07-10 14:31:31
   from '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/product_reviews_stars.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d51217c7fb6_64084444',
+  'unifunc' => 'content_668e7113136110_94879026',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '29bc962c5dced4325cb371c1dd7079ccb156df2c' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/product_reviews/views/product_reviews/components/product_reviews_stars.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d51217c7fb6_64084444 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7113136110_94879026 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('product_reviews.product_is_rated_n_out_of_five_stars','product_reviews.show_rating','product_reviews.click_to_see_reviews','product_reviews.product_is_rated_n_out_of_five_stars','product_reviews.show_rating','product_reviews.click_to_see_reviews'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -39,13 +39,13 @@ if ($_smarty_tpl->tpl_vars['rating']->value > 0) {?>
     <?php if ($_smarty_tpl->tpl_vars['link']->value) {?>
         <?php ob_start();
 echo $_smarty_tpl->__("product_reviews.show_rating");
-$_prefixVariable27=ob_get_clean();
-$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable27.".");?>
+$_prefixVariable30=ob_get_clean();
+$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable30.".");?>
     <?php } elseif ($_smarty_tpl->tpl_vars['button']->value) {?>
         <?php ob_start();
 echo $_smarty_tpl->__("product_reviews.click_to_see_reviews");
-$_prefixVariable28=ob_get_clean();
-$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable28.".");?>
+$_prefixVariable31=ob_get_clean();
+$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable31.".");?>
     <?php }?>
     <?php if ($_smarty_tpl->tpl_vars['link']->value === true) {?>
         <?php $_smarty_tpl->_assignInScope('link', "products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id'])."&selected_section=product_reviews#product_reviews");?>
@@ -119,13 +119,13 @@ if ($_smarty_tpl->tpl_vars['rating']->value > 0) {?>
     <?php if ($_smarty_tpl->tpl_vars['link']->value) {?>
         <?php ob_start();
 echo $_smarty_tpl->__("product_reviews.show_rating");
-$_prefixVariable29=ob_get_clean();
-$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable29.".");?>
+$_prefixVariable32=ob_get_clean();
+$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable32.".");?>
     <?php } elseif ($_smarty_tpl->tpl_vars['button']->value) {?>
         <?php ob_start();
 echo $_smarty_tpl->__("product_reviews.click_to_see_reviews");
-$_prefixVariable30=ob_get_clean();
-$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable30.".");?>
+$_prefixVariable33=ob_get_clean();
+$_smarty_tpl->_assignInScope('title', ((string)$_smarty_tpl->tpl_vars['title']->value).". ".$_prefixVariable33.".");?>
     <?php }?>
     <?php if ($_smarty_tpl->tpl_vars['link']->value === true) {?>
         <?php $_smarty_tpl->_assignInScope('link', "products.view?product_id=".((string)$_smarty_tpl->tpl_vars['product']->value['product_id'])."&selected_section=product_reviews#product_reviews");?>

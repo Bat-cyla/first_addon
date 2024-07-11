@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:21:51
+/* Smarty version 4.1.1, created on 2024-07-10 14:29:15
   from '/app/www/design/backend/templates/common/section.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e60bf172100_83143369',
+  'unifunc' => 'content_668e708ba1a3f6_45976739',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '236a912388fc9d0f647e801209d5b82984070103' => 
     array (
       0 => '/app/www/design/backend/templates/common/section.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668e60bf172100_83143369 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e708ba1a3f6_45976739 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('close'));
 $_smarty_tpl->_assignInScope('rnd', rand());?>
 <div class="clear" id="ds_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['rnd']->value, ENT_QUOTES, 'UTF-8');?>

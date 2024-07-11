@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:21:51
+/* Smarty version 4.1.1, created on 2024-07-10 14:29:15
   from '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/components/gift_certificates_search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e60bf13eaa3_83839428',
+  'unifunc' => 'content_668e708b941983_09594540',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'cfbfda978396a8247bef568dfa72027ba74d7f2f' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/components/gift_certificates_search_form.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/section.tpl' => 1,
   ),
 ),false)) {
-function content_668e60bf13eaa3_83839428 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e708b941983_09594540 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_title','gift_cert_from','gift_cert_to','email','gift_certificate_status','gift_cert_code'));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "section", null, null);?>
 

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:31
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:02
   from '/app/www/design/backend/templates/views/debugger/debugger.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177f7cb522_36033622',
+  'unifunc' => 'content_668e70068c2986_91084190',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bc3020a3f44fbe6498fc2899f0ff12b9d4144582' => 
     array (
       0 => '/app/www/design/backend/templates/views/debugger/debugger.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'backend',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c177f7cb522_36033622 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e70068c2986_91084190 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.script.php','function'=>'smarty_function_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),));
 echo smarty_function_script(array('src'=>"js/lib/highlight/highlight.pack.js"),$_smarty_tpl);?>
 

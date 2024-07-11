@@ -59,6 +59,7 @@
         <item for="uninstall">DROP TABLE IF EXISTS ?:cp_generate_cart_from_file_templates;</item>
         <item for="uninstall">DROP TABLE IF EXISTS ?:cp_generate_cart_from_file_attachments;</item>
     </queries>
+
     <functions>
         <item for="uninstall">fn_cp_generate_cart_from_file_delete_dir</item>
     </functions>

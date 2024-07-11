@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
+/* Smarty version 4.1.1, created on 2024-07-10 14:31:38
   from '/app/www/design/themes/responsive/templates/views/profiles/components/profiles_scripts.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e652ca3a703_64755375',
+  'unifunc' => 'content_668e711a8f8d71_36924502',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9c2de8474269ea8ff36bc3430f7ab88c9be173d2' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/views/profiles/components/profiles_scripts.tpl',
-      1 => 1720608018,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_668e652ca3a703_64755375 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e711a8f8d71_36924502 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

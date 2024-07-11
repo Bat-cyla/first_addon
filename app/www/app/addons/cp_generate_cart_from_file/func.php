@@ -20,6 +20,7 @@
 use Tygh\Storage;
 use Tygh\Enum\YesNo;
 
+
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 function fn_cp_generate_cart_from_file_check_products(array $products = []) : array
@@ -258,6 +259,7 @@ function fn_cp_generate_cart_from_file_get_attachment(int $attachment_id) : bool
     }
 
     $attachment_obj = Storage::instance('cp_generate_cart_from_file');
+    fn_print_die($attachment_obj);
     $attachment_filename = $data['template_id'] . '/' . $data['filename'];
 
     if (!$attachment_obj->isExist($attachment_filename)) {
@@ -308,8 +310,10 @@ function fn_cp_generate_cart_from_file_export_file(&$data, &$options)
     Tygh::$app['view']->assign('eol', $eol);
     $csv = Tygh::$app['view']->fetch('design/backend/templates/views/exim/components/export_csv.tpl');
 
+    fn_mkdir('var/cp_generate_cart_from_file');
     file_put_contents('var/cp_generate_cart_from_file/'.$options['filename'],$csv);
     $export_obj= Storage::instance('cp_generate_cart_from_file');
+
     if(!$export_obj->isExist($options['filename'])){
         return false;
     }
@@ -323,7 +327,8 @@ function fn_cp_generate_cart_from_file_export_file(&$data, &$options)
 
 }
 
-function fn_cp_generate_cart_from_file_array_map($arr){
+function fn_cp_generate_cart_from_file_array_map($arr)
+{
 
         $arr=[
             'product'=>$arr['product'],

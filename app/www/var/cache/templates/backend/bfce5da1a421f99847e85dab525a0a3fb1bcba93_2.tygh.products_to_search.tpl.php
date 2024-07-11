@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
+/* Smarty version 4.1.1, created on 2024-07-10 17:16:48
   from '/app/www/design/backend/templates/common/products_to_search.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c1930884183_42052129',
+  'unifunc' => 'content_668e97d0202d24_85752802',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bfce5da1a421f99847e85dab525a0a3fb1bcba93' => 
     array (
       0 => '/app/www/design/backend/templates/common/products_to_search.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:pickers/products/picker.tpl' => 1,
   ),
 ),false)) {
-function content_667c1930884183_42052129 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e97d0202d24_85752802 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('add','or_saved_search'));
 if ($_smarty_tpl->tpl_vars['search']->value['p_ids']) {?>
     <?php $_smarty_tpl->_assignInScope('product_ids', explode(",",$_smarty_tpl->tpl_vars['search']->value['p_ids']));

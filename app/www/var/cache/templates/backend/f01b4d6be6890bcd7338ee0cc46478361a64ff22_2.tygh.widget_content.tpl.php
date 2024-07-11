@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:30
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:01
   from '/app/www/design/backend/templates/views/setup_wizard/components/widget_content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177e8d6340_42709632',
+  'unifunc' => 'content_668e7005c2f747_07571510',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f01b4d6be6890bcd7338ee0cc46478361a64ff22' => 
     array (
       0 => '/app/www/design/backend/templates/views/setup_wizard/components/widget_content.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c177e8d6340_42709632 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7005c2f747_07571510 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('sw.store_setup_wizard_short','sw.marketplace_setup_wizard'));
 ?>
 <div class="hidden">

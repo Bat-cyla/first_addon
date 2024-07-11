@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:21:53
+/* Smarty version 4.1.1, created on 2024-07-10 14:29:17
   from '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/update.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e60c15d7977_62712965',
+  'unifunc' => 'content_668e708da3e245_55833923',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7c46d1aa2233fb87e6eb8ae0448462990229afc0' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/update.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -31,7 +31,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/mainbox.tpl' => 1,
   ),
 ),false)) {
-function content_668e60c15d7977_62712965 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e708da3e245_55833923 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.format_price.php','function'=>'smarty_modifier_format_price',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.sizeof.php','function'=>'smarty_modifier_sizeof',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),4=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),5=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_gift_cert_amount_alert','information','gift_cert_code','status','gift_cert_to','gift_cert_from','message','amount','send_via_email','send_via_postal_mail','email','template','address','address_2','city','country','select_country','state','select_state','zip_postal_code','free_products','notify_customer','date','email','person_name','order_id','balance','gift_cert_debit','date','email','person_name','order_id','balance','amount','free_products','deleted_product','gift_cert_debit','amount','free_products','deleted_product','no_data','gift_certificate_statuses','preview','delete','new_certificate'));
 if ($_smarty_tpl->tpl_vars['gift_cert_data']->value['gift_cert_id']) {?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:21:51
+/* Smarty version 4.1.1, created on 2024-07-10 14:29:15
   from '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/components/context_menu/amount.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e60bf10c1e3_76190241',
+  'unifunc' => 'content_668e708b90eac6_43767506',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '604c6576ebba35509bbdc9066b105feba380fb80' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/views/gift_certificates/components/context_menu/amount.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:components/context_menu/items/dropdown.tpl' => 1,
   ),
 ),false)) {
-function content_668e60bf10c1e3_76190241 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e708b90eac6_43767506 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('amount','bulk_edit.decrease_hint','bulk_edit.example_of_modified_value','current_amount','reset','apply'));
 ?>
 

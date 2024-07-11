@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 09:37:35
+/* Smarty version 4.1.1, created on 2024-07-10 14:28:48
   from '/app/www/design/backend/templates/views/addons/components/marketplace/addon_price.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d08af2d2614_20573657',
+  'unifunc' => 'content_668e7070adeb53_26442574',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '5ad18b3427b831560a2861056da00bd26b86cfa8' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/marketplace/addon_price.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d08af2d2614_20573657 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7070adeb53_26442574 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('cscart_marketplace.list_price','cscart_marketplace.price_free'));
 $_smarty_tpl->_assignInScope('show_price', (($tmp = $_smarty_tpl->tpl_vars['show_price']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));
 if ($_smarty_tpl->tpl_vars['show_price']->value) {?>

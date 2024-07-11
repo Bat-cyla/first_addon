@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 15:03:37
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:06
   from '/app/www/design/backend/templates/views/index/components/analytics_section/analytics_card/resource_list.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d5519147c48_22391494',
+  'unifunc' => 'content_668e700ae42368_12681856',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f62793997e5ee18d49c47104d8e0b785fbaf954' => 
     array (
       0 => '/app/www/design/backend/templates/views/index/components/analytics_section/analytics_card/resource_list.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/image.tpl' => 1,
   ),
 ),false)) {
-function content_667d5519147c48_22391494 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e700ae42368_12681856 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('no_data'));
 if ($_smarty_tpl->tpl_vars['resource_list']->value && ($_smarty_tpl->tpl_vars['resource_list']->value['content'] || empty($_smarty_tpl->tpl_vars['resource_list']->value['content']))) {?><div class="analytics-card-resource-list"><?php if ($_smarty_tpl->tpl_vars['resource_list']->value['title']) {?><div class="analytics-card-resource-list__title"><?php echo $_smarty_tpl->tpl_vars['resource_list']->value['title'];?>
 </div><?php }?><div class="analytics-card-resource-list__content"><?php

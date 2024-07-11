@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 10:36:48
+/* Smarty version 4.1.1, created on 2024-07-10 15:37:18
   from '/app/www/design/backend/templates/common/multiple_select_picker.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d1690597b64_75840969',
+  'unifunc' => 'content_668e807e2f4c62_71202493',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1b7cc0cd49a95520f2d76e3490074e5eb0e93967' => 
     array (
       0 => '/app/www/design/backend/templates/common/multiple_select_picker.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d1690597b64_75840969 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e807e2f4c62_71202493 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('type_to_search'));
 $_smarty_tpl->_assignInScope('is_disabled', (($tmp = $_smarty_tpl->tpl_vars['is_disabled']->value ?? null)===null||$tmp==='' ? false ?? null : $tmp));

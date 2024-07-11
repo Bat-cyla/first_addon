@@ -2226,7 +2226,6 @@ function fn_update_gift_certificate($data, $id = 0, $params = [])
         /** @var \Tygh\Notifications\Settings\Factory $notification_settings_factory */
         $notification_settings_factory = Tygh::$app['event.notification_settings.factory'];
         $notification_rules = $notification_settings_factory->create($force_notification);
-
         $event_dispatcher->dispatch(
             "gift_certificates.gift_certificate.updated",
             ['certificate_data' => $data],

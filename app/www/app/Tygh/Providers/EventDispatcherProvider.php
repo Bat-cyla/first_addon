@@ -125,7 +125,9 @@ class EventDispatcherProvider implements ServiceProviderInterface
             $receiver_search_conditions = fn_get_notification_receiver_search_conditions($app['event.receivers_schema']);
 
             foreach ($events_schema as $event_id => &$event) {
+
                 $group_id = $event['group'];
+
                 $event['receiver_search_conditions'] = [];
                 if (isset($receiver_search_conditions['events'][$event_id])) {
                     $event['receiver_search_conditions'] = $receiver_search_conditions['events'][$event_id];

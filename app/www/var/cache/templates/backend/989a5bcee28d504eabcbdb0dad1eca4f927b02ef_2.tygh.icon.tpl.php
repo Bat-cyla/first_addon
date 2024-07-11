@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:28
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:01
   from '/app/www/design/backend/templates/common/icon.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177cc02f98_45883668',
+  'unifunc' => 'content_668e70054721f3_34129399',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '989a5bcee28d504eabcbdb0dad1eca4f927b02ef' => 
     array (
       0 => '/app/www/design/backend/templates/common/icon.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c177cc02f98_45883668 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e70054721f3_34129399 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['class']->value) {?><span 
         class="cs-icon <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['class']->value, ENT_QUOTES, 'UTF-8');?>
 "

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:29
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:01
   from '/app/www/design/backend/templates/views/storefronts/components/picker/presets.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177d631746_11802522',
+  'unifunc' => 'content_668e7005601c29_53727622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e48bef453e9b0247ba9c79f3bdcecb02b363e0db' => 
     array (
       0 => '/app/www/design/backend/templates/views/storefronts/components/picker/presets.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/storefronts/components/picker/picker.tpl' => 1,
   ),
 ),false)) {
-function content_667c177d631746_11802522 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7005601c29_53727622 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('show_all_storefronts','all_storefronts_short','all_storefronts_short','select_storefront','show_all_storefronts_with_count','all_storefronts_short','all_storefronts_short','all_storefronts'));
 $_smarty_tpl->_assignInScope('is_enabled', $_smarty_tpl->tpl_vars['app']->value["storefront.switcher.is_enabled"]);
 $_smarty_tpl->_assignInScope('is_available_for_disaptch', $_smarty_tpl->tpl_vars['app']->value['storefront.switcher.is_available_for_dispatch']);?>

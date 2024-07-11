@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:28:28
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:11
   from '/app/www/design/backend/templates/views/addons/components/addons/addon_favorite.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c177cc40663_64307860',
+  'unifunc' => 'content_668e700f4a0090_40148301',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '49c9e69a6ea7d2548f69b8a196757d616e23d586' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/addons/addon_favorite.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c177cc40663_64307860 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e700f4a0090_40148301 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('add_addon_to_favorites','remove_addon_from_favorites','favorites'));
 $_smarty_tpl->_assignInScope('show_favorite', (($tmp = $_smarty_tpl->tpl_vars['show_favorite']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));
@@ -51,14 +51,14 @@ if ($_smarty_tpl->tpl_vars['show_favorite']->value) {?>
 if ($_smarty_tpl->tpl_vars['a']->value['is_favorite'] === smarty_modifier_enum('YesNo::YES')) {
 echo " hidden";
 }
-$_prefixVariable38=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_star_empty', "icon-star-empty".$_prefixVariable38);?>
+$_prefixVariable19=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_star_empty', "icon-star-empty".$_prefixVariable19);?>
             <?php ob_start();
 if ($_smarty_tpl->tpl_vars['a']->value['is_favorite'] !== smarty_modifier_enum('YesNo::YES')) {
 echo " hidden";
 }
-$_prefixVariable39=ob_get_clean();
-$_smarty_tpl->_assignInScope('icon_star', "icon-star".$_prefixVariable39);?>
+$_prefixVariable20=ob_get_clean();
+$_smarty_tpl->_assignInScope('icon_star', "icon-star".$_prefixVariable20);?>
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_star_empty']->value,'title'=>$_smarty_tpl->__("add_addon_to_favorites")),$_smarty_tpl);?>
 
             <?php echo smarty_function_include_ext(array('file'=>"common/icon.tpl",'class'=>$_smarty_tpl->tpl_vars['icon_star']->value,'title'=>$_smarty_tpl->__("remove_addon_from_favorites")),$_smarty_tpl);?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
+/* Smarty version 4.1.1, created on 2024-07-10 14:31:38
   from '/app/www/design/themes/responsive/templates/views/checkout/components/shipping_estimation.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e652c9bf532_04776437',
+  'unifunc' => 'content_668e711a8bf620_66982225',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6f6f85fc4079b944edcbffa7e2f0906c2dd3a5f8' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/views/checkout/components/shipping_estimation.tpl',
-      1 => 1720608018,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/price.tpl' => 6,
   ),
 ),false)) {
-function content_668e652c9bf532_04776437 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e711a8bf620_66982225 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('calculate_shipping_cost','country','select_country','state','select_state','city','zip_postal_code','get_rates','select_shipping_method','none','free_shipping','no_shipping_required','free_shipping','text_no_shipping_methods','total','select','text_no_shipping_methods','recalculate_rates','select_shipping_method','get_rates','calculate_shipping_cost','country','select_country','state','select_state','city','zip_postal_code','get_rates','select_shipping_method','none','free_shipping','no_shipping_required','free_shipping','text_no_shipping_methods','total','select','text_no_shipping_methods','recalculate_rates','select_shipping_method','get_rates'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
@@ -57,8 +57,8 @@ if ($_smarty_tpl->tpl_vars['additional_id']->value) {?>
 if ($_smarty_tpl->tpl_vars['location']->value == "sidebox") {
 echo "_sidebox";
 }
-$_prefixVariable18=ob_get_clean();
-$_smarty_tpl->_assignInScope('shipping_estimation_block_id', "shipping_estimation".$_prefixVariable18.((string)$_smarty_tpl->tpl_vars['id_suffix']->value));?>
+$_prefixVariable1=ob_get_clean();
+$_smarty_tpl->_assignInScope('shipping_estimation_block_id', "shipping_estimation".$_prefixVariable1.((string)$_smarty_tpl->tpl_vars['id_suffix']->value));?>
 
         <div id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['shipping_estimation_block_id']->value, ENT_QUOTES, 'UTF-8');?>
 ">
@@ -474,8 +474,8 @@ if ($_smarty_tpl->tpl_vars['additional_id']->value) {?>
 if ($_smarty_tpl->tpl_vars['location']->value == "sidebox") {
 echo "_sidebox";
 }
-$_prefixVariable19=ob_get_clean();
-$_smarty_tpl->_assignInScope('shipping_estimation_block_id', "shipping_estimation".$_prefixVariable19.((string)$_smarty_tpl->tpl_vars['id_suffix']->value));?>
+$_prefixVariable2=ob_get_clean();
+$_smarty_tpl->_assignInScope('shipping_estimation_block_id', "shipping_estimation".$_prefixVariable2.((string)$_smarty_tpl->tpl_vars['id_suffix']->value));?>
 
         <div id="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['shipping_estimation_block_id']->value, ENT_QUOTES, 'UTF-8');?>
 ">

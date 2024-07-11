@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-07-10 13:40:44
+/* Smarty version 4.1.1, created on 2024-07-11 10:21:16
   from '/app/www/design/themes/responsive/templates/addons/gift_certificates/hooks/checkout/applied_coupons_items.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_668e652cadee73_68014381',
+  'unifunc' => 'content_668f87ec8fb226_14851462',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '74b9b3880b0b9c6d7936977c128eeb880eb11dea' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/gift_certificates/hooks/checkout/applied_coupons_items.post.tpl',
-      1 => 1720608018,
+      1 => 1720682353,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/gift_certificates/views/gift_certificates/components/delete_button.tpl' => 2,
   ),
 ),false)) {
-function content_668e652cadee73_68014381 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668f87ec8fb226_14851462 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('gift_certificate','gift_certificate'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

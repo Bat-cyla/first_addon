@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
+/* Smarty version 4.1.1, created on 2024-07-10 15:37:18
   from '/app/www/design/backend/templates/common/multiple_checkboxes.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c190e705176_91074839',
+  'unifunc' => 'content_668e807e306e66_28780743',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '47f7fe227c44a3b3472eb237212326e2afab8c95' => 
     array (
       0 => '/app/www/design/backend/templates/common/multiple_checkboxes.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c190e705176_91074839 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e807e306e66_28780743 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('no_items'));
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['items']->value, 'item', false, 'k');

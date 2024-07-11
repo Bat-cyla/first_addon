@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:10
+/* Smarty version 4.1.1, created on 2024-07-10 14:27:19
   from '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_settings.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c190e5a87d8_90486582',
+  'unifunc' => 'content_668e7017a83730_90122638',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '994ed0ace3a2abd372d11fe6ccdafe06ebe08ce1' => 
     array (
       0 => '/app/www/design/backend/templates/views/addons/components/detailed_page/tabs/addon_settings.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c190e5a87d8_90486582 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668e7017a83730_90122638 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.count.php','function'=>'smarty_modifier_count',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/block.component.php','function'=>'smarty_block_component',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 ?>
 <div class="hidden" data-ca-addons="tabsSetting" id="content_settings">
