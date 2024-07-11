@@ -35,6 +35,7 @@ class CertificateProvider implements IProvider
 
     public function __construct(array $gift_cert_data)
     {
+
         $this->id = $this->prefix . $gift_cert_data['gift_cert_id'];
     }
 

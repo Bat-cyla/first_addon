@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:46:53
+/* Smarty version 4.1.1, created on 2024-07-11 11:55:41
   from '/app/www/design/themes/responsive/templates/common/pagination.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d512dd6fe89_74905540',
+  'unifunc' => 'content_668f9e0d8b3800_54751334',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7126ec9e0e652cac95b0355560359b3ef35b935f' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/common/pagination.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667d512dd6fe89_74905540 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668f9e0d8b3800_54751334 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),));
 \Tygh\Languages\Helper::preloadLangVars(array('prev_page','next'));
 $_smarty_tpl->_assignInScope('id', (($tmp = $_smarty_tpl->tpl_vars['id']->value ?? null)===null||$tmp==='' ? "pagination_contents" ?? null : $tmp));

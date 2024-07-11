@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 08:25:17
+/* Smarty version 4.1.1, created on 2024-07-11 12:54:37
   from '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/profiles/search_form.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667cf7bd25c624_06682053',
+  'unifunc' => 'content_668fabdd29fa00_40633420',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2ffbd3daf3c80d250c805190544bafecdc977a2a' => 
     array (
       0 => '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/profiles/search_form.post.tpl',
-      1 => 1718804030,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667cf7bd25c624_06682053 (Smarty_Internal_Template $_smarty_tpl) {
+function content_668fabdd29fa00_40633420 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.in_array.php','function'=>'smarty_modifier_in_array',),));
 \Tygh\Languages\Helper::preloadLangVars(array('tag','browse'));
 ?>
