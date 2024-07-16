@@ -290,7 +290,6 @@ class OrdersHookHandler
         );
 
         $message->addAttachment($invoice_path, fn_basename($invoice_path));
-
         register_shutdown_function(static function () use ($invoice_path) {
             fn_rm($invoice_path);
         });

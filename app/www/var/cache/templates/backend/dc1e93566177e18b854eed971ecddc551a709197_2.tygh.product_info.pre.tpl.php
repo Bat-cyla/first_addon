@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:46
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:21
   from '/app/www/design/backend/templates/addons/product_variations/hooks/shipments/product_info.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c1932d7e456_41345544',
+  'unifunc' => 'content_669100d10f4351_16187289',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dc1e93566177e18b854eed971ecddc551a709197' => 
     array (
       0 => '/app/www/design/backend/templates/addons/product_variations/hooks/shipments/product_info.pre.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/product_variations/views/product_variations/components/variation_features.tpl' => 1,
   ),
 ),false)) {
-function content_667c1932d7e456_41345544 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100d10f4351_16187289 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['oi']->value['variation_features'] || $_smarty_tpl->tpl_vars['product']->value['variation_features']) {?>
 
     <?php if ($_smarty_tpl->tpl_vars['oi']->value['variation_features']) {?>

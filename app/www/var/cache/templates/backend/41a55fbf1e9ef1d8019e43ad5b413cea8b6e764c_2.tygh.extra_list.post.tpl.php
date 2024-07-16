@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:21
   from '/app/www/design/backend/templates/addons/gift_certificates/hooks/orders/extra_list.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c19331f6a47_41912766',
+  'unifunc' => 'content_669100d1501920_10475588',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '41a55fbf1e9ef1d8019e43ad5b413cea8b6e764c' => 
     array (
       0 => '/app/www/design/backend/templates/addons/gift_certificates/hooks/orders/extra_list.post.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:common/options_info.tpl' => 1,
   ),
 ),false)) {
-function content_667c19331f6a47_41912766 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100d1501920_10475588 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),));
 \Tygh\Languages\Helper::preloadLangVars(array('collapse_sublist_of_items','gift_certificate','print_card','code','free','free','gift_cert_to','gift_cert_from','amount','send_via','email','postal_mail','product','price','quantity','discount','tax','subtotal','deleted_product','sku'));
 if ($_smarty_tpl->tpl_vars['order_info']->value['gift_certificates']) {

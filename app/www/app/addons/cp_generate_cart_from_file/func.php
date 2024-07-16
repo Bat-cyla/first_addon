@@ -20,6 +20,11 @@
 use Tygh\Storage;
 use Tygh\Enum\YesNo;
 use Tygh\Addons\GenerateCart\Notifications\EventIdProviders\CartProvider;
+use Tygh\Mailer\Message;
+use Tygh\Addons\PdfDocuments\Pdf;
+use Tygh\Registry;
+
+
 
 
 if (!defined('BOOTSTRAP')) { die('Access denied'); }
@@ -260,7 +265,7 @@ function fn_cp_generate_cart_from_file_get_attachment(int $attachment_id) : bool
     }
 
     $attachment_obj = Storage::instance('cp_generate_cart_from_file');
-    fn_print_die($attachment_obj);
+
     $attachment_filename = $data['template_id'] . '/' . $data['filename'];
 
     if (!$attachment_obj->isExist($attachment_filename)) {
@@ -293,16 +298,28 @@ function fn_cp_generate_cart_from_file_delete_dir()
 {
     $save_dir_path = 'var/cp_generate_cart_from_file';
     if (@is_dir($save_dir_path)) {
-        fn_print_die($save_dir_path);
+
         fn_rm($save_dir_path);
     }
 }
 
-function fn_cp_generate_cart_from_file_export_file(&$data, &$options)
+function fn_cp_generate_cart_from_file_generate_csv_file($data)
 {
-    $data=array_map('fn_cp_generate_cart_from_file_array_map',$data);
 
-    $delimiter=$options['delimiter'];
+    $export_obj= Storage::instance('cp_generate_cart_from_file');
+
+    $cp_config_dir=Registry::get('config.dir.var');
+    $cp_storage_prefix=Registry::get('config.storage.cp_generate_cart_from_file.prefix');
+    $cp_export_file_dir=$cp_config_dir.$cp_storage_prefix;
+
+    $options = [
+        'delimiter' => ";",
+        'filename' => "cart.csv",
+    ];
+
+    $data = array_map('fn_cp_generate_cart_from_file_array_map', $data);
+
+    $delimiter = $options['delimiter'];
     $eol = "\n";
 
 
@@ -312,22 +329,29 @@ function fn_cp_generate_cart_from_file_export_file(&$data, &$options)
     Tygh::$app['view']->assign('eol', $eol);
     $csv = Tygh::$app['view']->fetch('design/backend/templates/views/exim/components/export_csv.tpl');
 
-    fn_mkdir('var/cp_generate_cart_from_file');
-    file_put_contents('var/cp_generate_cart_from_file/'.$options['filename'],$csv);
+    fn_mkdir($cp_export_file_dir);
+    file_put_contents($cp_export_file_dir . $options['filename'], $csv);
+    fn_print_die(111);
+    if($export_obj->isExist($options['filename'])){
+        $filename=$export_obj->generateName($cp_export_file_dir . $options['filename']);
+    }
+    return $filename;
+}
+function fn_cp_generate_cart_from_file_export_file($filename)
+{
     $export_obj= Storage::instance('cp_generate_cart_from_file');
 
-    if(!$export_obj->isExist($options['filename'])){
+    if(!$export_obj->isExist($filename)){
         return false;
     }
 
-    $export_obj->get($options['filename']);
+    $export_obj->get($filename);
 
-    $export_obj->delete($options['filename']);
+    $export_obj->delete($filename);
 
-    fn_cp_generate_cart_from_file_delete_dir();
+
 
     return true;
-
 }
 
 function fn_cp_generate_cart_from_file_array_map($arr)
@@ -352,6 +376,7 @@ if(isset($arr['company_id']))
         'amount' => $arr['amount'],
         'total_price' => $arr['total_price'],
     ];
+
 }
 
     return $arr;
@@ -359,9 +384,9 @@ if(isset($arr['company_id']))
 function fn_cp_generate_cart_from_file_send_mail($data)
 {
 
-
     /** @var \Tygh\Notifications\EventDispatcher $event_dispatcher */
     $event_dispatcher = Tygh::$app['event.dispatcher'];
+
 
     $event_dispatcher->dispatch(
         "cp_generate_cart_from_files.cp_generate_cart_from_file.send_mail",
@@ -369,8 +394,18 @@ function fn_cp_generate_cart_from_file_send_mail($data)
     );
 
 }
-function fn_cp_generate_cart_from_file_get_export_data($data,$export_fields)
+function fn_cp_generate_cart_from_file_get_export_data($data)
 {
+    $export_fields=[
+        'product',
+        'product_code',
+        'product_options',
+        'price',
+        'amount',
+    ];
+    if(fn_allowed_for('MULTIVENDOR')){
+        $export_fields[]= 'company_id';
+    }
     $cart_data=$data;
     $export_data=[];
     foreach($cart_data as $key=>$product){
@@ -395,5 +430,30 @@ function fn_cp_generate_cart_from_file_get_export_data($data,$export_fields)
         }
     }
     return array_map('fn_cp_generate_cart_from_file_array_map',$export_data);
+
+}
+function fn_cp_generate_cart_from_file_mailer_send_pre($mailer,$transport, Message $message, $area, $lang_code)
+{
+        $message->addAttachment('var/cp_generate_cart_from_file/cart.csv','cart.csv');
+}
+
+function fn_cp_generate_cart_from_file_generate_pdf_file($data)
+{
+    $export_fields=[
+        'product',
+        'product_code',
+        'product_options',
+        'price',
+        'amount',
+    ];
+    $html='';
+    foreach($data as $product){
+        foreach($product as $field){
+            $html.="<td>".$field . '</td>';
+        }
+    }
+    $html="<HTML><table>".$html."</table></HTML>";
+    $pdf=Pdf::render($html);
+    fn_print_die($pdf);
 
 }

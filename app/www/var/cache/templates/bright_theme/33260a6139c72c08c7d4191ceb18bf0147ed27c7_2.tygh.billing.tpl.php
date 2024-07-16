@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:47:02
+/* Smarty version 4.1.1, created on 2024-07-12 15:23:54
   from '/app/www/design/themes/responsive/templates/views/checkout/components/customer/billing.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d5136f0a4c9_85043880',
+  'unifunc' => 'content_6691205acaaf13_28907621',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '33260a6139c72c08c7d4191ceb18bf0147ed27c7' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/views/checkout/components/customer/billing.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/checkout/components/profile_fields.tpl' => 2,
   ),
 ),false)) {
-function content_667d5136f0a4c9_85043880 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6691205acaaf13_28907621 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('text_billing_address_is_different_from_shipping','text_billing_address_is_different_from_shipping'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

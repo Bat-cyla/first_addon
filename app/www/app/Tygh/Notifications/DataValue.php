@@ -53,7 +53,6 @@ class DataValue
      */
     public static function create($key, $default_value = null)
     {
-
         return new self($key, $default_value);
     }
 

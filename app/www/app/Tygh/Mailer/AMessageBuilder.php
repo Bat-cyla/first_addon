@@ -236,6 +236,7 @@ abstract class AMessageBuilder implements IMessageBuilder
      */
     public function retrieveEmbeddedImages(Message $message, Storefront $storefront = null)
     {
+
         $files = [];
         $body = $message->getBody();
 

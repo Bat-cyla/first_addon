@@ -891,6 +891,7 @@ class PHPMailer
      */
     protected function edebug($str)
     {
+
         if ($this->SMTPDebug <= 0) {
             return;
         }
@@ -3362,6 +3363,7 @@ class PHPMailer
             if (!static::fileIsAccessible($path)) {
                 throw new Exception($this->lang('file_open') . $path, self::STOP_CONTINUE);
             }
+
             $file_buffer = file_get_contents($path);
             if (false === $file_buffer) {
                 throw new Exception($this->lang('file_open') . $path, self::STOP_CONTINUE);

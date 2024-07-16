@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:22
   from '/app/www/design/backend/templates/addons/rus_russianpost/hooks/orders/details_tools.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c1933bf0989_85833324',
+  'unifunc' => 'content_669100d22665c9_20246606',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd174fc62dbeac354b8bb75bf32d2e0a8f25127dc' => 
     array (
       0 => '/app/www/design/backend/templates/addons/rus_russianpost/hooks/orders/details_tools.post.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c1933bf0989_85833324 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100d22665c9_20246606 (Smarty_Internal_Template $_smarty_tpl) {
 \Tygh\Languages\Helper::preloadLangVars(array('rus_post_blank.li.print'));
 if ($_smarty_tpl->tpl_vars['is_order_delivered_by_russian_post']->value) {?>
     <li class="divider"></li>

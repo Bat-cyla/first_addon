@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:46:51
+/* Smarty version 4.1.1, created on 2024-07-15 08:06:45
   from '/app/www/design/themes/responsive/templates/addons/wishlist/hooks/products/buy_now.pre.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d512b1d0bc7_75594251',
+  'unifunc' => 'content_6694ae6583b054_24830496',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1120329cdcadbf82638d8a18b258c70f52b40af4' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/addons/wishlist/hooks/products/buy_now.pre.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:addons/wishlist/views/wishlist/components/add_to_wishlist.tpl' => 2,
   ),
 ),false)) {
-function content_667d512b1d0bc7_75594251 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6694ae6583b054_24830496 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, "template_content", null, null);

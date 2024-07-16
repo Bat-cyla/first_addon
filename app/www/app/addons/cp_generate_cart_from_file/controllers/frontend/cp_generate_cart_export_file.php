@@ -22,47 +22,40 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             foreach($product_data as $product){
                 $cart_data[]=$product;
             }
-
         }
         if(isset($_REQUEST['format'])){
-            if($_REQUEST['format']=='csv_table'){
-                $options=[
-                    'delimiter'=> ";",
-                    'filename'=> "cart.csv",
-                    'price_dec_sign_delimiter'=>"."
-                ];
-                $export_fields=[
-                    'product',
-                    'product_code',
-                    'product_options',
-                    'price',
-                    'amount',
-                ];
-                if(fn_allowed_for('MULTIVENDOR')){
-                    $export_fields[]= 'company_id';
-                }
+            switch($_REQUEST['format']){
+                case 'csv_table':
+                    $export_data=fn_cp_generate_cart_from_file_get_export_data($cart_data);
+                    $file=fn_cp_generate_cart_from_file_generate_csv_file($export_data);
+                    fn_cp_generate_cart_from_file_export_file($file);
+                case 'pdf_cp':
+                    $export_data=fn_cp_generate_cart_from_file_get_export_data($cart_data);
+                    fn_cp_generate_cart_from_file_generate_pdf_file($export_data);
 
-                $export_data=fn_cp_generate_cart_from_file_get_export_data($cart_data,$export_fields);
-                fn_cp_generate_cart_from_file_export_file($export_data, $options);
             }
         }
 
-
-
+        return [CONTROLLER_STATUS_OK, 'checkout.cart'];
     }elseif($mode='send_mail'){
-
-        $data=[];
-
-        if(!empty($cart)) {
+        if (!empty($cart)) {
             $product_data = $cart['products'];
             foreach ($product_data as $product) {
                 $cart_data[] = $product;
             }
-            fn_cp_generate_cart_from_file_send_mail($data);
-
-
-            return [CONTROLLER_STATUS_OK, 'checkout.cart'];
+            $data['email'] = $_REQUEST['email'];
+                if(isset($_REQUEST['format'])) {
+                    switch ($_REQUEST['format']) {
+                        case 'csv_table':
+                            $export_data = fn_cp_generate_cart_from_file_get_export_data($cart_data);
+                            $file = fn_cp_generate_cart_from_file_generate_csv_file($export_data);
+                            fn_cp_generate_cart_from_file_send_mail($data);
+                        case 'pdf_cp':
+                    //TODO: Сделать PDF экспорт
+            }
+            }
         }
+    return [CONTROLLER_STATUS_OK, 'checkout.cart'];
     }
 }
 if ($mode == 'view') {

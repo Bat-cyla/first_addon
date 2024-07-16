@@ -2773,7 +2773,7 @@ function fn_change_order_status($order_id, $status_to, $status_from = '', $force
 
         if ($order_statuses[$status_to]['params']['inventory'] === 'D' && $order_statuses[$status_from]['params']['inventory'] === 'I') {
             // decrease amount
-            if (!fn_update_product_afn_get_ordermount($v['product_id'], $v['amount'], @$v['extra']['product_options'], '-', $force_notification !== false, $order_info)) {
+            if (!fn_update_product_afn_get_order_mount($v['product_id'], $v['amount'], @$v['extra']['product_options'], '-', $force_notification !== false, $order_info)) {
                 $status_to = OrderStatuses::BACKORDERED;
 
                 $_error = true;

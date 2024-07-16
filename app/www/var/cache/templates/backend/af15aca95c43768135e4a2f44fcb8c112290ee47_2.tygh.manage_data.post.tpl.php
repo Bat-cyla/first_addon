@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:16
   from '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/orders/manage_data.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c1930d15ca9_39911810',
+  'unifunc' => 'content_669100cc4819f3_78339796',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'af15aca95c43768135e4a2f44fcb8c112290ee47' => 
     array (
       0 => '/app/www/design/backend/templates/addons/cp_extended_tags/hooks/orders/manage_data.post.tpl',
-      1 => 1718368316,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c1930d15ca9_39911810 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100cc4819f3_78339796 (Smarty_Internal_Template $_smarty_tpl) {
 ?><td>
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['o']->value['tags'], 'tag', false, NULL, 'order', array (

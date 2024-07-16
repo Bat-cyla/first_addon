@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-27 14:47:03
+/* Smarty version 4.1.1, created on 2024-07-12 15:23:55
   from '/app/www/design/themes/responsive/templates/blocks/checkout/summary.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667d513767da08_15837731',
+  'unifunc' => 'content_6691205b7722c1_23731324',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '3ad09b46e073f5c642fd61e050d20ed6be25f157' => 
     array (
       0 => '/app/www/design/themes/responsive/templates/blocks/checkout/summary.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'tygh:views/checkout/components/promotion_coupon.tpl' => 2,
   ),
 ),false)) {
-function content_667d513767da08_15837731 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6691205b7722c1_23731324 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/block.hook.php','function'=>'smarty_block_hook',),1=>array('file'=>'/app/www/app/lib/vendor/smarty/smarty/libs/plugins/function.math.php','function'=>'smarty_function_math',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/function.set_id.php','function'=>'smarty_function_set_id',),));
 \Tygh\Languages\Helper::preloadLangVars(array('items','shipping','including_discount','order_discount','payment_surcharge','taxes','included','order_total','items','shipping','including_discount','order_discount','payment_surcharge','taxes','included','order_total'));
 if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design'] == "Y" && (defined('AREA') ? constant('AREA') : null) == "C") {

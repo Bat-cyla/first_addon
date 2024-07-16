@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:47
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:21
   from '/app/www/design/backend/templates/addons/rus_payments/hooks/orders/payment_info.post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c19335e89f3_99600252',
+  'unifunc' => 'content_669100d192cf07_79211418',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '518e51ba206cf4e5f0f5d804196e58ea7e464aef' => 
     array (
       0 => '/app/www/design/backend/templates/addons/rus_payments/hooks/orders/payment_info.post.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c19335e89f3_99600252 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100d192cf07_79211418 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('addons.rus_payments.refund','send','rus_payments.print_invoice.sbrf','send','rus_payments.print_invoice.account'));
 if ($_smarty_tpl->tpl_vars['show_refund']->value) {?>

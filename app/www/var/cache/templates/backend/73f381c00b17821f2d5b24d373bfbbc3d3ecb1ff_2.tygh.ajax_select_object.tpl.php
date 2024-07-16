@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.1.1, created on 2024-06-26 16:35:44
+/* Smarty version 4.1.1, created on 2024-07-12 13:09:16
   from '/app/www/design/backend/templates/common/ajax_select_object.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.1.1',
-  'unifunc' => 'content_667c193086eeb0_17460690',
+  'unifunc' => 'content_669100cc0c12a7_70001240',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '73f381c00b17821f2d5b24d373bfbbc3d3ecb1ff' => 
     array (
       0 => '/app/www/design/backend/templates/common/ajax_select_object.tpl',
-      1 => 1716808809,
+      1 => 1720610754,
       2 => 'tygh',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_667c193086eeb0_17460690 (Smarty_Internal_Template $_smarty_tpl) {
+function content_669100cc0c12a7_70001240 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),1=>array('file'=>'/app/www/app/functions/smarty_plugins/function.include_ext.php','function'=>'smarty_function_include_ext',),2=>array('file'=>'/app/www/app/functions/smarty_plugins/block.inline_script.php','function'=>'smarty_block_inline_script',),3=>array('file'=>'/app/www/app/functions/smarty_plugins/modifier.enum.php','function'=>'smarty_modifier_enum',),));
 \Tygh\Languages\Helper::preloadLangVars(array('admin_search_field','loading'));
 $_smarty_tpl->_assignInScope('relative_dropdown', (($tmp = $_smarty_tpl->tpl_vars['relative_dropdown']->value ?? null)===null||$tmp==='' ? true ?? null : $tmp));?>

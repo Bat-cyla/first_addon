@@ -173,6 +173,7 @@ class Mailer
      */
     public function send($message, $area = null, $lang_code = null, array $transport_settings = null)
     {
+
         $lang_code = empty($lang_code) ? $this->default_language_code : $lang_code;
 
         if (empty($transport_settings)) {
@@ -197,6 +198,7 @@ class Mailer
 
             if ($this->allow_db_templates && !empty($message['template_code'])) {
                 $builder = $this->getMessageBuilder('db_template');
+
             } elseif (!empty($message['tpl'])) {
                 $builder = $this->getMessageBuilder('file_template');
             } elseif (!empty($message['message_builder'])) {
@@ -216,9 +218,9 @@ class Mailer
              * @param IMessageBuilder $builder   Message builder instance
              */
             fn_set_hook('mailer_create_message_before', $this, $message, $area, $lang_code, $transport, $builder);
-
             $message = $builder->createMessage($message, $area, $lang_code);
         }
+
 
         $body = $message->getBody();
         $from = $message->getFrom();
@@ -238,6 +240,7 @@ class Mailer
          * @param string        $lang_code  Language code
          */
         fn_set_hook('mailer_send_pre', $this, $transport, $message, $area, $lang_code);
+
         $result = $transport->sendMessage($message);
 
         foreach ($result->getErrors() as $error) {
